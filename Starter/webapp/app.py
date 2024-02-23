@@ -7,10 +7,16 @@ import pandas as pd
 
 app = Flask(__name__)
 
-test_file = "D:\School UFT\school_research_project\Starter\webapp\school_location_data.csv"
+test_file = "school_location_data.csv"
+
 
 @app.route('/')
 def main():
+    message = "Work in progres <br> Possible routes: <br> /api/v1.0/school_locations <br> /plot/bikes/for/now"
+    return message
+
+@app.route('/plot/bikes/for/now')
+def PlotBikes():
     return render_template("index.html")
 
 @app.route("/api/v1.0/school_locations")

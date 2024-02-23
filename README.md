@@ -20,10 +20,10 @@ Work Flow:
 - Each coder will be responsible for specific visualizations
 
 Team Members: 
-Amy: @acedryden 
-Alessandro: @AleMori22
-Arti: @Artib03
-Khemaka: @Khemaka14
+- Alessandro: @AleMori22
+- Amy: @acedryden 
+- Arti: @Artib03
+- Khemaka: @Khemaka14
 
 Tools Used: 
 - PostgreSQL and Render Server for data storage and transformation

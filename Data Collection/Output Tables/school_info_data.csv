@@ -12,7 +12,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 101214,B28010,Chapleau Public School,Public,Elementary,705-864-1170,http://www.adsb.on.ca/content/schools/school_details.asp?SchoolID=24
 161276,B28010,East View Public School,Public,Elementary,705-945-7115,http://www.adsb.on.ca/sites/schools/evs/default.aspx
 165042,B28010,Echo Bay Central Public School,Public,Elementary,705-248-2271,http://www.adsb.on.ca/sites/schools/ech/default.aspx
-293055,B28010,Elliot Lake Intermediate School,Public,Elementary,705-848-7162,
+293055,B28010,Elliot Lake Intermediate School,Public,Elementary,705-848-7162, 
 908010,B28010,Elliot Lake Secondary School,Public,Secondary,705-848-7162,http://www.adsb.on.ca/sites/schools/els/default.aspx
 186783,B28010,Esten Park Public School,Public,Elementary,705-848-2601,http://www.adsb.on.ca/sites/schools/est/default.aspx
 202614,B28010,Francis H Clergue Public School,Public,Elementary,705-945-7136,http://www.adsb.on.ca/sites/schools/fhc/default.aspx
@@ -27,7 +27,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 018309,B28010,Korah Intermediate School,Public,Elementary,705-945-7180,http://www.adsb.on.ca/sites/schools/kis/default.aspx
 926086,B28010,Michipicoten High School,Public,Secondary,705-856-4464,http://www.adsb.on.ca/sites/schools/mic/default.aspx
 195200,B28010,Mountain View Public School,Public,Elementary,705-649-2130,http://www.adsb.on.ca/sites/schools/mvs/default.aspx
-891150,B28010,North Shore Adolescent Education School,Public,Secondary,705-848-1088,
+891150,B28010,North Shore Adolescent Education School,Public,Secondary,705-848-1088, 
 410870,B28010,Northern Heights Public School,Public,Elementary,705-945-7128,http://www.adsb.on.ca/sites/schools/nhs/default.aspx
 434922,B28010,Parkland Public School,Public,Elementary,705-945-7129,http://www.adsb.on.ca/sites/schools/pps/default.aspx
 442054,B28010,Pinewood Public School,Public,Elementary,705-945-7133,http://www.adsb.on.ca/sites/schools/pin/default.aspx
@@ -36,7 +36,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 485497,B28010,River View Public School,Public,Elementary,705-945-7134,http://www.adsb.on.ca/sites/schools/rvs/default.aspx
 515396,B28010,Sir James Dunn Public School,Public,Elementary,705-856-2517,http://www.adsb.on.ca/sites/schools/sje/default.aspx
 530603,B28010,St Joseph Island Central Public School,Public,Elementary,705-246-2618,http://www.adsb.on.ca/sites/schools/sjo/default.aspx
-958050,B28010,Superior Heights Collegiate and Vocational School,Public,Secondary,,http://www.adsb.on.ca/sites/schools/shs/default.aspx
+958050,B28010,Superior Heights Collegiate and Vocational School,Public,Secondary, ,http://www.adsb.on.ca/sites/schools/shs/default.aspx
 672610,B28010,Superior Heights Community Education,Public,Elementary,705-945-7142,http://www.adsb.on.ca/sites/schools/shc/default.aspx
 106913,B28010,Superior Heights Intermediate School,Public,Elementary,705-945-7499,http://www.adsb.on.ca/sites/schools/sis/default.aspx
 548413,B28010,Tarentorus Public School,Public,Elementary,705-945-7138,http://www.adsb.on.ca/sites/schools/tps/default.aspx
@@ -54,7 +54,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 735523,B67202,J J O'Neill Catholic School,Catholic,Elementary,613-354-9500,https://www.alcdsb.on.ca/school/jjon/Pages/default.aspx
 728420,B67202,Loyola Community Learning Centre,Catholic,Secondary,613-544-3361,https://www.learningatloyola.ca/campus/kingston/
 835099,B67202,Nicholson Catholic College,Catholic,Secondary,613-967-0404,https://www.alcdsb.on.ca/school/nicc/Pages/default.aspx
-690932,B67202,Nicholson Catholic College (Grade 7 & 8),Catholic,Elementary,613-394-3526,
+690932,B67202,Nicholson Catholic College (Grade 7 & 8),Catholic,Elementary,613-394-3526, 
 742279,B67202,Our Lady of Fatima Catholic School,Catholic,Elementary,613-962-2162,https://www.alcdsb.on.ca/school/ofat/Pages/default.aspx
 746568,B67202,Our Lady of Lourdes Catholic School,Catholic,Elementary,613-389-2800,https://www.alcdsb.on.ca/school/lady/Pages/default.aspx
 746690,B67202,Our Lady of Mercy Catholic School,Catholic,Elementary,613-332-3300,https://www.alcdsb.on.ca/school/omer/Pages/default.aspx
@@ -82,7 +82,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 845493,B67202,St Peter Catholic School,Catholic,Elementary,613-392-6577,https://www.alcdsb.on.ca/school/pett/Pages/default.aspx
 851752,B67202,St Theresa Catholic Secondary School,Catholic,Secondary,613-968-6993,www.alcdsb.on.ca/school/thss
 856150,B67202,St Thomas More Catholic School,Catholic,Elementary,613-542-1575,https://www.alcdsb.on.ca/school/sttm/Pages/default.aspx
-834301,B67202,St. Genevieve Catholic School/Ecole Catholique Sainte-Genevieve,Catholic,Elementary,,
+834301,B67202,St. Genevieve Catholic School/Ecole Catholique Sainte-Genevieve,Catholic,Elementary, , 
 724068,B67202,St. John XXIII Catholic School,Catholic,Elementary,613-389-4388,https://www.alcdsb.on.ca/school/john/Pages/default.aspx
 773875,B67202,St. Teresa of Calcutta Catholic School,Catholic,Elementary,613-384-8644,https://www.alcdsb.on.ca/school/trsa/Pages/default.aspx
 019313,B66010,Anne Hathaway Public School,Public,Elementary,519-271-8576,annehathaway.amdsb.ca
@@ -136,13 +136,13 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 022322,B66001,Arran Tara Elementary School,Public,Elementary,519-934-2560,http://www.tar.bwdsb.on.ca
 552585,B66001,Beaver Valley Community School,Public,Elementary,519-599-5991,http://www.bvc.bwdsb.on.ca
 340804,B66001,Beavercrest Community School,Public,Elementary,519-986-2990,http://www.bcc.bwdsb.on.ca
-918587,B66001,Bluewater Alternative Education School,Public,Secondary,519-363-2014,
+918587,B66001,Bluewater Alternative Education School,Public,Secondary,519-363-2014, 
 067709,B66001,Bruce Peninsula District School,Public,Elementary,519-793-3211,http://www.bpds.bwdsb.on.ca/
 896969,B66001,Bruce Peninsula District School,Public,Secondary,519-793-3211,http://www.bpds.bwdsb.on.ca/
 169200,B66001,Chesley District Community School,Public,Elementary,519-363-2344,http://www.cdc.bwdsb.on.ca/
 135143,B66001,Dawnview Public School,Public,Elementary,519-364-1891,http://www.dnv.bwdsb.on.ca
 458554,B66001,Dundalk & Proton Community School,Public,Elementary,519-923-2622,http://www.pro.bwdsb.on.ca/
-331307,B66001,East Ridge Community School,Public,Elementary,,http://www.erc.bwdsb.on.ca/
+331307,B66001,East Ridge Community School,Public,Elementary, ,http://www.erc.bwdsb.on.ca/
 167649,B66001,Egremont Community School,Public,Elementary,519-334-3640,http://www.egr.bwdsb.on.ca
 293776,B66001,Elgin Market Public School,Public,Elementary,519-396-8115,http://www.emp.bwdsb.on.ca
 524239,B66001,G C Huston Public School,Public,Elementary,519-797-3241,http://www.hus.bwdsb.on.ca
@@ -156,7 +156,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 257869,B66001,Hillcrest Elementary School,Public,Elementary,519-376-1771,http://www.hil.bwdsb.on.ca
 262935,B66001,Holland-Chatsworth Central School,Public,Elementary,519-794-2729,http://www.hol.bwdsb.on.ca
 273775,B66001,Huron Heights Public School,Public,Elementary,519-396-7035,http://www.hhe.bwdsb.on.ca
-007681,B66001,John Diefenbaker Senior School,Public,Elementary,,
+007681,B66001,John Diefenbaker Senior School,Public,Elementary, , 
 915556,B66001,John Diefenbaker Senior School,Public,Secondary,519-364-3770,http://www.jdss.bwdsb.on.ca
 291030,B66001,Keppel-Sarawak Elementary School,Public,Elementary,519-376-1789,http://www.kep.bwdsb.on.ca
 919454,B66001,Kincardine District Secondary School,Public,Secondary,519-396-9151,http://www.kdss.bwdsb.on.ca
@@ -175,7 +175,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 450910,B66001,Port Elgin-Saugeen Central School,Public,Elementary,519-832-2038,http://www.pte.bwdsb.on.ca
 484970,B66001,Ripley-Huron Community - Junior Campus School,Public,Elementary,519-395-2651,http://www.rip.bwdsb.on.ca
 940127,B66001,Saugeen District Secondary School,Public,Secondary,519-832-2091,http://www.sdss.bwdsb.on.ca
-290604,B66001,Saugeen District Senior School,Public,Elementary,,http://www.sdss.bwdsb.on.ca
+290604,B66001,Saugeen District Senior School,Public,Elementary, ,http://www.sdss.bwdsb.on.ca
 155683,B66001,Spruce Ridge Community School,Public,Elementary,519-369-2217,http://www.spr.bwdsb.on.ca
 529826,B66001,St Edmunds Public School,Public,Elementary,519-596-2390,http://www.sed.bwdsb.on.ca/
 540200,B66001,Sullivan Community School,Public,Elementary,519-794-2785,http://www.sul.bwdsb.on.ca
@@ -269,7 +269,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 741782,B67172,St. James Intermediate,Catholic,Elementary,613-284-2613,http://www.coned.cdsbeo.on.ca
 680764,B67172,St. John Intermediate School,Catholic,Elementary,613-267-4724,http://www.stjohnchs.cdsbeo.on.ca/
 750646,B67172,St. John Paul II Catholic School,Catholic,Elementary,613-487-3075,https://stjpii.cdsbeo.on.ca
-767431,B67172,St. Joseph Intermediate Catholic School,Catholic,Elementary,613-932-0349,
+767431,B67172,St. Joseph Intermediate Catholic School,Catholic,Elementary,613-932-0349, 
 803065,B67172,St. Luke Catholic High School,Catholic,Secondary,613-283-4477,http://www.stluke.cdsbeo.on.ca/
 818968,B67172,St. Luke Catholic School,Catholic,Elementary,613-283-4477,http://www.stluke.cdsbeo.on.ca/
 814555,B67172,St. Mark Catholic School,Catholic,Elementary,613-925-4342,http://www.stmark.cdsbeo.on.ca
@@ -286,7 +286,7 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 117382,B66303,Collège français élémentaire,Public,Elementary,416-393-0175,http://collegefrancais.csviamonde.ca
 165204,B66303,École intermédiaire Franco-Niagara,Public,Elementary,905-732-1361,http://confederation.csviamonde.ca/
 310415,B66303,École intermédiaire Ronald-Marion,Public,Elementary,905-683-9730,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-secondaire-ronald-marion/
-922089,B66303,École secondaire David Saint-Jacques,Public,Secondary,,
+922089,B66303,École secondaire David Saint-Jacques,Public,Secondary, , 
 909858,B66303,École secondaire Franco-Jeunesse,Public,Secondary,519-542-5970,http://francojeunesse.csviamonde.ca
 907553,B66303,École secondaire Franco-Niagara,Public,Secondary,905-732-1361,http://confederation.csviamonde.ca
 910554,B66303,École secondaire Gabriel-Dumont,Public,Secondary,519-673-4552,http://gabrieldumont.csviamonde.ca/
@@ -294,19 +294,19 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 907308,B66303,École secondaire Georges-P-Vanier,Public,Secondary,905-528-0301,http://georgespvanier.csviamonde.ca/
 907642,B66303,École secondaire Jeunes sans frontières,Public,Secondary,905-450-1106,http://jeunessansfrontieres.csviamonde.ca/
 934852,B66303,École secondaire Le Caron,Public,Secondary,705-549-3202,http://lecaron.csviamonde.ca/
-954651,B66303,École secondaire Michelle-O'Bonsawin,Public,Secondary,,
+954651,B66303,École secondaire Michelle-O'Bonsawin,Public,Secondary, , 
 896889,B66303,École secondaire Norval-Morrisseau,Public,Secondary,905-508-2516,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-secondaire-norval-morrisseau/
 925326,B66303,École secondaire Roméo Dallaire,Public,Secondary,705-792-2341,http://romeodallaire.csviamonde.ca
 901037,B66303,École secondaire Ronald-Marion,Public,Secondary,905-683-9730,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-secondaire-ronald-marion/
 952803,B66303,École secondaire Toronto Ouest,Public,Secondary,416-532-6592,http://ecolesecondairetorontoouest.csviamonde.ca
-961008,B66303,École secondaire de Lamothe-Cadillac,Public,Secondary,,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-secondaire-de-lamothe-cadillac/
+961008,B66303,École secondaire de Lamothe-Cadillac,Public,Secondary, ,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-secondaire-de-lamothe-cadillac/
 907588,B66303,École secondaire Étienne-Brûlé,Public,Secondary,416-397-2085,http://etiennebrule.csviamonde.ca/
 156167,B66303,École élémentaire Antonine Maillet,Public,Elementary,905-720-0057,http://csviamonde.ca/ecoles/antoninemaillet
 165441,B66303,École élémentaire Carrefour des Jeunes,Public,Elementary,905-455-7038,http://carrefourdesjeunes.csviamonde.ca
-393396,B66303,École élémentaire Chantal-Benoit,Public,Elementary,,
+393396,B66303,École élémentaire Chantal-Benoit,Public,Elementary, , 
 447621,B66303,École élémentaire Charles-Sauriol,Public,Elementary,416-651-4630,http://csviamonde.ca/ecoles/charlessauriol
-474256,B66303,École élémentaire David-Saint-Jacques,Public,Elementary,,
-342322,B66303,École élémentaire Dyane-Adam,Public,Elementary,,
+474256,B66303,École élémentaire David-Saint-Jacques,Public,Elementary, , 
+342322,B66303,École élémentaire Dyane-Adam,Public,Elementary, , 
 532816,B66303,École élémentaire Franco-Jeunesse,Public,Elementary,519-542-5970,http://francojeunesse.csviamonde.ca
 004367,B66303,École élémentaire Franco-Niagara,Public,Elementary,905-732-3113,http://csviamonde.ca/ecoles/champlain
 194069,B66303,École élémentaire Félix-Leclerc,Public,Elementary,416-397-2075,http://felixleclerc.csviamonde.ca/
@@ -328,17 +328,17 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 165000,B66303,École élémentaire LaMarsh,Public,Elementary,905-374-6777,http://lamarsh.csviamonde.ca/
 309192,B66303,École élémentaire Laure-Rièse,Public,Elementary,416-397-2014,http://laureriese.csviamonde.ca/
 442869,B66303,École élémentaire Le Caron,Public,Elementary,705-549-3202,http://lecaron.csviamonde.ca
-539105,B66303,École élémentaire Le Flambeau,Public,Elementary,,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-elementaire-le-flambeau/
+539105,B66303,École élémentaire Le Flambeau,Public,Elementary, ,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-elementaire-le-flambeau/
 311090,B66303,École élémentaire Les Rapides,Public,Elementary,519-542-6015,http://lesrapides.csviamonde.ca/
 480785,B66303,École élémentaire Louise-Charron,Public,Elementary,226-315-1878,http://louisecharron.csviamonde.ca
 010340,B66303,École élémentaire Marie-Curie,Public,Elementary,519-471-5677,http://mariecurie.csviamonde.ca/
 328910,B66303,École élémentaire Mathieu-da-Costa,Public,Elementary,416-397-2000,http://maisonmontessori.csviamonde.ca/
 157909,B66303,École élémentaire Micheline-Saint-Cyr,Public,Elementary,647-265-8544,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-elementaire-micheline-saint-cyr/
-590066,B66303,École élémentaire Michelle-O'Bonsawin,Public,Elementary,,
+590066,B66303,École élémentaire Michelle-O'Bonsawin,Public,Elementary, , 
 232544,B66303,École élémentaire Norval-Morrisseau,Public,Elementary,905-508-2516,http://norvalmorrisseau.csviamonde.ca
 164941,B66303,École élémentaire Nouvel Horizon,Public,Elementary,905-734-7693,http://nouvelhorizon.csviamonde.ca/
 619655,B66303,École élémentaire Patricia-Picknell,Public,Elementary,905-465-0512,http://patriciapicknell.csviamonde.ca/
-042108,B66303,École élémentaire Paul-Demers,Public,Elementary,,
+042108,B66303,École élémentaire Paul-Demers,Public,Elementary, , 
 165484,B66303,École élémentaire Pavillon de la jeunesse,Public,Elementary,905-318-3816,http://pavillondelajeunesse.csviamonde.ca
 165476,B66303,École élémentaire Pierre-Elliott-Trudeau,Public,Elementary,416-397-2097,http://pierreelliotttrudeau.csviamonde.ca/
 165425,B66303,École élémentaire Renaissance,Public,Elementary,905-637-3852,http://renaissance.csviamonde.ca/
@@ -346,8 +346,8 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 298133,B66303,École élémentaire Ronald-Marion,Public,Elementary,905-683-9730,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-elementaire-ronald-marion/
 530476,B66303,École élémentaire Saint-Joseph,Public,Elementary,705-549-3124,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-publique-saint-joseph/
 588462,B66303,École élémentaire Toronto Ouest,Public,Elementary,416-532-6592,http://ecolesecondairetorontoouest.csviamonde.ca
-374871,B66303,École élémentaire ViaVirtuel,Public,Elementary,226-315-1878,
-037753,B66303,École élémentaire Viola-Léger,Public,Elementary,,
+374871,B66303,École élémentaire ViaVirtuel,Public,Elementary,226-315-1878, 
+037753,B66303,École élémentaire Viola-Léger,Public,Elementary, , 
 298572,B66303,École élémentaire de Lamothe-Cadillac,Public,Elementary,519-253-0929,https://csviamonde.ca/nos-ecoles/trouver-une-ecole/fiche-ecole/ecole-secondaire-de-lamothe-cadillac/
 629646,B66303,École élémentaire des Quatre-Rivières,Public,Elementary,519-940-5145,http://quatrerivieres.csviamonde.ca/
 426502,B66303,École élémentaire du Chêne,Public,Elementary,905-815-8900,http://duchene.csviamonde.ca/
@@ -355,36 +355,36 @@ School Number,Board Number,School Name,School Type,School Level,Phone Number,Sch
 705128,B67318,ÉIC Monseigneur-de-Charbonnel,Catholic,Elementary,416-393-5537,http://esmdc.csdccs.edu.on.ca/wp/
 766928,B67318,ÉIC Mère-Teresa,Catholic,Elementary,905-389-4055,http://acmt.csdccs.edu.on.ca/
 705497,B67318,ÉIC Nouvelle-Alliance,Catholic,Elementary,705-737-5260,http://escna.csdccs.edu.on.ca/
-849732,B67318,ÉIC Père-Philippe-Lamarche,Catholic,Elementary,416-986-6414,
+849732,B67318,ÉIC Père-Philippe-Lamarche,Catholic,Elementary,416-986-6414, 
 750468,B67318,ÉIC Père-René-de-Galinée,Catholic,Elementary,519-650-9444,http://prdg.csdccs.edu.on.ca/
 739984,B67318,ÉIC Renaissance,Catholic,Elementary,905-727-4631,http://esr.csdccs.edu.on.ca/wp/
 704997,B67318,ÉIC Saint-Charles-Garnier,Catholic,Elementary,905-655-5635,http://esscg.csdccs.edu.on.ca/wp/
 735092,B67318,ÉIC Saint-Frère-André,Catholic,Elementary,416-393-5324,https://essfa.cscmonavenir.ca/
 781231,B67318,ÉIC Saint-Jean-de-Brébeuf,Catholic,Elementary,905-714-7882,http://esjv.csdccs.edu.on.ca/wp/
 772491,B67318,ÉIC Sainte-Famille,Catholic,Elementary,905-814-0318,http://essf.csdccs.edu.on.ca/wp/
-839486,B67318,ÉIC Sainte-Trinité,Catholic,Elementary,905-339-0812,
-SC9205,B67318,ÉIC Vaughan,Catholic,Elementary,,
+839486,B67318,ÉIC Sainte-Trinité,Catholic,Elementary,905-339-0812, 
+SC9205,B67318,ÉIC Vaughan,Catholic,Elementary, , 
 683922,B67318,ÉSAC Mère-Teresa,Catholic,Secondary,905-389-4055,http://acmt.csdccs.edu.on.ca/
-780213,B67318,ÉSC Monseigneur-Jamot,Catholic,Secondary,705-742-7571,
+780213,B67318,ÉSC Monseigneur-Jamot,Catholic,Secondary,705-742-7571, 
 733458,B67318,ÉSC Monseigneur-de-Charbonnel,Catholic,Secondary,416-393-5537,http://esmdc.csdccs.edu.on.ca/
 740390,B67318,ÉSC Nouvelle-Alliance,Catholic,Secondary,705-737-5260,http://esna.csdccs.edu.on.ca/wp/
-854087,B67318,ÉSC Pape-François,Catholic,Secondary,905-642-3440,
-846041,B67318,ÉSC Père-Philippe-Lamarche,Catholic,Secondary,416-986-6414,
+854087,B67318,ÉSC Pape-François,Catholic,Secondary,905-642-3440, 
+846041,B67318,ÉSC Père-Philippe-Lamarche,Catholic,Secondary,416-986-6414, 
 751073,B67318,ÉSC Père-René-de-Galinée,Catholic,Secondary,519-650-9444,http://prdg.csdccs.edu.on.ca/
 705357,B67318,ÉSC Renaissance,Catholic,Secondary,905-727-4631,http://esr.csdccs.edu.on.ca/wp/
 706477,B67318,ÉSC Saint-Charles-Garnier,Catholic,Secondary,905-655-5635,http://esscg.csdccs.edu.on.ca/wp/
 691950,B67318,ÉSC Saint-Frère-André,Catholic,Secondary,416-393-5324,https://essfa.cscmonavenir.ca/
 782017,B67318,ÉSC Saint-Jean-de-Brébeuf,Catholic,Secondary,905-714-7882,http://esjv.csdccs.edu.on.ca
 790001,B67318,ÉSC Sainte-Famille,Catholic,Secondary,905-814-0318,http://essf.csdccs.edu.on.ca/wp/
-865368,B67318,ÉSC Sainte-Trinité,Catholic,Secondary,905-339-0812,
-SC9206,B67318,ÉSC Vaughan,Catholic,Secondary,,
+865368,B67318,ÉSC Sainte-Trinité,Catholic,Secondary,905-339-0812, 
+SC9206,B67318,ÉSC Vaughan,Catholic,Secondary, , 
 789369,B67318,ÉÉC Ange-Gabriel,Catholic,Elementary,905-814-9122,http://ag.csdccs.edu.on.ca/
 694100,B67318,ÉÉC Cardinal-Léger,Catholic,Elementary,519-742-2261,http://cl.csdccs.edu.on.ca/
 699764,B67318,ÉÉC Corpus-Christi,Catholic,Elementary,905-728-0491,http://cc.csdccs.edu.on.ca/wp/
 707910,B67318,ÉÉC Frère-André,Catholic,Elementary,705-726-1324,http://fa.csdccs.edu.on.ca/wp/
 707970,B67318,ÉÉC Georges-Étienne-Cartier,Catholic,Elementary,416-393-5314,http://gec.csdccs.edu.on.ca
 722510,B67318,ÉÉC Immaculée-Conception,Catholic,Elementary,905-682-6732,http://ic.csdccs.edu.on.ca/wp/
-837115,B67318,ÉÉC Jean-Béliveau,Catholic,Elementary,289-383-6257,
+837115,B67318,ÉÉC Jean-Béliveau,Catholic,Elementary,289-383-6257, 
 689705,B67318,ÉÉC Jean-Paul II,Catholic,Elementary,905-665-5393,http://jpii.csdccs.edu.on.ca/wp/index.php
 795917,B67318,ÉÉC Le-Petit-Prince,Catholic,Elementary,905-832-3153,http://lpp.csdccs.edu.on.ca/
 705411,B67318,ÉÉC Marguerite-Bourgeois-Borden,Catholic,Elementary,705-424-0049,http://mb.csdccs.edu.on.ca/wp/
@@ -392,27 +392,27 @@ SC9206,B67318,ÉSC Vaughan,Catholic,Secondary,,
 690007,B67318,ÉÉC Monseigneur-de-Laval,Catholic,Elementary,905-387-6448,http://mdl.csdccs.edu.on.ca/wp/
 729949,B67318,ÉÉC Mère-Élisabeth-Bruyère,Catholic,Elementary,519-880-9859,http://meb.csdccs.edu.on.ca/
 737330,B67318,ÉÉC Notre-Dame,Catholic,Elementary,905-545-3393,http://nd.csdccs.edu.on.ca
-732080,B67318,ÉÉC Notre-Dame-de-Grâce,Catholic,Elementary,416-396-2845,
-828752,B67318,ÉÉC Notre-Dame-de-la-Huronie,Catholic,Elementary,705-444-1764,
+732080,B67318,ÉÉC Notre-Dame-de-Grâce,Catholic,Elementary,416-396-2845, 
+828752,B67318,ÉÉC Notre-Dame-de-la-Huronie,Catholic,Elementary,705-444-1764, 
 738166,B67318,ÉÉC Notre-Dame-de-la-Jeunesse-Ajax,Catholic,Elementary,905-428-1460,http://nddlja.csdccs.edu.on.ca/
 738190,B67318,ÉÉC Notre-Dame-de-la-Jeunesse-Niagara.F,Catholic,Elementary,905-357-2311,http://nddljnf.csdccs.edu.on.ca/
-773943,B67318,ÉÉC Pape-François,Catholic,Elementary,905-642-3440,
+773943,B67318,ÉÉC Pape-François,Catholic,Elementary,905-642-3440, 
 705330,B67318,ÉÉC René-Lamoureux,Catholic,Elementary,905-270-0785,http://rl.csdccs.edu.on.ca/wp/
 774642,B67318,ÉÉC Saint-Antoine,Catholic,Elementary,905-356-2522,http://sa.csdccs.edu.on.ca/wp/
 815640,B67318,ÉÉC Saint-François-d'Assise,Catholic,Elementary,905-735-0837,http://sfda.csdccs.edu.on.ca/wp/
 802662,B67318,ÉÉC Saint-Jean,Catholic,Elementary,905-727-0131,http://sja.csdccs.edu.on.ca/
 800490,B67318,ÉÉC Saint-Jean-Baptiste,Catholic,Elementary,905-820-7460,http://sjb.csdccs.edu.on.ca/
-788438,B67318,ÉÉC Saint-Jean-Bosco,Catholic,Elementary,289-541-9501,
+788438,B67318,ÉÉC Saint-Jean-Bosco,Catholic,Elementary,289-541-9501, 
 798223,B67318,ÉÉC Saint-Jean-de-Lalande,Catholic,Elementary,416-393-5369,http://sjdl.csdccs.edu.on.ca/wp/
 810398,B67318,ÉÉC Saint-Joseph,Catholic,Elementary,905-835-8331,http://sjpc.csdccs.edu.on.ca/wp/
 819026,B67318,ÉÉC Saint-Louis,Catholic,Elementary,705-549-3677,http://sl.csdccs.edu.on.ca/wp/
-841308,B67318,ÉÉC Saint-Michel,Catholic,Elementary,416-393-5421,
+841308,B67318,ÉÉC Saint-Michel,Catholic,Elementary,416-393-5421, 
 694632,B67318,ÉÉC Saint-Nicolas,Catholic,Elementary,905-864-3025,http://sn.csdccs.edu.on.ca/
 837180,B67318,ÉÉC Saint-Noël-Chabanel-Cambridge,Catholic,Elementary,519-650-3219,http://sncc.csdccs.edu.on.ca/wp/
 845744,B67318,ÉÉC Saint-Noël-Chabanel-Toronto,Catholic,Elementary,416-393-5321,http://snct.csdccs.edu.on.ca/
 842524,B67318,ÉÉC Saint-Philippe,Catholic,Elementary,905-639-6100,http://sp.csdccs.edu.on.ca/wp/
 848808,B67318,ÉÉC Saint-René-Goupil,Catholic,Elementary,519-821-7542,http://srg.csdccs.edu.on.ca/
-779909,B67318,ÉÉC Sainte-Anne,Catholic,Elementary,,
+779909,B67318,ÉÉC Sainte-Anne,Catholic,Elementary, , 
 861529,B67318,ÉÉC Sainte-Croix,Catholic,Elementary,705-533-2610,http://sc.csdccs.edu.on.ca/wp/
 690740,B67318,ÉÉC Sainte-Jeanne-d'Arc,Catholic,Elementary,905-453-8561,http://sjda.csdccs.edu.on.ca/wp/
 862525,B67318,ÉÉC Sainte-Madeleine,Catholic,Elementary,416-393-5312,http://sm.csdccs.edu.on.ca/wp/
@@ -423,7 +423,7 @@ SC9206,B67318,ÉSC Vaughan,Catholic,Secondary,,
 822000,B67318,ÉÉC Sainte-Marie-Oakville,Catholic,Elementary,905-845-4472,http://smo.csdccs.edu.on.ca
 725714,B67318,ÉÉC Sainte-Marie-Simcoe,Catholic,Elementary,519-426-4775,http://smn.csdccs.edu.on.ca/wp/
 758965,B67318,ÉÉC Samuel-de-Champlain,Catholic,Elementary,705-326-7050,http://sdc.csdccs.edu.on.ca
-760021,B67318,ÉÉC du Bon-Berger,Catholic,Elementary,416-461-2674,
+760021,B67318,ÉÉC du Bon-Berger,Catholic,Elementary,416-461-2674, 
 861391,B67318,ÉÉC du Sacré-Coeur-Georgetown,Catholic,Elementary,905-873-0510,http://scgt.csdccs.edu.on.ca/wp/
 755532,B67318,ÉÉC du Sacré-Coeur-Toronto,Catholic,Elementary,416-393-5219,http://sct.csdccs.edu.on.ca/
 727270,B67318,ÉÉC du Sacré-Coeur-Welland,Catholic,Elementary,905-734-8133,http://scw.csdccs.edu.on.ca/
@@ -438,7 +438,7 @@ SC9206,B67318,ÉSC Vaughan,Catholic,Secondary,,
 282898,B28118,École publique Jeanne-Sauvé,Public,Elementary,705-675-1613,epjs.cspgno.ca
 327425,B28118,École publique Macdonald-Cartier,Public,Elementary,705-566-7660,esmc.cspgno.ca
 164909,B28118,École publique Pavillon-de-l'Avenir,Public,Elementary,705-855-8733,eppa.cspgno.ca
-438992,B28118,École publique de Thunder Bay,Public,Elementary,,
+438992,B28118,École publique de Thunder Bay,Public,Elementary, , 
 174882,B28118,École publique de la Découverte,Public,Elementary,705-897-1304,epd.cspgno.ca
 138720,B28118,École publique de la Rivière-des-Français,Public,Elementary,705-898-2282,esrdf.cspgno.ca
 045253,B28118,École publique des Pins Blancs,Public,Elementary,705-356-3333,epbr.cspgno.ca
@@ -452,7 +452,7 @@ SC9206,B67318,ÉSC Vaughan,Catholic,Secondary,,
 965570,B28118,École secondaire Villa Française des Jeunes,Public,Secondary,705-848-2259,esvfj.cspgno.ca
 911100,B28118,École secondaire de la Rivière-des-Français,Public,Secondary,705-898-2282,esrdf.cspgno.ca
 890817,B28118,École secondaire l'Orée des Bois,Public,Secondary,705-884-2222,esodb.cspgno.ca
-SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary,,
+SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary, , 
 067321,B28100,École publique Héritage,Public,Elementary,705-497-8700,heritage.cspne.ca
 199737,B28100,École publique Jeunesse-Active,Public,Elementary,705-753-4770,jeunesse-active.cspne.ca
 165182,B28100,École publique Le Coeur du Nord,Public,Elementary,705-335-2199,coeur-du-nord.cspne.ca
@@ -489,8 +489,8 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 712592,B29114,École élémentaire catholique Saints-Anges,Catholic,Elementary,705-472-4963,https://www.franco-nord.ca/saintsanges
 718815,B67326,École intermédiaire catholique - Pavillon Alexandria,Catholic,Elementary,613-525-3315,http://www.lerelais.csdceo.ca
 804392,B67326,École intermédiaire catholique - Pavillon Casselman,Catholic,Elementary,613-764-2991,http://escc.csdceo.ca
-733228,B67326,École intermédiaire catholique - Pavillon Embrun,Catholic,Elementary,,http://www.esce.csdceo.ca
-770396,B67326,École intermédiaire catholique - Pavillon Hawkesbury,Catholic,Elementary,,http://escrh.csdceo.ca
+733228,B67326,École intermédiaire catholique - Pavillon Embrun,Catholic,Elementary, ,http://www.esce.csdceo.ca
+770396,B67326,École intermédiaire catholique - Pavillon Hawkesbury,Catholic,Elementary, ,http://escrh.csdceo.ca
 767894,B67326,École intermédiaire catholique - Pavillon Plantagenet,Catholic,Elementary,613-673-5124,http://www.escp.csdceo.ca
 728807,B67326,École intermédiaire catholique - Pavillon Rockland,Catholic,Elementary,613-446-5169,https://lescale.csdceo.ca/
 723592,B67326,École intermédiaire catholique La Citadelle,Catholic,Elementary,613-933-0172,http://www.lacitadelle.csdceo.ca
@@ -555,7 +555,7 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 705322,B29106,École catholique Sacré-Coeur (Timmins),Catholic,Elementary,705-264-7004,http://www.cscdgr.education
 835358,B29106,École catholique Saint-Michel,Catholic,Elementary,705-647-6614,http://www.cscdgr.education
 785466,B29106,École catholique Sainte-Croix,Catholic,Elementary,705-672-3661,http://www.cscdgr.education
-836152,B29106,École catholique Sainte-Marie,Catholic,Elementary,705-647-7376,
+836152,B29106,École catholique Sainte-Marie,Catholic,Elementary,705-647-7376, 
 853291,B29106,École catholique Sainte-Thérèse,Catholic,Elementary,705-236-4131,http://www.cscdgr.education
 787124,B29106,École catholique St-Dominique,Catholic,Elementary,705-264-7188,http://www.cscdgr.education
 793108,B29106,École catholique St-François-Xavier,Catholic,Elementary,705-364-4251,http://www.cscdgr.on.ca
@@ -580,8 +580,8 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 750107,B67334,École intermédiaire catholique Franco-Ouest,Catholic,Elementary,613-820-2920,http://www.franco-ouest.ecolecatholique.ca/
 752576,B67334,École intermédiaire catholique Garneau,Catholic,Elementary,613-824-6300,http://www.garneau.ecolecatholique.ca/fr/
 696030,B67334,École intermédiaire catholique Jeanne-Lajoie,Catholic,Elementary,613-735-3948,http://www.jeanne-lajoie-secondaire.ecolecatholique.ca/
-752899,B67334,École intermédiaire catholique Mer Bleue,Catholic,Elementary,,https://mer-bleue.ecolecatholique.ca/
-685986,B67334,École intermédiaire catholique Paul-Desmarais,Catholic,Elementary,,https://paul-desmarais.ecolecatholique.ca/
+752899,B67334,École intermédiaire catholique Mer Bleue,Catholic,Elementary, ,https://mer-bleue.ecolecatholique.ca/
+685986,B67334,École intermédiaire catholique Paul-Desmarais,Catholic,Elementary, ,https://paul-desmarais.ecolecatholique.ca/
 718973,B67334,École intermédiaire catholique Pierre-Savard,Catholic,Elementary,613-820-7293,http://www.pierre-savard.ecolecatholique.ca/fr/
 705241,B67334,École intermédiaire catholique Sainte-Marie-Rivier,Catholic,Elementary,613-546-5270,http://www.marie-rivier.ecolecatholique.ca/fr/
 751120,B67334,École intermédiaire catholique Samuel-Genest,Catholic,Elementary,613-744-8344,http://www.samuel-genest.ecolecatholique.ca/fr/
@@ -591,23 +591,23 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 694827,B67334,École secondaire catholique Franco-Ouest,Catholic,Secondary,613-820-2920,http://www.franco-ouest.ecolecatholique.ca/
 710903,B67334,École secondaire catholique Garneau,Catholic,Secondary,613-824-1750,http://www.garneau.ecolecatholique.ca/
 696021,B67334,École secondaire catholique Jeanne-Lajoie,Catholic,Secondary,613-735-3948,jeanne-lajoie-secondaire.ecolecatholique.ca
-723409,B67334,École secondaire catholique L'Envol,Catholic,Secondary,,
-846435,B67334,École secondaire catholique Mer Bleue,Catholic,Secondary,,https://mer-bleue.ecolecatholique.ca/
-804005,B67334,École secondaire catholique Notre-Dame,Catholic,Secondary,,https://kemptville.ecolecatholique.ca/
-758231,B67334,École secondaire catholique Paul-Desmarais,Catholic,Secondary,,https://paul-desmarais.ecolecatholique.ca/
-832670,B67334,École secondaire catholique Pierre-Savard,Catholic,Secondary,,http://www.pierre-savard.ecolecatholique.ca/fr/
+723409,B67334,École secondaire catholique L'Envol,Catholic,Secondary, , 
+846435,B67334,École secondaire catholique Mer Bleue,Catholic,Secondary, ,https://mer-bleue.ecolecatholique.ca/
+804005,B67334,École secondaire catholique Notre-Dame,Catholic,Secondary, ,https://kemptville.ecolecatholique.ca/
+758231,B67334,École secondaire catholique Paul-Desmarais,Catholic,Secondary, ,https://paul-desmarais.ecolecatholique.ca/
+832670,B67334,École secondaire catholique Pierre-Savard,Catholic,Secondary, ,http://www.pierre-savard.ecolecatholique.ca/fr/
 750085,B67334,École secondaire catholique Sainte-Marie-Rivier,Catholic,Secondary,613-546-5270,http://www.marie-rivier.ecolecatholique.ca/
 695955,B67334,École secondaire catholique Samuel-Genest,Catholic,Secondary,613-744-8344,http://www.samuel-genest.ecolecatholique.ca/
-757618,B67334,École secondaire catholique d'apprentissage virtuel,Catholic,Secondary,,
+757618,B67334,École secondaire catholique d'apprentissage virtuel,Catholic,Secondary, , 
 705373,B67334,École secondaire catholique de l’innovation,Catholic,Secondary,613-842-5319,http://www.minto.ecolecatholique.ca
 735632,B67334,École élémentaire Académie catholique Ange-Gabriel,Catholic,Elementary,613-345-5914,https://ange-gabriel.ecolecatholique.ca/
 731385,B67334,École élémentaire catholique Alain-Fortin,Catholic,Elementary,613-749-7454,https://alain-fortin.ecolecatholique.ca
 705047,B67334,École élémentaire catholique Arc-en-ciel,Catholic,Elementary,613-744-0486,https://arc-en-ciel.ecolecatholique.ca/
-866248,B67334,École élémentaire catholique Au Coeur d'Ottawa,Catholic,Elementary,,https://aucoeurdottawa.ecolecatholique.ca/
+866248,B67334,École élémentaire catholique Au Coeur d'Ottawa,Catholic,Elementary, ,https://aucoeurdottawa.ecolecatholique.ca/
 769765,B67334,École élémentaire catholique Bernard-Grandmaître,Catholic,Elementary,613-820-3814,http://www.bernard-grandmaitre.ecolecatholique.ca/
 705390,B67334,École élémentaire catholique De la Découverte,Catholic,Elementary,613-744-5894,http://www.deladecouverte.ecolecatholique.ca
 741671,B67334,École élémentaire catholique Des  Voyageurs,Catholic,Elementary,613-744-8345,http://www.desvoyageurs.ecolecatholique.ca
-688091,B67334,École élémentaire catholique Des Deux-Rivières,Catholic,Elementary,,
+688091,B67334,École élémentaire catholique Des Deux-Rivières,Catholic,Elementary, , 
 764264,B67334,École élémentaire catholique Des Pins,Catholic,Elementary,613-741-2354,http://www.despins.ecolecatholique.ca/
 703168,B67334,École élémentaire catholique Des Pionniers,Catholic,Elementary,613-744-2448,http://www.despionniers.ecolecatholique.ca
 705055,B67334,École élémentaire catholique Elisabeth-Bruyère,Catholic,Elementary,613-521-0176,http://www.elisabeth-bruyere.ecolecatholique.ca/
@@ -616,7 +616,7 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 722901,B67334,École élémentaire catholique J.-L.-Couroux,Catholic,Elementary,613-521-0607,http://www.j-l-couroux.ecolecatholique.ca/fr/
 705136,B67334,École élémentaire catholique Jean-Robert-Gauthier,Catholic,Elementary,613-820-0757,http://www.jean-robert-gauthier.ecolecatholique.ca/
 696005,B67334,École élémentaire catholique Jeanne-Lajoie,Catholic,Elementary,613-732-8302,http://www.jeanne-lajoie-elementaire.ecolecatholique.ca/
-744957,B67334,École élémentaire catholique Jonathan-Pitre,Catholic,Elementary,,
+744957,B67334,École élémentaire catholique Jonathan-Pitre,Catholic,Elementary, , 
 701670,B67334,École élémentaire catholique L'Envol,Catholic,Elementary,613-392-5590,http://www.lenvol.ecolecatholique.ca/
 865648,B67334,École élémentaire catholique L'Étoile-de-l'Est,Catholic,Elementary,613-744-5713,http://www.letoile-de-lest.ecolecatholique.ca/
 725536,B67334,École élémentaire catholique La Vérendrye,Catholic,Elementary,613-749-2349,http://www.laverendrye.ecolecatholique.ca
@@ -624,8 +624,8 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 753157,B67334,École élémentaire catholique Marius-Barbeau,Catholic,Elementary,613-737-4404,http://www.marius-barbeau.ecolecatholique.ca
 705420,B67334,École élémentaire catholique Mgr-Rémi-Gaulin,Catholic,Elementary,613-547-6277,http://www.mgr-remi-gaulin.ecolecatholique.ca
 732397,B67334,École élémentaire catholique Montfort,Catholic,Elementary,613-745-3310,http://www.montfort.ecolecatholique.ca
-761251,B67334,École élémentaire catholique Notre-Dame,Catholic,Elementary,,https://kemptville.ecolecatholique.ca/
-735920,B67334,École élémentaire catholique Notre-Dame-des-Champs,Catholic,Elementary,,http://ndc.ecolecatholique.ca/
+761251,B67334,École élémentaire catholique Notre-Dame,Catholic,Elementary, ,https://kemptville.ecolecatholique.ca/
+735920,B67334,École élémentaire catholique Notre-Dame-des-Champs,Catholic,Elementary, ,http://ndc.ecolecatholique.ca/
 796656,B67334,École élémentaire catholique Notre-Place,Catholic,Elementary,613-744-1486,http://notre-place.ecolecatholique.ca/
 688762,B67334,École élémentaire catholique Pierre-Elliott-Trudeau,Catholic,Elementary,613-521-1560,http://www.pierre-elliott-trudeau.ecolecatholique.ca/
 705365,B67334,École élémentaire catholique Reine-des-Bois,Catholic,Elementary,613-744-8647,http://www.reine-des-bois.ecolecatholique.ca/fr/
@@ -634,7 +634,7 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 701971,B67334,École élémentaire catholique Saint-Guillaume,Catholic,Elementary,613-745-5981,http://www.saint-guillaume.ecolecatholique.ca
 156159,B67334,École élémentaire catholique Saint-Jean-Paul II,Catholic,Elementary,613-521-7858,http://www.jean-paul-ii.ecolecatholique.ca/
 703095,B67334,École élémentaire catholique Saint-Joseph d'Orléans,Catholic,Elementary,613-745-7968,http://www.saint-josephdorleans.ecolecatholique.ca/
-752625,B67334,École élémentaire catholique Saint-Rémi,Catholic,Elementary,,http://ecolecatholique.ca/fr/53
+752625,B67334,École élémentaire catholique Saint-Rémi,Catholic,Elementary, ,http://ecolecatholique.ca/fr/53
 860573,B67334,École élémentaire catholique Sainte-Anne,Catholic,Elementary,613-789-3933,http://www.sainte-anne.ecolecatholique.ca/
 709387,B67334,École élémentaire catholique Sainte-Bernadette,Catholic,Elementary,613-521-0875,http://www.sainte-bernadette.ecolecatholique.ca/
 861871,B67334,École élémentaire catholique Sainte-Geneviève,Catholic,Elementary,613-733-9729,http://www.sainte-genevieve.ecolecatholique.ca/
@@ -651,7 +651,7 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 707511,B29122,École secondaire Notre-Dame-du-Sault,Catholic,Secondary,705-945-5520,http://ndsault.nouvelon.ca/
 696048,B29122,École secondaire catholique Champlain,Catholic,Secondary,705-855-9046,http://escchamplain.nouvelon.ca/
 705004,B29122,École secondaire catholique Jeunesse-Nord,Catholic,Secondary,705-356-1688,http://escjeunessenord.nouvelon.ca/
-755770,B29122,École secondaire catholique La Renaissance,Catholic,Secondary,,
+755770,B29122,École secondaire catholique La Renaissance,Catholic,Secondary, , 
 701700,B29122,École secondaire catholique Saint-Joseph,Catholic,Secondary,705-856-2003,http://stjosephwawa.nouvelon.ca/
 704970,B29122,École secondaire catholique Trillium,Catholic,Secondary,705-864-1211,http://esctrillium.nouvelon.ca/
 771473,B29122,École secondaire catholique l'Horizon,Catholic,Secondary,705-897-2503,http://eschorizon.nouvelon.ca/
@@ -682,7 +682,7 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 707449,B29122,École élémentaire catholique Félix-Ricard,Catholic,Elementary,705-566-8300,http://felixricard.nouvelon.ca/
 738379,B29122,École élémentaire catholique Georges-Vanier,Catholic,Elementary,705-848-2272,http://georgesvanier.nouvelon.ca/
 705970,B29122,École élémentaire catholique Jean-Paul II,Catholic,Elementary,705-897-4434,http://jeanpaulii.nouvelon.ca/
-841490,B29122,École élémentaire catholique La Renaissance,Catholic,Elementary,,
+841490,B29122,École élémentaire catholique La Renaissance,Catholic,Elementary, , 
 750518,B29122,École élémentaire catholique Trillium,Catholic,Elementary,705-864-1211,http://esctrillium.nouvelon.ca/
 425729,B80020,Campbell Children's School,Hospital,Elementary,905-576-8403,http://www.campbellchildrensschool.ca
 704717,B67300,École secondaire catholique E.J.Lajeunesse,Catholic,Secondary,519-972-0071,CscProvidence.ca/EJL
@@ -693,7 +693,7 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 705101,B67300,École secondaire catholique École secondaire Saint-Dominique-Savio,Catholic,Secondary,519-371-0627,http://www.CscProvidence.ca/Saint-Dominique-Savio
 791601,B67300,École secondaire catholique École secondaire Saint-François-Xavier,Catholic,Secondary,519-542-1055,http://www.CscProvidence.ca/Saint-Francois-Xavier
 707015,B67300,École secondaire catholique École secondaire de Pain Court,Catholic,Secondary,519-352-1614,http://www.CscProvidence.ca/ESPC
-866569,B67300,École élémentaire catholique E.J. Lajeunesse,Catholic,Elementary,,CscProvidence.ca/EJL
+866569,B67300,École élémentaire catholique E.J. Lajeunesse,Catholic,Elementary, ,CscProvidence.ca/EJL
 707880,B67300,École élémentaire catholique Frère André,Catholic,Elementary,519-471-6680,http://www.CscProvidence.ca/Frere-Andre
 708054,B67300,École élémentaire catholique Georges P Vanier,Catholic,Elementary,519-948-9481,http://www.CSCProvidence.ca/Georges-P-Vanier
 732400,B67300,École élémentaire catholique Monseigneur Augustin Caron,Catholic,Elementary,519-734-1380,http://www.CscProvidence.ca/Monseigneur-Augustin-Caron
@@ -721,11 +721,11 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 701777,B67300,École élémentaire catholique Ste-Jeanne-d'Arc,Catholic,Elementary,519-457-3141,http://www.CscProvidence.ca/Sainte-Jeanne-dArc
 761907,B67300,École élémentaire catholique Ste-Marguerite-d'Youville,Catholic,Elementary,519-735-5766,http://www.CscProvidence.ca/Sainte-Marquerite-dYouville
 822786,B67300,École élémentaire catholique l'Essor,Catholic,Elementary,519-735-4115,http://www.CscProvidence.ca/lEssor
-069051,B66311,École intermédiaire Pierre-de-Blois,Public,Elementary,613-742-1867,
+069051,B66311,École intermédiaire Pierre-de-Blois,Public,Elementary,613-742-1867, 
 616160,B66311,École intermédiaire Rivière-Rideau,Public,Elementary,613-258-1555,www.kemptville.cepeo.on.ca
 900516,B66311,École publique Centre d'éducation et de formation de,Public,Secondary,613-632-4100,www.cefeo-eoetc.on.ca
 922609,B66311,École secondaire des adultes Le Carrefour,Public,Secondary,613-731-7212,carrefour.cepeo.on.ca
-891328,B66311,École secondaire publique Campus secondaire l'Héritage,Public,Secondary,,
+891328,B66311,École secondaire publique Campus secondaire l'Héritage,Public,Secondary, , 
 907430,B66311,École secondaire publique De La Salle,Public,Secondary,613-789-0053,http://www.de-la-salle.cepeo.on.ca
 912662,B66311,École secondaire publique Gisèle-Lalonde,Public,Secondary,613-833-0018,http://www.gisele-lalonde.cepeo.on.ca
 898582,B66311,École secondaire publique L'Académie de la Seigneurie,Public,Secondary,613-764-0550,www.academiedelaseigneurie.cepeo.on.ca
@@ -758,7 +758,7 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 540030,B66311,École élémentaire publique Le Prélude,Public,Elementary,613-834-8411,http://www.prelude.cepeo.on.ca
 313190,B66311,École élémentaire publique Le Sommet,Public,Elementary,613-632-6059,http://www.lesommet.cepeo.on.ca
 323187,B66311,École élémentaire publique Louis-Riel,Public,Elementary,613-590-2233,http://www.louis-riel.cepeo.on.ca
-242420,B66311,École élémentaire publique Louise-Arbour,Public,Elementary,,http://www.centre-nord.cepeo.on.ca
+242420,B66311,École élémentaire publique Louise-Arbour,Public,Elementary, ,http://www.centre-nord.cepeo.on.ca
 384771,B66311,École élémentaire publique Madeleine-de-Roybon,Public,Elementary,613-547-2556,http://www.madeleine-de-roybon.cepeo.on.ca
 167811,B66311,École élémentaire publique Mamawi,Public,Elementary,613-596-2130,https://mamawi.cepeo.on.ca/
 488550,B66311,École élémentaire publique Marc-Garneau,Public,Elementary,613-392-6961,www.marc-garneau.cepeo.on.ca
@@ -775,7 +775,7 @@ SC8201,B28118,École élémentaire École publique de Marathon,Public,Elementary
 195774,B66311,École élémentaire publique Séraphin-Marion,Public,Elementary,613-748-7636,http://www.seraphin-marion.cepeo.on.ca
 383376,B66311,École élémentaire publique Terre des Jeunes,Public,Elementary,613-525-1843,http://www.terre-des-jeunes.cepeo.on.ca/
 559458,B66311,École élémentaire publique Trille des Bois,Public,Elementary,613-746-6911,www.trille-des-bois.cepeo.on.ca
-SC0302,B66311,École élémentaire publique ÉÉP Barrhaven-Manotick,Public,Elementary,,
+SC0302,B66311,École élémentaire publique ÉÉP Barrhaven-Manotick,Public,Elementary, , 
 000590,B66150,A K Wigg Public School,Public,Elementary,905-892-2605,http://akwigg.dsbn.org/
 890200,B66150,A N Myer Secondary School,Public,Secondary,905-358-5753,http://anmyer.dsbn.org/
 505005,B66150,Applewood Public School,Public,Elementary,905-684-4359,http://applewood.dsbn.org/
@@ -785,12 +785,12 @@ SC0302,B66311,École élémentaire publique ÉÉP Barrhaven-Manotick,Public,Elem
 094978,B66150,Central Public School,Public,Elementary,905-945-5459,http://central.dsbn.org/
 105767,B66150,Cherrywood Acres Public School,Public,Elementary,905-356-2801,http://cherrywood.dsbn.org/
 121754,B66150,Connaught Public School,Public,Elementary,905-682-6609,http://connaught.dsbn.org/
-235750,B66150,Crossroads Public School,Public,Elementary,,http://crossroads.dsbn.org/
-547449,B66150,DSBN Academy,Public,Elementary,,http://academy.dsbn.org/
-935455,B66150,DSBN Academy,Public,Secondary,905-684-8708,
+235750,B66150,Crossroads Public School,Public,Elementary, ,http://crossroads.dsbn.org/
+547449,B66150,DSBN Academy,Public,Elementary, ,http://academy.dsbn.org/
+935455,B66150,DSBN Academy,Public,Secondary,905-684-8708, 
 131890,B66150,Dalewood Public School,Public,Elementary,905-934-3325,http://dalewood.dsbn.org/
 139823,B66150,DeWitt Carter Public School,Public,Elementary,905-834-7440,http://dewittcarter.dsbn.org/
-001793,B66150,Diamond Trail Public School,Public,Elementary,,
+001793,B66150,Diamond Trail Public School,Public,Elementary, , 
 156418,B66150,E I McCulley Public School,Public,Elementary,905-934-7344,http://eimcculley.dsbn.org/
 906328,B66150,E L Crossley Secondary School,Public,Secondary,905-892-2635,http://elcrossley.dsbn.org/
 906972,B66150,Eastdale Secondary School,Public,Secondary,905-734-7458,http://www.eastdale.ca/
@@ -808,14 +808,14 @@ SC0302,B66311,École élémentaire publique ÉÉP Barrhaven-Manotick,Public,Elem
 225754,B66150,Gracefield Public School,Public,Elementary,905-934-1411,http://gracefield.dsbn.org/
 226556,B66150,Grand Avenue Public School,Public,Elementary,905-945-2227,http://grandave.dsbn.org/
 228010,B66150,Grapeview Public School,Public,Elementary,905-984-5517,http://grapeview.dsbn.org/
-897646,B66150,Greater Fort Erie Secondary School,Public,Secondary,,
+897646,B66150,Greater Fort Erie Secondary School,Public,Secondary, , 
 229520,B66150,Greendale Public School,Public,Elementary,905-358-8111,http://greendale.dsbn.org/
-294037,B66150,Harriet Tubman Public School,Public,Elementary,,
+294037,B66150,Harriet Tubman Public School,Public,Elementary, , 
 254223,B66150,Heximer Avenue Public School,Public,Elementary,905-356-0932,http://heximer.dsbn.org/
 281000,B66150,Jacob Beam Public School,Public,Elementary,905-563-8209,http://jacobbeam.dsbn.org/
 281654,B66150,James Morden Public School,Public,Elementary,905-358-5011,http://jamesmorden.dsbn.org/
-264237,B66150,Jeanne Sauve Public School,Public,Elementary,,
-001649,B66150,John Brant Public School,Public,Elementary,,
+264237,B66150,Jeanne Sauve Public School,Public,Elementary, , 
+001649,B66150,John Brant Public School,Public,Elementary, , 
 283991,B66150,John Marshall Public School,Public,Elementary,905-358-3711,http://jmarshall.dsbn.org/
 287660,B66150,Kate S Durdan Public School,Public,Elementary,905-356-0488,http://katedurdan.dsbn.org/
 304921,B66150,Lakeview Public School,Public,Elementary,905-945-5427,http://lakeview.dsbn.org/
@@ -823,7 +823,7 @@ SC0302,B66311,École élémentaire publique ÉÉP Barrhaven-Manotick,Public,Elem
 922854,B66150,Lifetime Learning Centre Secondary School,Public,Secondary,905-646-3737,http://www.dsbn.edu.on.ca/llc
 313114,B66150,Lincoln Centennial Public School,Public,Elementary,905-937-5110,http://lincolncent.dsbn.org/
 318086,B66150,Lockview Public School,Public,Elementary,905-934-3331,http://lockview.dsbn.org/
-SC0501,B66150,Marshville Public School,Public,Elementary,,
+SC0501,B66150,Marshville Public School,Public,Elementary, , 
 344834,B66150,Martha Cullimore Public School,Public,Elementary,905-358-5142,http://marthac.dsbn.org/
 352500,B66150,McKay Public School,Public,Elementary,905-834-4753,http://mckay.dsbn.org/
 382868,B66150,Nelles Public School,Public,Elementary,905-945-8022,http://nelles.dsbn.org/
@@ -853,19 +853,19 @@ SC0501,B66150,Marshville Public School,Public,Elementary,,
 514748,B66150,Simcoe Street Public School,Public,Elementary,905-358-9121,http://simcoestreet.dsbn.org/
 942464,B66150,Sir Winston Churchill Secondary School,Public,Secondary,905-684-6349,http://sirwinston.dsbn.org/
 517453,B66150,Smith Public School,Public,Elementary,905-945-8014,http://smith.dsbn.org/
-117722,B66150,Smithville Public School,Public,Elementary,905-957-7024,
+117722,B66150,Smithville Public School,Public,Elementary,905-957-7024, 
 944157,B66150,St Catharines Collegiate Institute and Vocational School,Public,Secondary,905-687-7301,http://collegiate.dsbn.org/
 529648,B66150,St Davids Public School,Public,Elementary,905-262-4533,http://stdavids.dsbn.org/
 945064,B66150,Stamford Collegiate,Public,Secondary,905-354-7409,http://stamford.dsbn.org/
 535419,B66150,Steele Street Public School,Public,Elementary,905-834-4333,http://steelestreet.dsbn.org/
 536636,B66150,Stevensville Public School,Public,Elementary,905-382-3122,http://stevensville.dsbn.org/
 948055,B66150,Thorold Secondary School,Public,Secondary,905-227-1188,http://tss.dsbn.org/
-254519,B66150,Twenty Valley Public School,Public,Elementary,,
+254519,B66150,Twenty Valley Public School,Public,Elementary, , 
 569348,B66150,Valley Way Public School,Public,Elementary,905-356-6611,http://valleyway.dsbn.org/
 573507,B66150,Victoria Public School,Public,Elementary,905-354-1321,http://victoria.dsbn.org/
 947180,B66150,Welland Centennial Secondary School,Public,Secondary,905-735-0700,http://centennial.dsbn.org/
 156841,B66150,Wellington Heights Public School,Public,Elementary,905-892-3251,http://ewfarr.dsbn.org/
-951561,B66150,West Niagara Secondary School,Public,Secondary,,https://westniagara.dsbn.org/
+951561,B66150,West Niagara Secondary School,Public,Secondary, ,https://westniagara.dsbn.org/
 598984,B66150,Westdale Public School,Public,Elementary,905-682-9284,http://westdale.dsbn.org/
 952214,B66150,Westlane Secondary School,Public,Secondary,905-356-2401,http://westlane.dsbn.org/
 602493,B66150,Westmount Public School,Public,Elementary,905-227-3827,http://westmount.dsbn.org/
@@ -882,13 +882,13 @@ SC0501,B66150,Marshville Public School,Public,Elementary,,
 282170,B28002,Elk Lake Public School,Public,Elementary,705-678-2229,www.dsb1.ca/schools/elklake
 908924,B28002,Englehart High School,Public,Secondary,705-544-2337,www.dsb1.ca/schools/ehs
 181552,B28002,Englehart Public School,Public,Elementary,705-544-2345,www.dsb1.ca/schools/englehart
-619738,B28002,Englehart Secondary School (Elementary),Public,Elementary,705-544-2337,
+619738,B28002,Englehart Secondary School (Elementary),Public,Elementary,705-544-2337, 
 193771,B28002,Federal Public School,Public,Elementary,705-567-5288,http://www.dsb1.ca/schools/federal
 221554,B28002,Golden Avenue Public School,Public,Elementary,705-360-8054,http://www.dsb1.ca/schools/golden
 916293,B28002,Hearst High School,Public,Secondary,705-362-4591,http://www.dsb1.ca/schools/hhs
 076104,B28002,Iroquois Falls Public School,Public,Elementary,705-232-6651,http://www.dsb1.ca/schools/ifps
 918288,B28002,Iroquois Falls Secondary School,Public,Secondary,705-258-3921,http://www.dsb1.ca/ifss
-600222,B28002,Iroquois Falls Secondary School (Elementary),Public,Elementary,705-258-3921,
+600222,B28002,Iroquois Falls Secondary School (Elementary),Public,Elementary,705-258-3921, 
 347957,B28002,Joseph H Kennedy Public School,Public,Elementary,705-273-2324,http://www.dsb1.ca/schools/jhk
 919063,B28002,Kapuskasing District High School,Public,Secondary,705-335-6164,http://www.dsb1.ca/schools/kdhs
 291048,B28002,Kerns Public School,Public,Elementary,705-647-0225,http://www.dsb1.ca/schools/kerns/index.php
@@ -913,7 +913,7 @@ SC0501,B66150,Marshville Public School,Public,Elementary,,
 689556,B67083,Bishop Francis Allen Catholic School,Catholic,Elementary,905-457-4677,http://www.dpcdsb.org/BFALN
 706418,B67083,Blessed Michael J. McGivney Catholic Elementary School,Catholic,Elementary,905-792-0630,http://www.dpcdsb.org/GIVNY
 693715,B67083,Canadian Martyrs School,Catholic,Elementary,905-275-0094,http://www.dpcdsb.org/CMART
-749813,B67083,Cardinal Ambrozic Catholic Secondary School,Catholic,Secondary,,http://www.dpcdsb.org/AMBRO
+749813,B67083,Cardinal Ambrozic Catholic Secondary School,Catholic,Secondary, ,http://www.dpcdsb.org/AMBRO
 850888,B67083,Cardinal Leger Secondary School,Catholic,Secondary,905-453-2232,http://www.dpcdsb.org/LEGER
 697095,B67083,Christ The King Catholic School,Catholic,Elementary,905-569-0220,http://www.dpcdsb.org/CKING
 701807,B67083,Corpus Christi School,Catholic,Elementary,905-897-7037,http://www.dpcdsb.org/CORPC
@@ -933,13 +933,13 @@ SC0501,B66150,Marshville Public School,Public,Elementary,,
 722790,B67083,Iona Secondary School,Catholic,Secondary,905-823-0136,http://www.dpcdsb.org/IONAS
 724564,B67083,John Cabot Catholic Secondary School,Catholic,Secondary,905-279-1554,http://www.dpcdsb.org/CABOT
 726494,B67083,Lester B Pearson Catholic School,Catholic,Elementary,905-793-4861,http://www.dpcdsb.org/LBPEA
-798118,B67083,Loyola Catholic Secondary School,Catholic,Secondary,,http://www.dpcdsb.org/LOYOL
+798118,B67083,Loyola Catholic Secondary School,Catholic,Secondary, ,http://www.dpcdsb.org/LOYOL
 730742,B67083,Mary Fix Catholic School,Catholic,Elementary,905-270-3140,http://www.dpcdsb.org/MAFIX
 731447,B67083,Metropolitan Andrei Catholic School,Catholic,Elementary,905-270-4151,http://www.dpcdsb.org/ANDRE
 690694,B67083,Notre Dame Catholic Secondary School,Catholic,Secondary,905-840-2802,http://www.dpcdsb.org/NDAME
 742171,B67083,Our Lady of Fatima School,Catholic,Elementary,905-459-4737,http://www.dpcdsb.org/OLFAT
 742821,B67083,Our Lady of Good Voyage Catholic School,Catholic,Elementary,905-567-8422,http://www.dpcdsb.org/OLGDV
-782606,B67083,Our Lady of Lourdes Catholic Elementary School,Catholic,Elementary,,http://www.dpcdsb.org/LOURD
+782606,B67083,Our Lady of Lourdes Catholic Elementary School,Catholic,Elementary, ,http://www.dpcdsb.org/LOURD
 747440,B67083,Our Lady of Mercy Elementary School,Catholic,Elementary,905-814-9216,http://www.dpcdsb.org/OLMCY
 742333,B67083,Our Lady of Mount Carmel Secondary School,Catholic,Secondary,905-824-1025,http://www.dpcdsb.org/CARMS
 749087,B67083,Our Lady of Peace School,Catholic,Elementary,905-452-7010,http://www.dpcdsb.org/OLPCE
@@ -1035,35 +1035,35 @@ SC0501,B66150,Marshville Public School,Public,Elementary,,
 857165,B67083,St Veronica Elementary School,Catholic,Elementary,905-696-6980,http://www.dpcdsb.org/VERON
 865362,B67083,St Vincent de Paul Separate School,Catholic,Elementary,905-848-5397,http://www.dpcdsb.org/VPAUL
 683246,B67083,St.  Aidan Catholic Elementary School,Catholic,Elementary,905-840-3042,http://www.dpcdsb.org/AIDAN
-715030,B67083,St. Alphonsa Catholic Elementary School,Catholic,Elementary,,https://www.dpcdsb.org/ALPHO
-812896,B67083,St. André Bessette Catholic Elementary School,Catholic,Elementary,,https://www.dpcdsb.org/BESST
+715030,B67083,St. Alphonsa Catholic Elementary School,Catholic,Elementary, ,https://www.dpcdsb.org/ALPHO
+812896,B67083,St. André Bessette Catholic Elementary School,Catholic,Elementary, ,https://www.dpcdsb.org/BESST
 775797,B67083,St. Barbara Elementary School,Catholic,Elementary,905-696-8860,http://www.dpcdsb.org/BARBA
 738857,B67083,St. Bernard of Clairvaux Catholic Elementary School,Catholic,Elementary,905-542-9203,http://www.dpcdsb.org/BRNRD
 684199,B67083,St. Bonaventure Catholic Elementary School,Catholic,Elementary,905-970-9069,http://www.dpcdsb.org/BONAV
 783161,B67083,St. Charles Garnier School,Catholic,Elementary,905-275-0509,http://www.dpcdsb.org/CGARN
 807712,B67083,St. Daniel Comboni Catholic Elementary School,Catholic,Elementary,905-495-4621,http://www.dpcdsb.org/COMBO
-860217,B67083,St. Evan Catholic Elementary School,Catholic,Elementary,,
+860217,B67083,St. Evan Catholic Elementary School,Catholic,Elementary, , 
 682438,B67083,St. Giovanni Scalabrini Catholic School School,Catholic,Elementary,905-896-3665,http://www.dpcdsb.org/BSCAL
-681937,B67083,St. Jacinta Marto Catholic Elementary School,Catholic,Elementary,,
-706631,B67083,St. James Catholic Global Learning Centr,Catholic,Elementary,,https://www.dpcdsb.org/JAMEE
-776175,B67083,St. Jean-Marie Vianney Catholic Elementary School,Catholic,Elementary,,https://www.dpcdsb.org/VIANN
+681937,B67083,St. Jacinta Marto Catholic Elementary School,Catholic,Elementary, , 
+706631,B67083,St. James Catholic Global Learning Centr,Catholic,Elementary, ,https://www.dpcdsb.org/JAMEE
+776175,B67083,St. Jean-Marie Vianney Catholic Elementary School,Catholic,Elementary, ,https://www.dpcdsb.org/VIANN
 696056,B67083,St. Joan of Arc Catholic Secondary School,Catholic,Secondary,905-285-0050,http://www.dpcdsb.org/JOANA
 723967,B67083,St. John Henry Newman Catholic Elementary School,Catholic,Elementary,905-792-2268,http://www.dpcdsb.org/CNEWM
 750557,B67083,St. John Paul II Catholic Elementary School,Catholic,Elementary,905-857-4241,http://www.dpcdsb.org/PPJP2
 724106,B67083,St. John XXIII Catholic Elementary School,Catholic,Elementary,905-279-9478,http://www.dpcdsb.org/JHN23
 721020,B67083,St. Josephine Bakhita Catholic Elementary School,Catholic,Elementary,905-846-0078,http://www.dpcdsb.org/BAKHI
 688182,B67083,St. Lucy Catholic Elementary School,Catholic,Elementary,905-840-3121,http://www.dpcdsb.org/LUCYE
-864570,B67083,St. Michael Catholic Secondary School,Catholic,Secondary,,http://www.dpcdsb.org/MICHS
+864570,B67083,St. Michael Catholic Secondary School,Catholic,Secondary, ,http://www.dpcdsb.org/MICHS
 736228,B67083,St. Oscar Romero School,Catholic,Secondary,905-412-1000,http://www.dpcdsb.org/ROMER
-832489,B67083,St. Oscar Romero School,Catholic,Elementary,,
-784979,B67083,St. Roch Catholic Secondary School,Catholic,Secondary,,http://www.dpcdsb.org/ROCHS
+832489,B67083,St. Oscar Romero School,Catholic,Elementary, , 
+784979,B67083,St. Roch Catholic Secondary School,Catholic,Secondary, ,http://www.dpcdsb.org/ROCHS
 733229,B67083,St. Teresa of Calcutta Catholic Elementary School,Catholic,Elementary,905-273-3937,http://www.dpcdsb.org/MTRSA
 863785,B67083,Sts Martha & Mary Separate School,Catholic,Elementary,905-624-9625,http://www.dpcdsb.org/MMARY
 843466,B67083,Sts. Peter & Paul Catholic School,Catholic,Elementary,905-276-1888,http://www.dpcdsb.org/PPAUL
 685984,B67105,All Saints Catholic Secondary School Secondary School,Catholic,Secondary,905-666-7753,http://allsaints.dcdsb.ca/
 860676,B67105,All Saints Elementary Catholic School,Catholic,Elementary,905-666-7753,https://allsaints.dcdsb.ca/en/index.aspx
 703923,B67105,Archbishop Denis O'Connor Catholic High School,Catholic,Secondary,905-427-6667,http://doc.dcdsb.ca/
-SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elementary,,
+SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elementary, , 
 682867,B67105,Father Donald MacLellan Catholic Sec Sch Catholic School,Catholic,Secondary,905-666-1146,http://fatherdonmaclellan.dcdsb.ca/
 871140,B67105,Father Fenelon Catholic School,Catholic,Elementary,905-839-5409,http://fatherfenelon.dcdsb.ca/
 710083,B67105,Father Leo J Austin Catholic Secondary School,Catholic,Secondary,905-666-2010,http://austin.dcdsb.ca/
@@ -1108,7 +1108,7 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 852902,B67105,St Theresa Catholic School,Catholic,Elementary,905-668-8261,http://sttheresa.dcdsb.ca
 854980,B67105,St Thomas Aquinas Catholic School,Catholic,Elementary,905-723-1921,http://aquinas.dcdsb.ca
 858960,B67105,St Wilfrid Catholic School,Catholic,Elementary,905-427-6225,http://stwilfrid.dcdsb.ca
-851764,B67105,St. Anne Catholic Elementary School,Catholic,Elementary,,
+851764,B67105,St. Anne Catholic Elementary School,Catholic,Elementary, , 
 002801,B66060,Adelaide Mclaughlin Public School,Public,Elementary,905-728-0521,https://adelaide.ddsb.ca
 890855,B66060,Ajax High School,Public,Secondary,905-683-1610,https://ajaxhs.ddsb.ca
 009008,B66060,Alexander Graham Bell Public School,Public,Elementary,905-683-7368,https://agbell.ddsb.ca
@@ -1117,11 +1117,11 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 020036,B66060,Applecroft Public School,Public,Elementary,905-428-2775,https://applecroft.ddsb.ca
 036609,B66060,Bayview Heights Public School,Public,Elementary,905-839-1146,https://bayview.ddsb.ca
 038083,B66060,Beau Valley Public School,Public,Elementary,905-576-1938,https://beauvalley.ddsb.ca
-288279,B66060,Beaver River PS Public School,Public,Elementary,,
+288279,B66060,Beaver River PS Public School,Public,Elementary, , 
 038164,B66060,Beaverton Public School,Public,Elementary,705-426-9081,https://beaverton.ddsb.ca
 042269,B66060,Bellwood Public School,Public,Elementary,905-436-0098,https://bellwood.ddsb.ca
 515523,B66060,Biidaasige Mandamin Public School,Public,Elementary,905-839-1159,hhttps://sirjamacdonald.ddsb.ca
-637517,B66060,Blair Ridge Public School,Public,Elementary,,https://blairridge.ddsb.ca
+637517,B66060,Blair Ridge Public School,Public,Elementary, ,https://blairridge.ddsb.ca
 033880,B66060,Bobby Orr Public School,Public,Elementary,905-723-3621,https://bobbyorr.ddsb.ca
 033952,B66060,Bolton C Falby Public School,Public,Elementary,905-683-6240,https://falby.ddsb.ca
 896446,B66060,Brock High School,Public,Secondary,705-432-2311,https://brockhs.ddsb.ca
@@ -1132,14 +1132,14 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 082686,B66060,Captain Michael VandenBos Public School,Public,Elementary,905-665-2001,https://vandenbos.ddsb.ca
 097110,B66060,Carruthers Creek Public School,Public,Elementary,905-683-0921,https://carruthers.ddsb.ca
 094587,B66060,Cartwright Central Public School,Public,Elementary,905-986-4227,https://carruthers.ddsb.ca
-619779,B66060,Chris Hadfield Public School,Public,Elementary,,https://chrishadfield.ddsb.ca
+619779,B66060,Chris Hadfield Public School,Public,Elementary, ,https://chrishadfield.ddsb.ca
 022128,B66060,Clara Hughes Public School,Public,Elementary,905-666-5500,https://clarahughes.ddsb.ca/
 443638,B66060,Claremont Public School,Public,Elementary,905-649-2000,https://claremont.ddsb.ca
 117463,B66060,College Hill Public School,Public,Elementary,905-723-2876,https://collegehill.ddsb.ca
 116840,B66060,Colonel J E Farewell Public School,Public,Elementary,905-666-3901,https://colfarewell.ddsb.ca
 124222,B66060,Coronation Public School,Public,Elementary,905-725-2032,https://coronation.ddsb.ca
-933156,B66060,DCE - Under 21 Collegiate Institute and Vocational School,Public,Secondary,,http://ddsb.durham.edu.on.ca/DDSBMain.htm
-170662,B66060,David Bouchard Public School,Public,Elementary,,https://davidbouchard.ddsb.ca
+933156,B66060,DCE - Under 21 Collegiate Institute and Vocational School,Public,Secondary, ,http://ddsb.durham.edu.on.ca/DDSBMain.htm
+170662,B66060,David Bouchard Public School,Public,Elementary, ,https://davidbouchard.ddsb.ca
 904392,B66060,Donald A Wilson Secondary School,Public,Secondary,905-665-5057,https://donaldawilsonss.ddsb.ca
 147109,B66060,Dr C F Cannon Public School,Public,Elementary,905-725-0344,https://cannon.ddsb.ca
 147885,B66060,Dr Robert Thornton Public School,Public,Elementary,905-723-9912,https://thornton.ddsb.ca
@@ -1148,14 +1148,14 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 005215,B66060,Duffin's Bay Public School,Public,Elementary,905-683-6023,https://duffinsbay.ddsb.ca
 905674,B66060,Dunbarton High School,Public,Secondary,905-839-1125,https://dunbartonhs.ddsb.ca
 905585,B66060,Durham Alternative Secondary School,Public,Secondary,905-579-1990,https://dass.ddsb.ca
-165514,B66060,Eagle Ridge Public School,Public,Elementary,,https://eagleridge.ddsb.ca
+165514,B66060,Eagle Ridge Public School,Public,Elementary, ,https://eagleridge.ddsb.ca
 156078,B66060,Earl A Fairman Public School,Public,Elementary,905-668-2251,https://fairman.ddsb.ca
 906565,B66060,Eastdale Collegiate and Vocational Institute,Public,Secondary,905-723-8157,https://eastdalecvi.ddsb.ca
 493031,B66060,Elizabeth B Phin Public School,Public,Elementary,905-509-2277,https://ebphin.ddsb.ca
-639900,B66060,Elsie MacGill Public School,Public,Elementary,,https://elsiemacgill.ddsb.ca
+639900,B66060,Elsie MacGill Public School,Public,Elementary, ,https://elsiemacgill.ddsb.ca
 192210,B66060,Fairport Beach Public School,Public,Elementary,905-839-1451,https://fairportbeach.ddsb.ca
 193119,B66060,Fallingbrook Public School,Public,Elementary,905-668-5211,https://fallingbrook.ddsb.ca
-531551,B66060,Forest View Public School,Public,Elementary,,https://forestview.ddsb.ca
+531551,B66060,Forest View Public School,Public,Elementary, ,https://forestview.ddsb.ca
 206253,B66060,Frenchman's Bay Public School,Public,Elementary,905-839-1131,https://frenchmans.ddsb.ca
 911291,B66060,G L Roberts Collegiate and Vocational Institute,Public,Secondary,905-728-7594,https://glrobertscvi.ddsb.ca
 210277,B66060,Gandatsetiagon Public School,Public,Elementary,905-831-1868,https://gandatsetiagon.ddsb.ca
@@ -1171,7 +1171,7 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 259160,B66060,Hillsdale Public School,Public,Elementary,905-723-1231,https://hillsdale.ddsb.ca
 918423,B66060,J Clarke Richardson Collegiate Institute,Public,Secondary,905-619-9571,https://jclarkerichardson.ddsb.ca
 280844,B66060,Jack Miner Public School,Public,Elementary,905-668-3249,https://jackminer.ddsb.ca
-559271,B66060,Jeanne Sauvé Public School,Public,Elementary,,https://jeannesauve.ddsb.ca
+559271,B66060,Jeanne Sauvé Public School,Public,Elementary, ,https://jeannesauve.ddsb.ca
 283495,B66060,John Dryden Public School,Public,Elementary,905-434-7400,https://johndryden.ddsb.ca
 286095,B66060,Joseph Gould Public School,Public,Elementary,905-852-7631,https://josephgould.ddsb.ca
 446033,B66060,Julie Payette,Public,Elementary,905-668-2225,https://juliepayette.ddsb.ca
@@ -1184,7 +1184,7 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 321176,B66060,Lord Elgin Public School,Public,Elementary,905-683-3581,https://lordelgin.ddsb.ca
 328740,B66060,Maple Ridge Public School,Public,Elementary,905-420-4103,https://mapleridge.ddsb.ca
 348503,B66060,Mary Street Community School,Public,Elementary,905-433-8910,https://marystreet.ddsb.ca
-932345,B66060,Maxwell Heights Secondary School,Public,Secondary,,https://maxwellheights.ddsb.ca
+932345,B66060,Maxwell Heights Secondary School,Public,Secondary, ,https://maxwellheights.ddsb.ca
 350508,B66060,McCaskill's Mills Public School,Public,Elementary,705-432-2461,https://mccaskillsmills.ddsb.ca
 356271,B66060,Meadowcrest Public School,Public,Elementary,905-655-3731,https://meadowcrest.ddsb.ca
 580847,B66060,Michaëlle Jean Public School,Public,Elementary,905-686-4440,https://michaellejeanps.ddsb.ca/
@@ -1203,14 +1203,14 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 463396,B66060,Queen Elizabeth Public School,Public,Elementary,905-723-7042,https://queene.ddsb.ca
 451177,B66060,R H Cornish Public School,Public,Elementary,905-985-4468,https://rhcornish.ddsb.ca/
 937525,B66060,R S Mclaughlin Collegiate and Vocational Institute,Public,Secondary,905-728-9407,https://rsmclaughlin.ddsb.ca
-336001,B66060,Robert Munsch Public School,Public,Elementary,,https://robertmunsch.ddsb.ca
+336001,B66060,Robert Munsch Public School,Public,Elementary, ,https://robertmunsch.ddsb.ca
 489336,B66060,Roland Michener Public School,Public,Elementary,905-686-5437,https://rolandmichener.ddsb.ca
 201258,B66060,Romeo Dallaire Public School,Public,Elementary,905-428-6868,https://romeodallaire.ddsb.ca
 490563,B66060,Rosebank Road Public School,Public,Elementary,905-509-2274,https://rosebankroad.ddsb.ca
 455037,B66060,Rosemary Brown Public School,Public,Elementary,289-372-1009,https://rosemarybrown.ddsb.ca
 509736,B66060,S A Cawker Public School,Public,Elementary,905-985-4491,https://sacawker.ddsb.ca
 503720,B66060,Scott Central Public School,Public,Elementary,905-852-9751,https://scottcentral.ddsb.ca
-197235,B66060,Seneca Trail Public School,Public,Elementary,,https://senecatrail.ddsb.ca
+197235,B66060,Seneca Trail Public School,Public,Elementary, ,https://senecatrail.ddsb.ca
 531049,B66060,Sherwood Public School,Public,Elementary,905-728-9283,https://sherwood.ddsb.ca
 941603,B66060,Sinclair Secondary School,Public,Secondary,905-666-5400,https://sinclairss.ddsb.ca
 520225,B66060,Sir Samuel Steele Public School,Public,Elementary,905-723-2944,https://sirsamuelsteele.ddsb.ca
@@ -1227,9 +1227,9 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 569216,B66060,Valley View Public School,Public,Elementary,905-683-6208,https://valleyview.ddsb.ca
 570389,B66060,Vaughan Willard Public School,Public,Elementary,905-839-1931,https://vaughanwillard.ddsb.ca
 577049,B66060,Village Union Public School,Public,Elementary,905-725-1622,https://villageunion.ddsb.ca
-092886,B66060,Vimy Ridge Public School,Public,Elementary,,https://vimyridge.ddsb.ca
+092886,B66060,Vimy Ridge Public School,Public,Elementary, ,https://vimyridge.ddsb.ca
 577669,B66060,Vincent Massey Public School,Public,Elementary,905-728-0681,https://vincentmassey.ddsb.ca
-309061,B66060,Viola Desmond Public School,Public,Elementary,,https://violadesmond.ddsb.ca
+309061,B66060,Viola Desmond Public School,Public,Elementary, ,https://violadesmond.ddsb.ca
 093700,B66060,Walter E Harris Public School,Public,Elementary,905-728-4532,https://waltereharris.ddsb.ca
 590916,B66060,Waverly Public School,Public,Elementary,905-728-4461,https://waverly.ddsb.ca
 325635,B66060,West Lynde Public School,Public,Elementary,905-668-3354,https://westlynde.ddsb.ca
@@ -1237,11 +1237,11 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 595535,B66060,Westney Heights Public School,Public,Elementary,905-427-7819,https://westneyheights.ddsb.ca
 171101,B66060,Whitby Shores Public School,Public,Elementary,905-666-5500,https://whitbyshores.ddsb.ca
 610704,B66060,William Dunbar Public School,Public,Elementary,905-420-5745,https://williamdunbar.ddsb.ca
-525960,B66060,Williamsburg Public School,Public,Elementary,,https://williamsburg.ddsb.ca
+525960,B66060,Williamsburg Public School,Public,Elementary, ,https://williamsburg.ddsb.ca
 536150,B66060,Willows Walk Public School,Public,Elementary,289-372-1010,https://willowswalk.ddsb.ca
 614904,B66060,Winchester Public School,Public,Elementary,905-655-7328,https://winchester.ddsb.ca
 617440,B66060,Woodcrest Public School,Public,Elementary,905-725-1031,https://woodcrest.ddsb.ca
-438276,B66060,da Vinci Public School Public School,Public,Elementary,,https://davinci.ddsb.ca
+438276,B66060,da Vinci Public School Public School,Public,Elementary, ,https://davinci.ddsb.ca
 004758,B66168,Agnes Hodge Public School,Public,Elementary,519-756-4950,http://www.granderie.ca/agneshodge/
 031739,B66168,Banbury Heights School,Public,Elementary,519-751-0142,http://granderie.ca/banbury/
 041807,B66168,Bellview Public School,Public,Elementary,519-752-7414,http://granderie.ca/bellview
@@ -1277,14 +1277,14 @@ SC0701,B67105,Father Donald MacLellan Catholic Elementary School,Catholic,Elemen
 280097,B66168,J L Mitchener Public School,Public,Elementary,905-772-5071,http://granderie.ca/jlmitchener
 281263,B66168,James Hillier Public School,Public,Elementary,519-752-2296,http://granderie.ca/jameshillier/
 282308,B66168,Jarvis Public School,Public,Elementary,519-587-2612,http://www.granderie.ca/Schools/SchoolDirectory/Elementary/tabid/120/mid/593/SchoolID/43/ctl/Details/Default.aspx
-SC0403,B66168,Joseph Brant Secondary Re-EngaGE,Public,Secondary,,
+SC0403,B66168,Joseph Brant Secondary Re-EngaGE,Public,Secondary, , 
 295434,B66168,King George School,Public,Elementary,519-752-7486,http://kinggeorgeschool.synthasite.com/
 145602,B66168,Lakewood Elementary School,Public,Elementary,519-583-0830,http://granderie.ca/doverwood/
 097314,B66168,Langton Public School,Public,Elementary,519-875-4448,http://granderie.ca/langtonps
 308170,B66168,Lansdowne-Costain Public School,Public,Elementary,519-753-0390,http://granderie.ca/lansdowneps/
 326259,B66168,Lynndale Heights Public School,Public,Elementary,519-429-2997,http://granderie.ca/lynndaleheights/
 329100,B66168,Major Ballachey Public School,Public,Elementary,519-752-1643,http://granderie.ca/majorb/
-132010,B66168,Mapleview Elementary School,Public,Elementary,905-774-6144,
+132010,B66168,Mapleview Elementary School,Public,Elementary,905-774-6144, 
 898007,B66168,McKinnon Park Secondary School,Public,Secondary,905-765-4466,http://granderie.ca/mckinnon/
 378372,B66168,Mount Pleasant School,Public,Elementary,519-484-2912,www.granderie.ca/mtpleasant
 930245,B66168,North Park Collegiate and Vocational School,Public,Secondary,519-759-2560,www.granderie.ca/npcvs
@@ -1310,7 +1310,7 @@ SC0403,B66168,Joseph Brant Secondary Re-EngaGE,Public,Secondary,,
 949035,B66168,Valley Heights Secondary School,Public,Secondary,519-586-3522,http://granderie.ca/valleyheights/
 584037,B66168,Walpole North Elementary School,Public,Elementary,905-768-5112,http://www.granderie.ca/walpolenorth/
 586110,B66168,Walsh Public School,Public,Elementary,519-426-3716,http://www.granderie.ca/walshpublic/
-176049,B66168,Walter Gretzky Elementary School,Public,Elementary,519-770-1288,
+176049,B66168,Walter Gretzky Elementary School,Public,Elementary,519-770-1288, 
 950785,B66168,Waterford District High School,Public,Secondary,519-443-8657,http://granderie.ca/wdhs/
 001899,B66168,Waterford Public School,Public,Elementary,519-443-8942,http://granderie.ca/waterfordps/
 596647,B66168,West Lynn Public School,Public,Elementary,519-426-0688,http://www.granderie.ca/westlynn/
@@ -1344,7 +1344,7 @@ SC0403,B66168,Joseph Brant Secondary Re-EngaGE,Public,Secondary,,
 917249,B66028,Hon W C Kennedy Collegiate Institute,Public,Secondary,519-254-6475,http://www.gecdsb.on.ca/schools/sec/kennedy
 268267,B66028,Hugh Beaton Public School,Public,Elementary,519-254-2579,http://www.gecdsb.on.ca/schools/ELEM/beaton/
 279315,B66028,J A McWilliam Public School,Public,Elementary,519-969-9080,http://www.gecdsb.on.ca/schools/ELEM/mcwillia/
-034361,B66028,J.L. Dunn Public School,Public,Elementary,519-265-5406,
+034361,B66028,J.L. Dunn Public School,Public,Elementary,519-265-5406, 
 091596,B66028,Jack Miner Public School,Public,Elementary,519-733-2329,http://www.gecdsb.on.ca/schools/elem/jmps
 283347,B66028,John Campbell Public School,Public,Elementary,519-254-6411,http://www.gecdsb.on.ca
 294659,B66028,King Edward Public School,Public,Elementary,519-256-4999,https://www.publicboard.ca/school/kingedward/Pages/default.aspx
@@ -1359,7 +1359,7 @@ SC0403,B66168,Joseph Brant Secondary Re-EngaGE,Public,Secondary,,
 338206,B66028,Margaret D Bennie Public School,Public,Elementary,519-326-6603,http://www.gecdsb.on.ca/schools/elem/mdbs
 343536,B66028,Marlborough Public School,Public,Elementary,519-254-2881,http://www.gecdsb.on.ca/schools/schFinder/schoolSelect.asp?rec=36
 376035,B66028,Mount Carmel Blytheswood Public School,Public,Elementary,519-326-7154,http://www.gecdsb.on.ca/schools/ELEM/mtcarmelblyth/
-916422,B66028,North Star High School,Public,Secondary,,
+916422,B66028,North Star High School,Public,Secondary, , 
 411787,B66028,Northwood Public School,Public,Elementary,519-969-7610,http://www.gecdsb.on.ca/schools/elem/northwoo
 439088,B66028,Pelee Island Public School,Public,Elementary,519-724-2981,https://www.publicboard.ca/school/peleeisland/Pages/default.aspx
 454168,B66028,Prince Edward Public School,Public,Elementary,519-253-1119,http://www.gecdsb.on.ca/schools/elem/princeed
@@ -1387,44 +1387,44 @@ SC0403,B66168,Joseph Brant Secondary Re-EngaGE,Public,Secondary,,
 688231,B67113,Assumption Catholic Secondary School,Catholic,Secondary,905-634-1835,http://www.gobluego.ca/
 689726,B67113,Bishop Paul Francis Reding Catholic Secondary School,Catholic,Secondary,905-875-0124,http://www.werbr.ca/
 693987,B67113,Canadian Martyrs Catholic Elementary School,Catholic,Elementary,905-336-5792,http://schools.hcdsb.org/cdnm/
-697125,B67113,Christ the King Catholic Secondary School,Catholic,Secondary,,http://www.ctk.ca/
-761182,B67113,Corpus Christi Catholic Secondary School,Catholic,Secondary,,http://www.cccss.ca/
+697125,B67113,Christ the King Catholic Secondary School,Catholic,Secondary, ,http://www.ctk.ca/
+761182,B67113,Corpus Christi Catholic Secondary School,Catholic,Secondary, ,http://www.cccss.ca/
 708160,B67113,Guardian Angels Catholic Elementary School,Catholic,Elementary,905-876-2386,http://schools.hcdsb.org/grda/default.aspx
 714712,B67113,Holy Cross Catholic Elementary School,Catholic,Elementary,905-877-4451,http://schools.hcdsb.org/hlyc/
 716936,B67113,Holy Family Catholic Elementary School,Catholic,Elementary,905-845-6987,http://schools.hcdsb.org/hlyf/default.aspx
 718483,B67113,Holy Rosary (Burlington) Catholic Elementary School,Catholic,Elementary,905-634-3609,http://schools.hcdsb.org/hlrb/default.aspx
 719005,B67113,Holy Rosary (Milton) Catholic Elementary School,Catholic,Elementary,905-876-1121,http://schools.hcdsb.org/hlrm/default.aspx
-704300,B67113,Holy Trinity Catholic Secondary School,Catholic,Secondary,,http://www.holytrinityoakville.ca/
+704300,B67113,Holy Trinity Catholic Secondary School,Catholic,Secondary, ,http://www.holytrinityoakville.ca/
 687394,B67113,Lumen Christi Catholic Elementary School,Catholic,Elementary,905-636-9692,http://schools.hcdsb.org/lucm/default.aspx
-709332,B67113,Milton #10 Catholic School,Catholic,Elementary,,
-SC9801,B67113,Milton #9 Catholic Elementary School,Catholic,Elementary,,
-SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
+709332,B67113,Milton #10 Catholic School,Catholic,Elementary, , 
+SC9801,B67113,Milton #9 Catholic Elementary School,Catholic,Elementary, , 
+SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary, , 
 738271,B67113,Notre Dame Catholic Secondary School,Catholic,Secondary,905-335-1544,https://ntdm.hcdsb.org/
 737147,B67113,Our Lady of Fatima Catholic Elementary School,Catholic,Elementary,905-864-0720,http://schools.hcdsb.org/olfa/default.aspx
 749052,B67113,Our Lady of Peace Catholic Elementary School,Catholic,Elementary,905-257-2791,http://schools.hcdsb.org/olpo/
 734373,B67113,Our Lady of Victory Catholic Elementary School,Catholic,Elementary,905-876-4379,http://schools.hcdsb.org/olvm/default.aspx
-810355,B67113,Queen of Heaven Catholic Elementary School,Catholic,Elementary,289-851-9329,
+810355,B67113,Queen of Heaven Catholic Elementary School,Catholic,Elementary,289-851-9329, 
 758280,B67113,Sacred Heart of Jesus Catholic Elementary School,Catholic,Elementary,905-331-4656,http://schools.hcdsb.org/shoj/
 768936,B67113,St. Andrew Catholic Elementary School,Catholic,Elementary,905-257-7102,http://schools.hcdsb.org/andr/
-772647,B67113,St. Anne Catholic Elementary School,Catholic,Elementary,905-632-6300,
+772647,B67113,St. Anne Catholic Elementary School,Catholic,Elementary,905-632-6300, 
 683661,B67113,St. Anthony of Padua Catholic Elementary School,Catholic,Elementary,905-864-8272,http://schools.hcdsb.org/anth/default.aspx
-681054,B67113,St. Benedict Catholic Elementary School,Catholic,Elementary,289-851-9353,
+681054,B67113,St. Benedict Catholic Elementary School,Catholic,Elementary,289-851-9353, 
 777650,B67113,St. Bernadette Catholic Elementary School,Catholic,Elementary,905-827-7235,http://schools.hcdsb.org/bern/
 780871,B67113,St. Brigid Catholic Elementary School,Catholic,Elementary,905-877-1779,http://schools.hcdsb.org/brig/
 781436,B67113,St. Catherine of Alexandria Catholic Elementary School,Catholic,Elementary,905-702-8001,http://schools.hcdsb.org/cath/default.aspx
 838178,B67113,St. Christopher Catholic Elementary School,Catholic,Elementary,905-335-7553,http://schools.hcdsb.org/chrs/default.aspx
 786861,B67113,St. Dominic Catholic Elementary School,Catholic,Elementary,905-827-4401,http://schools.hcdsb.org/domi/
 789232,B67113,St. Elizabeth Seton Catholic Elementary School,Catholic,Elementary,905-331-7246,http://schools.hcdsb.org/eliz/
-696392,B67113,St. Francis Xavier Catholic Secondary School,Catholic,Secondary,905-636-8799,
+696392,B67113,St. Francis Xavier Catholic Secondary School,Catholic,Secondary,905-636-8799, 
 792039,B67113,St. Francis of Assisi Catholic Elementary School,Catholic,Elementary,905-877-6928,http://schools.hcdsb.org/fran/
 793884,B67113,St. Gabriel Catholic Elementary School,Catholic,Elementary,905-332-3333,http://schools.hcdsb.org/gabr/default.aspx
-755052,B67113,St. Gregory the Great Catholic Elementary School,Catholic,Elementary,,
+755052,B67113,St. Gregory the Great Catholic Elementary School,Catholic,Elementary, , 
 798010,B67113,St. Ignatius of Loyola Catholic Secondary School,Catholic,Secondary,905-847-0595,http://loyola.hcdsb.org/
 801283,B67113,St. Joan of Arc Catholic Elementary School,Catholic,Elementary,905-847-3581,http://schools.hcdsb.org/jofa/
 804410,B67113,St. John (Burlington) Catholic Elementary School,Catholic,Elementary,905-632-3541,http://schools.hcdsb.org/johb/
 680039,B67113,St. John Paul II Catholic Elementary School,Catholic,Elementary,905-827-8894,http://schools.hcdsb.org/pope
 809144,B67113,St. Joseph (Acton) Catholic Elementary School,Catholic,Elementary,519-853-3730,http://schools.hcdsb.org/josa/
-772099,B67113,St. Kateri Tekakwitha Catholic Secondary Catholic School,Catholic,Secondary,905-632-6300,
+772099,B67113,St. Kateri Tekakwitha Catholic Secondary Catholic School,Catholic,Secondary,905-632-6300, 
 820679,B67113,St. Luke Catholic Elementary School,Catholic,Elementary,905-829-1700,http://schools.hcdsb.org/luke/
 821241,B67113,St. Marguerite d'Youville Catholic Elementary School,Catholic,Elementary,905-849-7772,http://schools.hcdsb.org/marg/default.aspx
 823058,B67113,St. Mark Catholic Elementary School,Catholic,Elementary,905-336-3911,http://schools.hcdsb.org/mark/default.aspx
@@ -1436,22 +1436,22 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 840912,B67113,St. Paul Catholic Elementary School,Catholic,Elementary,905-632-1424,http://schools.hcdsb.org/paul/default.aspx
 843989,B67113,St. Peter Catholic Elementary School,Catholic,Elementary,905-878-4626,http://schools.hcdsb.org/pete/
 848484,B67113,St. Raphael Catholic Elementary School,Catholic,Elementary,905-637-3810,https://elem.hcdsb.org/straphael/
-794978,B67113,St. Scholastica Catholic Elementary School,Catholic,Elementary,,
+794978,B67113,St. Scholastica Catholic Elementary School,Catholic,Elementary, , 
 729159,B67113,St. Teresa of Calcutta Catholic Elementary School,Catholic,Elementary,905-825-6382,http://schools.hcdsb.org/moth/default.aspx
 854212,B67113,St. Thomas Aquinas Catholic Secondary School,Catholic,Secondary,905-842-9494,http://sta.hcdsb.org/
 856630,B67113,St. Timothy Catholic Elementary School,Catholic,Elementary,905-332-5253,http://schools.hcdsb.org/timb/default.aspx
 858889,B67113,St. Vincent Catholic Elementary School,Catholic,Elementary,905-849-0777,http://schools.hcdsb.org/vinc/default.aspx
 684465,B67113,Thomas Merton Catholic Secondary School,Catholic,Secondary,905-849-7555,https://merton.hcdsb.org/
-771120,B67113,Thomas Merton Online Catholic School,Catholic,Secondary,,
+771120,B67113,Thomas Merton Online Catholic School,Catholic,Secondary, , 
 000779,B66133,Abbey Lane Public School,Public,Elementary,905-827-5552,http://abb.hdsb.ca/
 913715,B66133,Abbey Park High School,Public,Secondary,905-827-4101,http://aph.hdsb.ca/
 890332,B66133,Acton District High School,Public,Secondary,519-853-2920,http://act.hdsb.ca
-492381,B66133,Acton Elementary School,Public,Elementary,,
+492381,B66133,Acton Elementary School,Public,Elementary, , 
 006777,B66133,Aldershot Elementary School,Public,Elementary,905-637-2383,http://ald.hdsb.ca/
 890987,B66133,Aldershot High School,Public,Secondary,905-637-2383,http://ald.hdsb.ca
 033680,B66133,Alexander's Public School,Public,Elementary,905-331-3175,http://alx.hdsb.ca/
-344051,B66133,Alton Village Public School,Public,Elementary,905-332-4206,
-251664,B66133,Anne J. MacArthur Public School,Public,Elementary,905-878-2076,
+344051,B66133,Alton Village Public School,Public,Elementary,905-332-4206, 
+251664,B66133,Anne J. MacArthur Public School,Public,Elementary,905-878-2076, 
 124887,B66133,Boyne Public School,Public,Elementary,905-864-9641,http://boy.hdsb.ca/
 059501,B66133,Brant Hills Public School,Public,Elementary,905-336-2330,http://brh.hdsb.ca/
 066249,B66133,Brookdale Public School,Public,Elementary,905-827-2741,http://brd.hdsb.ca/
@@ -1469,12 +1469,12 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 111090,B66133,Clarksdale Public School,Public,Elementary,905-335-5605,http://cla.hdsb.ca/
 967740,B66133,Craig Kielburger Secondary School,Public,Secondary,905-878-0575,http://cks.hdsb.ca
 147281,B66133,Dr Charles Best Public School,Public,Elementary,905-336-2474,http://drc.hdsb.ca/
-179950,B66133,Dr. David R. Williams Public School,Public,Elementary,,
+179950,B66133,Dr. David R. Williams Public School,Public,Elementary, , 
 893675,B66133,Dr. Frank J. Hayden Secondary School,Public,Secondary,905-332-5235,http://dfh.hdsb.ca
 156469,B66133,E J James Public School,Public,Elementary,905-845-2015,http://ejj.hdsb.ca
 169110,B66133,E W Foster Public School,Public,Elementary,905-878-1953,http://ewf.hdsb.ca/
 164267,B66133,Eastview Public School,Public,Elementary,905-827-1541,http://eas.hdsb.ca/
-913260,B66133,Elsie MacGill Secondary School,Public,Secondary,,
+913260,B66133,Elsie MacGill Secondary School,Public,Secondary, , 
 206470,B66133,Emily Carr Public School,Public,Elementary,905-827-3928,http://ecs.hdsb.ca/
 121112,B66133,Escarpment View Public School,Public,Elementary,905-878-6176,http://evp.hdsb.ca/
 180123,B66133,Ethel Gardiner Public School,Public,Elementary,905-877-3849,http://gps.hdsb.ca/
@@ -1512,7 +1512,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 345229,B66133,Martin Street Public School,Public,Elementary,905-878-8191,http://mar.hdsb.ca
 353183,B66133,McKenzie-Smith Bennett Public School,Public,Elementary,519-853-3800,http://mck.hdsb.ca/
 926736,B66133,Milton District High School,Public,Secondary,905-878-2839,http://mil.hdsb.ca
-113514,B66133,Milton SW 12 Public School,Public,Elementary,,
+113514,B66133,Milton SW 12 Public School,Public,Elementary, , 
 368857,B66133,Mohawk Gardens Public School,Public,Elementary,905-632-3946,http://moh.hdsb.ca/
 376086,B66133,Montclair Public School,Public,Elementary,905-845-9590,http://www.hdsb.ca/montclair/Pages/default.aspx
 380199,B66133,Munn's Public School,Public,Elementary,905-844-9461,http://mun.hdsb.ca
@@ -1532,7 +1532,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 445193,B66133,Pineland Public School,Public,Elementary,905-634-2311,http://pil.hdsb.ca
 445452,B66133,Pineview Public School,Public,Elementary,905-877-4363,http://piv.hdsb.ca
 451720,B66133,Post's Corners Public School,Public,Elementary,905-845-1661,http://pos.hdsb.ca
-133739,B66133,Rattlesnake Point Public School,Public,Elementary,,
+133739,B66133,Rattlesnake Point Public School,Public,Elementary, , 
 485438,B66133,River Oaks Public School,Public,Elementary,905-842-7430,http://riv.hdsb.ca
 487252,B66133,Robert Baldwin Public School,Public,Elementary,905-878-8833,http://rob.hdsb.ca
 487570,B66133,Robert Little Public School,Public,Elementary,519-853-2540,http://rol.hdsb.ca/
@@ -1547,12 +1547,12 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 947539,B66133,Thomas A Blakelock High School,Public,Secondary,905-827-1158,http://tab.hdsb.ca
 393777,B66133,Tiger Jeet Singh Public School,Public,Elementary,905-878-2255,http://tjs.hdsb.ca
 557269,B66133,Tom Thomson Public School,Public,Elementary,905-639-2010,http://tom.hdsb.ca
-369253,B66133,Viola Desmond Public School,Public,Elementary,,
+369253,B66133,Viola Desmond Public School,Public,Elementary, , 
 579742,B66133,W H Morden Public School,Public,Elementary,905-844-9612,http://whm.hdsb.ca
 579874,B66133,W I Dick Middle School,Public,Elementary,905-878-8119,http://wid.hdsb.ca/
 597260,B66133,West Oak Public School,Public,Elementary,905-469-6119,http://wes.hdsb.ca/
 953121,B66133,White Oaks High School,Public,Secondary,905-845-5200,http://wos.hdsb.ca/
-743868,B67121,Annunciation of Our Lord Catholic Elementary School,Catholic,Elementary,,http://aool.hwcdsb.ca/
+743868,B67121,Annunciation of Our Lord Catholic Elementary School,Catholic,Elementary, ,http://aool.hwcdsb.ca/
 689750,B67121,Bishop Ryan Catholic Secondary School,Catholic,Secondary,905-573-2151,http://br.hwcdsb.ca/
 689386,B67121,Bishop Tonnos Catholic Secondary School,Catholic,Secondary,905-523-2331,http://bt.hwcdsb.ca/
 690279,B67121,Blessed Sacrament Catholic Elementary School,Catholic,Elementary,905-383-6844,http://blsa.hwcdsb.ca
@@ -1562,9 +1562,9 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 710997,B67121,Guardian Angels Catholic Elementary School,Catholic,Elementary,905-523-2345,http://guan.hwcdsb.ca/
 717053,B67121,Holy Name of Jesus Catholic Elementary School,Catholic,Elementary,905-549-6767,http://hnoj.hwcdsb.ca/
 704288,B67121,Holy Name of Mary Catholic Elementary School,Catholic,Elementary,905-523-2342,http://hnom.hwcdsb.ca/
-819028,B67121,Immaculate Conception Catholic Elementary School,Catholic,Elementary,,http://imco.hwcdsb.ca/
+819028,B67121,Immaculate Conception Catholic Elementary School,Catholic,Elementary, ,http://imco.hwcdsb.ca/
 721972,B67121,Immaculate Heart of Mary Catholic Elementary School,Catholic,Elementary,905-523-2332,http://ihom.hwcdsb.ca
-735799,B67121,Our Lady of Hope Catholic Elementary School,Catholic,Elementary,,
+735799,B67121,Our Lady of Hope Catholic Elementary School,Catholic,Elementary, , 
 745650,B67121,Our Lady of Lourdes Catholic Elementary School,Catholic,Elementary,905-383-9233,http://olol.hwcdsb.ca
 742350,B67121,Our Lady of Mount Carmel Catholic Elementary School,Catholic,Elementary,905-523-2339,http://olmc.hwcdsb.ca/
 748544,B67121,Our Lady of Peace Catholic Elementary School,Catholic,Elementary,905-523-2330,http://olop.hwcdsb.ca
@@ -1582,7 +1582,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 786152,B67121,St. David Catholic Elementary School,Catholic,Elementary,905-560-3533,http://stdv.hwcdsb.ca/
 789720,B67121,St. Eugene Catholic Elementary School,Catholic,Elementary,905-545-9598,http://steu.hwcdsb.ca
 792217,B67121,St. Francis Xavier Catholic Elementary School,Catholic,Elementary,905-523-2333,http://stfx.hwcdsb.ca/
-825892,B67121,St. Gabriel Catholic Elementary School,Catholic,Elementary,,https://stga.hwcdsb.ca/
+825892,B67121,St. Gabriel Catholic Elementary School,Catholic,Elementary, ,https://stga.hwcdsb.ca/
 799530,B67121,St. James the Apostle Catholic Elementary School,Catholic,Elementary,905-560-2700,http://stja.hwcdsb.ca
 800430,B67121,St. Jean de Brebeuf Catholic Secondary School,Catholic,Secondary,905-388-7020,http://sjb.hwcdsb.ca
 770965,B67121,St. Joachim Catholic Elementary School,Catholic,Elementary,905-523-2341,http://stjo.hwcdsb.ca
@@ -1617,7 +1617,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 050415,B66141,Balaclava Public School,Public,Elementary,905-659-3396,www.hwdsb.on.ca/balaclava/
 041548,B66141,Bellmoore Public School,Public,Elementary,905-692-5435,http://schools.hwdsb.on.ca/bellmoore/
 090131,B66141,Bennetto Elementary School,Public,Elementary,905-528-6341,www.hwdsb.on.ca/bennetto
-898848,B66141,Bernie Custis Secondary School Secondary School,Public,Secondary,,
+898848,B66141,Bernie Custis Secondary School Secondary School,Public,Secondary, , 
 041980,B66141,Billy Green Elementary School,Public,Elementary,905-573-3505,http://schools.hwdsb.on.ca/billygreen/
 068845,B66141,Buchanan Park School,Public,Elementary,905-387-5212,http://schools.hwdsb.on.ca/buchananpark/
 560408,B66141,Cathy Wever Elementary Public School,Public,Elementary,905-522-9965,http://schools.hwdsb.on.ca/cathywever/
@@ -1627,13 +1627,13 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 117986,B66141,Collegiate Avenue School,Public,Elementary,905-662-2990,www.hwdsb.on.ca/collegiateavenue
 213012,B66141,Cootes Paradise Public School,Public,Elementary,905-522-0601,http://schools.hwdsb.on.ca/cootesparadise/
 132020,B66141,Dalewood Senior Public School,Public,Elementary,905-528-8631,http://schools.hwdsb.on.ca/dalewood/
-488921,B66141,Dr. J. Edgar Davey Elementary Public School,Public,Elementary,,http://schools.hwdsb.on.ca/drdavey/
+488921,B66141,Dr. J. Edgar Davey Elementary Public School,Public,Elementary, ,http://schools.hwdsb.on.ca/drdavey/
 448940,B66141,Dundana Public School,Public,Elementary,905-628-2622,http://schools.hwdsb.on.ca/dundana/
 153087,B66141,Dundas Central Public School,Public,Elementary,905-627-3521,http://schools.hwdsb.on.ca/dundascentral/
 916579,B66141,Dundas Valley Secondary School,Public,Secondary,905-628-2203,http://schools.hwdsb.on.ca/dundasvalley
 158151,B66141,Earl Kitchener Junior Public School,Public,Elementary,905-528-0223,http://schools.hwdsb.on.ca/earlkitchener/
 163481,B66141,Eastdale Public School,Public,Elementary,905-662-4363,http://schools.hwdsb.on.ca/eastdale/
-302781,B66141,Elementary Alt-Ed,Public,Elementary,905-383-5111,
+302781,B66141,Elementary Alt-Ed,Public,Elementary,905-383-5111, 
 198668,B66141,Flamborough Centre School,Public,Elementary,905-689-6636,http://schools.hwdsb.on.ca/flamboroughcentre/
 196240,B66141,Frank Panabaker North School,Public,Elementary,905-648-4115,http://schools.hwdsb.on.ca/fessenden/
 018961,B66141,Frank Panabaker South Senior Public School,Public,Elementary,905-648-4439,http://schools.hwdsb.on.ca/ancastersenior/
@@ -1643,7 +1643,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 913081,B66141,Glendale Secondary School,Public,Secondary,905-560-7343,http://schools.hwdsb.on.ca/glendale/
 673013,B66141,Glenwood School School,Public,Elementary,905-525-2140,http://schools.hwdsb.on.ca/glenwood/
 222135,B66141,Gordon Price School,Public,Elementary,905-574-6336,http://schools.hwdsb.on.ca/gordonprice/
-336649,B66141,Greensville School,Public,Elementary,,
+336649,B66141,Greensville School,Public,Elementary, , 
 233552,B66141,Guy B Brown Elementary Public School,Public,Elementary,905-689-8254,http://guybrown.hwdsb.on.ca/
 252557,B66141,Helen Detwiler Junior Elementary School,Public,Elementary,905-574-2662,www.hwdsb.on.ca/helendetwiler/
 254096,B66141,Hess Street Junior Public School,Public,Elementary,905-527-1439,http://schools.hwdsb.on.ca/hessstreet/
@@ -1653,7 +1653,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 261378,B66141,Holbrook Junior Public School,Public,Elementary,905-385-5369,www.hwdsb.on.ca/holbrook
 273201,B66141,Huntington Park Junior Public School,Public,Elementary,905-383-3305,http://schools.hwdsb.on.ca/huntingtonpark/
 281492,B66141,James MacDonald Public School,Public,Elementary,905-385-3267,http://schools.hwdsb.on.ca/jamesmacdonald/
-934262,B66141,James Street Alternative Education,Public,Secondary,905-383-5111,
+934262,B66141,James Street Alternative Education,Public,Secondary,905-383-5111, 
 281026,B66141,Janet Lee Public School,Public,Elementary,905-573-9113,www.hwdsb.on.ca/janetlee/
 495379,B66141,Kanétskare Elementary School Middle School,Public,Elementary,905-528-7975,http://schools.hwdsb.on.ca/ryerson/
 303755,B66141,Lake Avenue Public School,Public,Elementary,905-561-0402,http://schools.hwdsb.on.ca/lakeavenue/
@@ -1666,7 +1666,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 375900,B66141,Mount Albion Public School,Public,Elementary,905-560-0908,http://schools.hwdsb.on.ca/mountalbion/
 376299,B66141,Mount Hope Public School,Public,Elementary,905-679-4145,http://schools.hwdsb.on.ca/mounthope/
 378178,B66141,Mountview Junior Public School,Public,Elementary,905-388-1677,http://schools.hwdsb.on.ca/mountview/
-894432,B66141,Nora Frances Henderson,Public,Secondary,905-389-2234,
+894432,B66141,Nora Frances Henderson,Public,Secondary,905-389-2234, 
 412309,B66141,Norwood Park Elementary School,Public,Elementary,905-575-9808,http://schools.hwdsb.on.ca/norwoodpark/
 932507,B66141,Orchard Park Secondary School,Public,Secondary,905-662-3838,http://schools.hwdsb.on.ca/orchardpark/
 434272,B66141,Parkdale School,Public,Elementary,905-545-6216,http://schools.hwdsb.on.ca/parkdale/
@@ -1680,24 +1680,24 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 927163,B66141,Rebecca Street Alternative Education Secondary School,Public,Secondary,905-526-9337,www.hwdsb.on.ca/kingwilliam
 480738,B66141,Richard Beasley Junior Public School,Public,Elementary,905-387-5655,http://schools.hwdsb.on.ca/richardbeasley/
 484199,B66141,Ridgemount Junior Public School,Public,Elementary,905-575-1535,http://www.hwdsb.on.ca/ridgemount/
-480418,B66141,Rockton School,Public,Elementary,,
+480418,B66141,Rockton School,Public,Elementary, , 
 490695,B66141,Rosedale Elementary School,Public,Elementary,905-549-4233,http://schools.hwdsb.on.ca/rosedale/
 493163,B66141,Rousseau Public School,Public,Elementary,905-648-6142,http://schools.hwdsb.on.ca/rousseau/
 939730,B66141,Saltfleet High School,Public,Secondary,905-573-3000,http://schools.hwdsb.on.ca/saltfleet/
-483142,B66141,Shannen Koostachin Elementary School Elementary Public School,Public,Elementary,289-768-2755,
+483142,B66141,Shannen Koostachin Elementary School Elementary Public School,Public,Elementary,289-768-2755, 
 941328,B66141,Sherwood Secondary School,Public,Secondary,905-383-3377,http://schools.hwdsb.on.ca/sherwood/
 941719,B66141,Sir Allan MacNab Secondary School,Public,Secondary,905-383-3337,http://schools.hwdsb.on.ca/macnab/
 516244,B66141,Sir Wilfrid Laurier Public School,Public,Elementary,905-578-4422,http://schools.hwdsb.on.ca/sirwilfridlaurier/
 466639,B66141,Sir William Osler Elementary School,Public,Elementary,905-628-1588,http://schools.hwdsb.on.ca/sirwilliamosler/
 942448,B66141,Sir Winston Churchill Secondary School,Public,Secondary,905-547-6415,www.hwdsb.on.ca/sirwinstonchurchill/
 361739,B66141,South Meadow Public School,Public,Elementary,905-662-6623,http://schools.hwdsb.on.ca/memorial/
-556472,B66141,Spring Valley School,Public,Elementary,,
+556472,B66141,Spring Valley School,Public,Elementary, , 
 539570,B66141,Strathcona Junior Public School,Public,Elementary,905-527-2470,http://schools.hwdsb.on.ca/strathcona/
 548022,B66141,Tapleytown Public School,Public,Elementary,905-662-2297,http://schools.hwdsb.on.ca/tapleytown/
 550817,B66141,Templemead Elementary School,Public,Elementary,905-383-8348,http://schools.hwdsb.on.ca/templemead/
-579155,B66141,Tiffany Hills Elementary Public School,Public,Elementary,,
+579155,B66141,Tiffany Hills Elementary Public School,Public,Elementary, , 
 918563,B66141,Turning Point Alternative Education School,Public,Secondary,905-527-2129,www.hwdsb.on.ca/turningpoint/
-263885,B66141,Viola Desmond Elementary School Public School,Public,Elementary,905-296-2549,
+263885,B66141,Viola Desmond Elementary School Public School,Public,Elementary,905-296-2549, 
 578703,B66141,Viscount Montgomery Public School,Public,Elementary,905-544-5670,http://schools.hwdsb.on.ca/viscountmontgomery/
 579610,B66141,W H Ballard Public School,Public,Elementary,905-547-1689,http://schools.hwdsb.on.ca/whballard/
 950653,B66141,Waterdown District High School,Public,Secondary,905-689-6692,http://www.hwdsb.on.ca/waterdown
@@ -1707,7 +1707,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 603538,B66141,Westwood Junior Public School,Public,Elementary,905-383-2143,http://schools.hwdsb.on.ca/westwood/
 615498,B66141,Winona Elementary Elementary School,Public,Elementary,905-643-4141,http://schools.hwdsb.on.ca/winona/
 624721,B66141,Yorkview School,Public,Elementary,905-628-8212,http://schools.hwdsb.on.ca/yorkview/
-008795,B66141,École élémentaire Michaëlle Jean Elementary School,Public,Elementary,,www.hwdsb.on.ca/michaellejean/
+008795,B66141,École élémentaire Michaëlle Jean Elementary School,Public,Elementary, ,www.hwdsb.on.ca/michaellejean/
 026743,B66222,Athol-South Marysburgh School Public School,Public,Elementary,613-476-3974,http://atholsouth.hpedsb.on.ca
 512796,B66222,Bayside Public School,Public,Elementary,613-962-0694,http://bayside.hpedsb.on.ca
 893803,B66222,Bayside Secondary School,Public,Secondary,613-966-2922,http://bss.hpedsb.on.ca
@@ -1720,7 +1720,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 900478,B66222,Central Hastings School Secondary School,Public,Secondary,613-473-4251,http://chss.hpedsb.on.ca
 114731,B66222,Coe Hill Public School,Public,Elementary,613-337-5711,http://coehill.hpedsb.on.ca
 139173,B66222,Deseronto Public School,Public,Elementary,613-396-2448,http://deseronto.hpedsb.on.ca
-199315,B66222,Easthill Elementary School,Public,Elementary,,
+199315,B66222,Easthill Elementary School,Public,Elementary, , 
 927252,B66222,Eastside Secondary School,Public,Secondary,613-962-8668,http://www.hpedsb.on.ca/mss
 202495,B66222,Foxboro Public School,Public,Elementary,613-962-5151,http://foxboro.hpedsb.on.ca
 203130,B66222,Frankford Public School,Public,Elementary,613-398-6425,http://frankford.hpedsb.on.ca
@@ -1853,7 +1853,7 @@ SC9901,B67113,North Oakville #4 Catholic Elementary School,Catholic,Elementary,,
 403334,B66079,North Cavan Public School,Public,Elementary,705-944-5366,http://northcavan.kprdsb.ca/
 091987,B66079,North Hope Central Public School,Public,Elementary,905-797-2991,http://northhope.kprdsb.ca/
 403350,B66079,North Shore Public School,Public,Elementary,705-295-6898,http://northshore.kprdsb.ca/
-SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
+SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary, , 
 515252,B66079,Northumberland Hills Public School,Public,Elementary,905-344-7361,http://northumberlandhills.kprdsb.ca/
 931543,B66079,Norwood District High School,Public,Secondary,705-639-5332,http://www.ndhs.ca/
 412180,B66079,Norwood District Intermediate School,Public,Elementary,705-639-5332,ttps://norwoodintermediate.kprdsb.ca\
@@ -1917,7 +1917,7 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 072877,B28061,C D Howe Public School,Public,Elementary,807-767-6244,https://cdhowe.lakeheadschools.ca/
 130982,B28061,Claude E Garton Public School,Public,Elementary,807-683-6289,https://claudegarton.lakeheadschools.ca/
 127868,B28061,Crestview Public School,Public,Elementary,807-935-2692,https://crestview.lakeheadschools.ca/
-116073,B28061,Ecole Elsie MacGill PS (Elementary),Public,Elementary,,
+116073,B28061,Ecole Elsie MacGill PS (Elementary),Public,Elementary, , 
 236136,B28061,Ecole Gron Morgan Public School,Public,Elementary,807-345-1468,https://gronmorgan.lakeheadschools.ca/
 198587,B28061,Five Mile Public School,Public,Elementary,807-767-1411,https://fivemile.lakeheadschools.ca/
 222372,B28061,Gorham and Ware Community Public School,Public,Elementary,807-767-4241,https://gorhamware.lakeheadschools.ca/
@@ -2005,7 +2005,7 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 097055,B66206,Amherst Island Public School,Public,Elementary,613-389-4582,https://amherstisland.limestone.on.ca/
 018791,B66206,AmherstView Public School,Public,Elementary,613-389-0628,http://amherstviewps.limestone.on.ca/
 033235,B66206,Bath Public School,Public,Elementary,613-352-7543,http://bath.limestone.on.ca/
-945437,B66206,Bayridge Learning Centre,Public,Secondary,,
+945437,B66206,Bayridge Learning Centre,Public,Secondary, , 
 034959,B66206,Bayridge Public School,Public,Elementary,613-389-6900,http://bayridgeps.limestone.on.ca/
 893773,B66206,Bayridge Secondary School,Public,Secondary,613-389-8932,http://bayridgess.limestone.on.ca/
 076120,B66206,Calvin Park Public School,Public,Elementary,613-542-2796,http://calvinpark.limestone.on.ca/
@@ -2027,14 +2027,14 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 281786,B66206,James R Henderson Public School,Public,Elementary,613-389-2330,http://jrhenderson.limestone.on.ca/JR_Henderson/Home.html
 514721,B66206,John Graves Simcoe Public School,Public,Elementary,613-544-4087,http://jgsimcoe.limestone.on.ca/
 447790,B66206,Joyceville Public School,Public,Elementary,613-542-8488,http://joycevilleps.limestone.on.ca/
-254617,B66206,Katarokwi Elementary Learning Centre Elementary Public School,Public,Elementary,613-548-3468,
+254617,B66206,Katarokwi Elementary Learning Centre Elementary Public School,Public,Elementary,613-548-3468, 
 936740,B66206,Katarokwi Learning Centre,Public,Secondary,613-546-3462,https://limestone.ss16.sharpschool.com/cms/One.aspx?portalId=352782&pageId=639953
-931089,B66206,Kingston Secondary School,Public,Secondary,613-544-4811,
+931089,B66206,Kingston Secondary School,Public,Secondary,613-544-4811, 
 920592,B66206,La Salle Secondary School,Public,Secondary,613-546-1737,https://lasalle.limestone.on.ca/
 052045,B66206,LaSalle Intermediate School Intermediate School,Public,Elementary,613-546-9733,https://lasalle.limestone.on.ca/
 306037,B66206,Lancaster Drive Public School,Public,Elementary,613-634-0470,https://lancaster.limestone.on.ca/
 307831,B66206,Land O Lakes Public School,Public,Elementary,613-335-5254,http://www.limestone.on.ca/schools/elementary/lanol_profile
-939348,B66206,Limestone Online Secondary School,Public,Secondary,,
+939348,B66206,Limestone Online Secondary School,Public,Secondary, , 
 962236,B66206,Limestone School of Community Education,Public,Secondary,613-542-7369,http://limestonecommunityed.ca/
 321567,B66206,Lord Strathcona Public School,Public,Elementary,613-549-1680,http://lordstrathcona.limestone.on.ca/
 322997,B66206,Loughborough Public School,Public,Elementary,613-376-3848,http://loughborough.limestone.on.ca/
@@ -2074,7 +2074,7 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 704237,B67032,Holy Family School,Catholic,Elementary,519-675-4414,https://www.ldcsb.ca/school/FAW/
 718874,B67032,Holy Rosary Separate School,Catholic,Elementary,519-675-4415,https://www.ldcsb.ca/school/ROS/
 724513,B67032,John Paul II Catholic Secondary School,Catholic,Secondary,519-675-4432,https://www.ldcsb.ca/school/JP2/
-819769,B67032,LDCSB Online School High School,Catholic,Secondary,519-663-2088,
+819769,B67032,LDCSB Online School High School,Catholic,Secondary,519-663-2088, 
 732346,B67032,Monsignor J H O'Neil School,Catholic,Elementary,519-660-2772,https://www.ldcsb.ca/school/ONE/
 868698,B67032,Monsignor Morrison Separate School,Catholic,Elementary,519-675-4416,https://www.ldcsb.ca/school/MOR/
 733032,B67032,Mother Teresa Catholic Secondary School,Catholic,Secondary,519-675-4433,https://www.ldcsb.ca/school/MTS/
@@ -2138,7 +2138,7 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 076074,B28037,M T Davidson Public School,Public,Elementary,705-472-5970,http://www.nearnorthschools.ca/mt-davidson/
 328278,B28037,Mactier Public School,Public,Elementary,705-375-2720,http://www.nearnorthschools.ca/mactier/
 328588,B28037,Magnetawan Central Public School,Public,Elementary,705-387-3939,http://www.nearnorthschools.ca/magnetawan/
-328592,B28037,Maple View Public School,Public,Elementary,,
+328592,B28037,Maple View Public School,Public,Elementary, , 
 505820,B28037,Mapleridge Public School,Public,Elementary,705-472-5751,http://www.nearnorthschools.ca/mapleridge/
 348732,B28037,Mattawa District Public School,Public,Elementary,705-472-5241,http://www.nearnorthschools.ca/mattawa/
 351202,B28037,McDougall Public School,Public,Elementary,705-746-5904,http://www.nearnorthschools.ca/mcdougall/
@@ -2177,11 +2177,11 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 694304,B67156,Our Lady of Mount Carmel Catholic Elementary School,Catholic,Elementary,905-354-2523,http://portal.niagaracatholic.ca/elementary/ourladyofmountcarmel/
 749427,B67156,Our Lady of Victory Catholic Elementary School,Catholic,Elementary,905-871-3092,http://portal.niagaracatholic.ca/elementary/ourladyofvictory/
 782831,B67156,Our Lady of the Holy Rosary Catholic Elementary School,Catholic,Elementary,905-227-4910,http://portal.niagaracatholic.ca/elementary/monsignor-clancy/
-862642,B67156,Pope Francis Catholic Elementary School,Catholic,Elementary,905-735-8668,
-699986,B67156,Pope Francis Catholic Secondary School,Catholic,Secondary,905-735-8668,
+862642,B67156,Pope Francis Catholic Elementary School,Catholic,Elementary,905-735-8668, 
+699986,B67156,Pope Francis Catholic Secondary School,Catholic,Secondary,905-735-8668, 
 758264,B67156,Sacred Heart Catholic Elementary School,Catholic,Elementary,905-295-3732,http://portal.niagaracatholic.ca/elementary/sacredheart/
 790818,B67156,Saint Francis Catholic Secondary School,Catholic,Secondary,905-646-2002,http://www.stfrancisphoenix.com/
-802740,B67156,Saint Kateri Tekakwitha Catholic Secondary School,Catholic,Secondary,,
+802740,B67156,Saint Kateri Tekakwitha Catholic Secondary School,Catholic,Secondary, , 
 773662,B67156,Saint Michael Catholic High School,Catholic,Secondary,905-356-5155,http://www.saintmichaelmustangs.com/index.php
 761710,B67156,Saint Paul Catholic High School,Catholic,Secondary,905-356-4313,http://www.spchs.ca/
 766453,B67156,St Alexander Catholic Elementary School,Catholic,Elementary,905-892-3841,http://portal.niagaracatholic.ca/elementary/stalexander/
@@ -2203,7 +2203,7 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 694177,B67156,St John Henry Newman Catholic Elementary School,Catholic,Elementary,905-354-9033,http://portal.niagaracatholic.ca/elementary/cardinalnewman/
 808709,B67156,St Joseph Catholic Elementary School,Catholic,Elementary,905-945-4955,http://portal.niagaracatholic.ca/elementary/stjoseph-grimsby/
 809098,B67156,St Joseph Catholic Elementary School,Catholic,Elementary,905-382-3822,http://portal.niagaracatholic.ca/elementary/stjoseph-forterie/
-815222,B67156,St Kateri Tekakwitha Catholic Elementary School,Catholic,Elementary,,
+815222,B67156,St Kateri Tekakwitha Catholic Elementary School,Catholic,Elementary, , 
 816892,B67156,St Kevin Catholic Elementary School,Catholic,Elementary,905-734-7709,http://portal.niagaracatholic.ca/elementary/stkevin/
 823112,B67156,St Mark Catholic Elementary School,Catholic,Elementary,905-563-9191,http://portal.niagaracatholic.ca/elementary/stmark/
 823783,B67156,St Martin Catholic Elementary School,Catholic,Elementary,905-957-3032,http://portal.niagaracatholic.ca/elementary/stmartin/
@@ -2248,7 +2248,7 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 742309,B29041,Our Lady of the Way,Catholic,Elementary,807-483-5477,http://www.tncdsb.on.ca/school/olow/Pages/default.aspx
 758000,B29041,Sacred Heart Separate School,Catholic,Elementary,807-737-1121,http://www.tncdsb.on.ca/school/sacredheart/Pages/default.aspx
 813770,B29041,St Josephs Separate School,Catholic,Elementary,807-223-5227,http://www.tncdsb.on.ca/school/stjosephs/Pages/default.aspx
-734252,B29041,St Mary Separate School,Catholic,Elementary,,
+734252,B29041,St Mary Separate School,Catholic,Elementary, , 
 839388,B29041,St Patrick's School,Catholic,Elementary,807-597-2633,http://www.tncdsb.on.ca/school/stpatricks/Pages/default.aspx
 724777,B67180,All Saints Catholic High School,Catholic,Secondary,613-271-4254,http://ash.ocsb.ca
 724769,B67180,All Saints Catholic Intermediate School,Catholic,Elementary,613-271-4254,http://ash.ocsb.ca
@@ -2273,8 +2273,8 @@ SC6103,B66079,Northglen Neighbourhood Public School,Public,Elementary,,
 689181,B67180,Lester B Pearson Catholic High School,Catholic,Secondary,613-741-4525,http://lbh.ocsb.ca
 725617,B67180,Lester B. Pearson Catholic Intermediate School,Catholic,Elementary,613-741-4525,http://lbh.ocsb.ca
 759538,B67180,Monsignor Paul Baxter Elementary School,Catholic,Elementary,613-825-7544,http://mpb.ocsb.ca
-SC0505,B67180,New Findlay Creek CES Catholic Elementary School,Catholic,Elementary,,
-SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elementary,,
+SC0505,B67180,New Findlay Creek CES Catholic Elementary School,Catholic,Elementary, , 
+SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elementary, , 
 809020,B67180,Notre Dame High School,Catholic,Secondary,613-722-6565,http://ndh.ocsb.ca
 812757,B67180,Notre Dame Intermediate School,Catholic,Elementary,613-722-6565,http://ndh.ocsb.ca
 753823,B67180,Our Lady of Fatima Elementary School,Catholic,Elementary,613-722-4075,http://olf.ocsb.ca
@@ -2333,10 +2333,10 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 849260,B67180,St Rita Elementary School,Catholic,Elementary,613-224-6341,http://rit.ocsb.ca
 702250,B67180,St Theresa Elementary School,Catholic,Elementary,613-837-4114,http://the.ocsb.ca
 856118,B67180,St Thomas More Elementary School,Catholic,Elementary,613-739-7131,http://stm.ocsb.ca
-849407,B67180,St. Benedict Elementary School,Catholic,Elementary,,http://ben.ocsb.ca
-827609,B67180,St. Bernadette Catholic Elementary School,Catholic,Elementary,,
+849407,B67180,St. Benedict Elementary School,Catholic,Elementary, ,http://ben.ocsb.ca
+827609,B67180,St. Bernadette Catholic Elementary School,Catholic,Elementary, , 
 689173,B67180,St. Brother Andre Elementary School,Catholic,Elementary,613-741-0100,http://ban.ocsb.ca
-700227,B67180,St. Cecilia Catholic School,Catholic,Elementary,,http://sce.ocsb.ca
+700227,B67180,St. Cecilia Catholic School,Catholic,Elementary, ,http://sce.ocsb.ca
 702385,B67180,St. Dominic Catholic Elementary School,Catholic,Elementary,613-424-3760,http://dom.ocsb.ca
 848612,B67180,St. Francis Xavier (7-8) Catholic School,Catholic,Elementary,613-822-7900,http://fxh.ocsb.ca
 843510,B67180,St. Francis Xavier (9-12) Catholic School,Catholic,Secondary,613-822-7900,http://fxh.ocsb.ca
@@ -2345,7 +2345,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 814241,B67180,St. Isabel Catholic Elementary School,Catholic,Elementary,613-271-9542,http://isa.ocsb.ca
 750271,B67180,St. John Paul II Elementary School,Catholic,Elementary,613-744-3591,http://jpa.ocsb.ca
 751375,B67180,St. John XXIII Elementary School,Catholic,Elementary,613-226-6223,http://joh.ocsb.ca
-734002,B67180,St. Juan Diego Catholic Elementary School,Catholic,Elementary,,
+734002,B67180,St. Juan Diego Catholic Elementary School,Catholic,Elementary, , 
 741680,B67180,St. Kateri Tekakwitha Elementary School,Catholic,Elementary,613-830-2454,http://kat.ocsb.ca
 733270,B67180,St. Mother Teresa Catholic Intermediate School,Catholic,Elementary,613-823-1663,http://teh.ocsb.ca
 733288,B67180,St. Mother Teresa High School,Catholic,Secondary,613-823-1663,http://teh.ocsb.ca
@@ -2364,7 +2364,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 036340,B66184,Bayshore Public School,Public,Elementary,613-828-8698,https://bayshoreps.ocdsb.ca/
 036862,B66184,Bayview Public School,Public,Elementary,613-733-4726,https://bayviewps.ocdsb.ca/
 894362,B66184,Bell High School,Public,Secondary,613-828-9101,https://bellhs.ocdsb.ca/
-315877,B66184,Bell Intermediate School,Public,Elementary,613-828-9101,
+315877,B66184,Bell Intermediate School,Public,Elementary,613-828-9101, 
 041670,B66184,Bells Corners Public School,Public,Elementary,613-828-3100,https://bellscornersps.ocdsb.ca/
 040665,B66184,Berrigan Elementary School,Public,Elementary,613-825-0092,https://berriganes.ocdsb.ca/
 055069,B66184,Blossom Park Public School,Public,Elementary,613-521-4299,https://blossomparkps.ocdsb.ca/
@@ -2403,7 +2403,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 083456,B66184,Farley Mowat Public School,Public,Elementary,613-825-3006,https://farleymowatps.ocdsb.ca/
 193640,B66184,Featherston Drive Public School,Public,Elementary,613-731-3357,https://featherstondrps.ocdsb.ca/
 196266,B66184,Fielding Drive Public School,Public,Elementary,613-731-4928,https://fieldingdrps.ocdsb.ca/
-200369,B66184,Findlay Creek ES 2 Elementary School,Public,Elementary,,
+200369,B66184,Findlay Creek ES 2 Elementary School,Public,Elementary, , 
 196762,B66184,First Avenue Public School,Public,Elementary,613-239-2261,https://firstaveps.ocdsb.ca/
 197211,B66184,Fisher Park/Summit AS Public School,Public,Elementary,613-729-5054,https://fisherparkps.ocdsb.ca/
 088560,B66184,Forest Valley Elementary School,Public,Elementary,613-824-0733,https://forestvalleyes.ocdsb.ca/
@@ -2435,7 +2435,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 302759,B66184,Knoxdale Public School,Public,Elementary,613-828-0010,https://knoxdaleps.ocdsb.ca/
 452440,B66184,Lady Evelyn Alternative School,Public,Elementary,613-239-2404,https://ladyevelynalt.ocdsb.ca/
 305057,B66184,Lakeview Public School,Public,Elementary,613-828-8077,https://lakeviewps.ocdsb.ca/
-926195,B66184,Launch Secondary School,Public,Secondary,,
+926195,B66184,Launch Secondary School,Public,Secondary, , 
 037699,B66184,Le Phare Elementary School,Public,Elementary,613-744-2597,https://lepharees.ocdsb.ca/
 922960,B66184,Lisgar Collegiate Institute,Public,Secondary,613-239-2696,https://lisgarci.ocdsb.ca/
 027235,B66184,Longfields Davidson Heights Intermediate School,Public,Elementary,613-843-7722,https://ldhss.ocdsb.ca/
@@ -2462,7 +2462,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 463523,B66184,Queen Elizabeth Public School,Public,Elementary,613-746-3246,https://queenelizabethps.ocdsb.ca/
 465089,B66184,Queen Mary Street Public School,Public,Elementary,613-749-1692,https://queenmarystreetps.ocdsb.ca/
 480428,B66184,Regina Street Alternative School,Public,Elementary,613-829-8777,https://reginastreetps.ocdsb.ca/
-028475,B66184,Richard Pfaff Intermediate School,Public,Elementary,,
+028475,B66184,Richard Pfaff Intermediate School,Public,Elementary, , 
 939420,B66184,Richard Pfaff Secondary Alternate Site,Public,Secondary,613-594-8020,https://richardpfaffalt.ocdsb.ca/
 483150,B66184,Richmond Public School,Public,Elementary,613-838-2371,https://richmondps.ocdsb.ca/
 938564,B66184,Ridgemont High School,Public,Secondary,613-733-4860,https://ridgemonths.ocdsb.ca/
@@ -2476,19 +2476,19 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 489360,B66184,Roland Michener Public School,Public,Elementary,613-592-2126,https://rolandmichenerps.ocdsb.ca/
 474444,B66184,Sawmill Creek Elementary School,Public,Elementary,613-521-5922,https://sawmillcreekes.ocdsb.ca/
 506168,B66184,Severn Avenue Public School,Public,Elementary,613-829-8082,https://severnavenueps.ocdsb.ca/
-035887,B66184,Shingwàkons Public School,Public,Elementary,613-828-4736,
+035887,B66184,Shingwàkons Public School,Public,Elementary,613-828-4736, 
 942952,B66184,Sir Guy Carleton Secondary School,Public,Secondary,613-723-5136,https://sirguycarletonss.ocdsb.ca/
 942014,B66184,Sir Robert Borden High School,Public,Secondary,613-829-5320,https://sirrobertbordenhs.ocdsb.ca/
-620213,B66184,Sir Robert Borden Intermediate School,Public,Elementary,613-829-5320,
+620213,B66184,Sir Robert Borden Intermediate School,Public,Elementary,613-829-5320, 
 942332,B66184,Sir Wilfrid Laurier Secondary School,Public,Secondary,613-834-4500,https://sirwilfridlaurierss.ocdsb.ca/
 516694,B66184,Sir Winston Churchill Public School,Public,Elementary,613-224-2336,https://sirwinstonchurchillps.ocdsb.ca/
 942855,B66184,South Carleton High School,Public,Secondary,613-838-2212,https://southcarletonhs.ocdsb.ca/
 204901,B66184,South March Public School,Public,Elementary,613-595-0543,https://southmarchps.ocdsb.ca/
 310646,B66184,Stephen Leacock Public School,Public,Elementary,613-592-2261,https://stephenleacockps.ocdsb.ca/
 565750,B66184,Steve MacLean Public School,Public,Elementary,613-822-0341,https://stevemacleanps.ocdsb.ca/
-580720,B66184,Stittsville Intermediate School,Public,Elementary,,
+580720,B66184,Stittsville Intermediate School,Public,Elementary, , 
 537624,B66184,Stittsville Public School,Public,Elementary,613-836-2818,https://stittsvilleps.ocdsb.ca/
-906059,B66184,Stittsville Secondary School,Public,Secondary,,
+906059,B66184,Stittsville Secondary School,Public,Secondary, , 
 595012,B66184,Stonecrest Elementary School,Public,Elementary,613-832-5527,https://stonecrestes.ocdsb.ca/
 330043,B66184,Summerside Public School,Public,Elementary,613-424-3208,https://summersideps.ocdsb.ca/
 554910,B66184,Terry Fox Elementary School,Public,Elementary,613-837-3251,https://terryfoxes.ocdsb.ca/
@@ -2500,7 +2500,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 579297,B66184,W. Erskine Johnston Public School,Public,Elementary,613-592-4492,https://werskinejohnstonps.ocdsb.ca/
 579351,B66184,W.E. Gowling Public School,Public,Elementary,613-728-3537,https://wegowlingps.ocdsb.ca/
 061972,B66184,W.O. Mitchell Elementary School,Public,Elementary,613-271-1806,https://womitchelles.ocdsb.ca/
-473973,B66184,Wazoson Public School,Public,Elementary,,
+473973,B66184,Wazoson Public School,Public,Elementary, , 
 951366,B66184,West Carleton Secondary School,Public,Secondary,613-832-2773,https://westcarletonss.ocdsb.ca/
 624500,B66184,Westwind Public School,Public,Elementary,613-831-7840,https://westwindps.ocdsb.ca/
 619523,B66184,Woodroffe Avenue Public School,Public,Elementary,613-722-6585,https://woodroffeaveps.ocdsb.ca/
@@ -2540,7 +2540,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 080454,B66125,Camilla Road Senior Public School,Public,Elementary,905-270-0845,http://schools.peelschools.org/1353/Pages/default.aspx
 027655,B66125,Carberry Public School,Public,Elementary,905-458-6771,http://schools.peelschools.org/1490/Pages/default.aspx
 097098,B66125,Cashmere Avenue Public School,Public,Elementary,905-276-4434,http://schools.peelschools.org/1260/Pages/default.aspx
-033387,B66125,Castle Oaks Public School,Public,Elementary,,http://schools.peelschools.org/1496
+033387,B66125,Castle Oaks Public School,Public,Elementary, ,http://schools.peelschools.org/1496
 074373,B66125,Castlebridge Public School,Public,Elementary,905-812-7906,http://schools.peelschools.org/1657/Pages/default.aspx
 918407,B66125,Castlebrooke Secondary School,Public,Secondary,905-794-2485,http://www.castlebrookess.com
 088340,B66125,Castlemore Public School,Public,Elementary,905-913-0845,http://schools.peelschools.org/1426/Pages/default.aspx
@@ -2549,11 +2549,11 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 899828,B66125,Central Peel Secondary School,Public,Secondary,905-451-0432,http://schools.peelschools.org/sec/centralpeel/Pages/default.aspx
 088935,B66125,Champlain Trail Public School,Public,Elementary,905-568-1836,http://schools.peelschools.org/1155/Pages/default.aspx
 089028,B66125,Cherrytree Public School,Public,Elementary,905-454-2251,http://schools.peelschools.org/1577/Pages/default.aspx
-094757,B66125,Cheyne Middle School,Public,Elementary,,http://schools.peelschools.org/1494/Pages/default.aspx
+094757,B66125,Cheyne Middle School,Public,Elementary, ,http://schools.peelschools.org/1494/Pages/default.aspx
 901342,B66125,Chinguacousy Secondary School,Public,Secondary,905-791-2400,http://schools.peelschools.org/sec/chinguacousy/Pages/default.aspx
-080741,B66125,Chris Hadfield P.S. (Elementary),Public,Elementary,,http://schools.peelschools.org/1204/
+080741,B66125,Chris Hadfield P.S. (Elementary),Public,Elementary, ,http://schools.peelschools.org/1204/
 107735,B66125,Churchill Meadows Public School,Public,Elementary,905-363-2338,http://schools.peelschools.org/1314/Pages/default.aspx
-267840,B66125,Churchville Public School,Public,Elementary,,http://schools.peelschools.org/1436
+267840,B66125,Churchville Public School,Public,Elementary, ,http://schools.peelschools.org/1436
 059404,B66125,Claireville Public School,Public,Elementary,905-794-8714,http://schools.peelschools.org/1504/Pages/default.aspx
 108626,B66125,Clark Boulevard Public School,Public,Elementary,905-793-6060,http://schools.peelschools.org/1408/Pages/default.aspx
 111228,B66125,Clarkson Public School,Public,Elementary,905-823-4470,http://schools.peelschools.org/1306/Pages/default.aspx
@@ -2564,7 +2564,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 096327,B66125,Copeland Public School,Public,Elementary,905-451-2217,http://schools.peelschools.org/1518/Pages/default.aspx
 123145,B66125,Corliss Public School,Public,Elementary,905-677-5350,http://schools.peelschools.org/1107/Pages/default.aspx
 124869,B66125,Corsair Public School,Public,Elementary,905-279-1511,http://schools.peelschools.org/1359/Pages/default.aspx
-035007,B66125,Countryside Village PS (Elementary),Public,Elementary,,http://schools.peelschools.org/1513/
+035007,B66125,Countryside Village PS (Elementary),Public,Elementary, ,http://schools.peelschools.org/1513/
 127515,B66125,Credit Valley Public School,Public,Elementary,905-607-0770,http://schools.peelschools.org/1653/Pages/default.aspx
 133698,B66125,Darcel Avenue Senior Public School,Public,Elementary,905-677-3802,http://schools.peelschools.org/1104/Pages/default.aspx
 134198,B66125,David Leeder Middle School,Public,Elementary,905-362-1340,http://schools.peelschools.org/1544/Pages/default.aspx
@@ -2572,7 +2572,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 254568,B66125,Derry West Village Public School,Public,Elementary,905-565-5762,http://schools.peelschools.org/1581/Pages/default.aspx
 140864,B66125,Dixie Public School,Public,Elementary,905-277-9505,http://schools.peelschools.org/1158/Pages/default.aspx
 141070,B66125,Dolphin Senior Public School,Public,Elementary,905-826-4247,http://schools.peelschools.org/1553/Pages/default.aspx
-186040,B66125,Dolson Public School,Public,Elementary,,http://schools.peelschools.org/1449
+186040,B66125,Dolson Public School,Public,Elementary, ,http://schools.peelschools.org/1449
 142832,B66125,Dorset Drive Public School,Public,Elementary,905-793-5210,http://schools.peelschools.org/1409/Pages/default.aspx
 603791,B66125,Dunrankin Drive Public School,Public,Elementary,905-677-2202,http://schools.peelschools.org/1108/Pages/default.aspx
 195640,B66125,Eagle Plains Public School,Public,Elementary,905-793-4969,http://schools.peelschools.org/1441/Pages/default.aspx
@@ -2581,7 +2581,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 165620,B66125,Edenbrook Hill Public School,Public,Elementary,905-452-8296,http://schools.peelschools.org/1469/Pages/default.aspx
 166936,B66125,Edenrose Public School,Public,Elementary,905-567-4296,http://schools.peelschools.org/1568/Pages/default.aspx
 167070,B66125,Edenwood Middle School,Public,Elementary,905-824-1020,http://schools.peelschools.org/1564/Pages/default.aspx
-426375,B66125,Eldorado P.S. (Elementary),Public,Elementary,,http://schools.peelschools.org/1505
+426375,B66125,Eldorado P.S. (Elementary),Public,Elementary, ,http://schools.peelschools.org/1505
 173479,B66125,Ellengale Public School,Public,Elementary,905-279-1555,http://schools.peelschools.org/1376/Pages/default.aspx
 174920,B66125,Ellwood Memorial Public School,Public,Elementary,905-857-3021,http://schools.peelschools.org/1463/Pages/default.aspx
 276502,B66125,Elm Drive (Elementary),Public,Elementary,905-890-5913,http://schools.peelschools.org/1207/
@@ -2634,7 +2634,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 587234,B66125,James Grieve Public School,Public,Elementary,905-843-2927,http://schools.peelschools.org/1513/
 309432,B66125,James Potter Public School,Public,Elementary,905-595-1495,http://schools.peelschools.org/1517/Pages/default.aspx
 185731,B66125,Janet I. McDougald Public School,Public,Elementary,905-278-1011,http://schools.peelschools.org/1206/Pages/default.aspx
-935244,B66125,Jean Augustine Secondary School,Public,Secondary,,http://schools.peelschools.org/sec/jeanaugustine
+935244,B66125,Jean Augustine Secondary School,Public,Secondary, ,http://schools.peelschools.org/sec/jeanaugustine
 282375,B66125,Jefferson Public School,Public,Elementary,905-791-2818,http://schools.peelschools.org/1431/Pages/default.aspx
 918830,B66125,John Fraser Secondary School,Public,Secondary,905-858-5910,http://schools.peelschools.org/sec/johnfraser/Pages/default.aspx
 930679,B66125,Judith Nyman Secondary School,Public,Secondary,905-791-6770,http://schools.peelschools.org/sec/judithnyman
@@ -2646,20 +2646,20 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 311960,B66125,Levi Creek Public School,Public,Elementary,905-564-9879,http://schools.peelschools.org/1546/Pages/default.aspx
 952885,B66125,Lincoln M. Alexander Secondary School,Public,Secondary,905-676-1191,http://schools.peelschools.org/sec/lincolnmalexander/Pages/default.aspx
 314579,B66125,Lisgar Middle School,Public,Elementary,905-785-0105,http://schools.peelschools.org/1569/Pages/default.aspx
-499344,B66125,Lorenville P.S. (Elementary),Public,Elementary,,http://schools.peelschools.org/1508
+499344,B66125,Lorenville P.S. (Elementary),Public,Elementary, ,http://schools.peelschools.org/1508
 321958,B66125,Lorne Park Public School,Public,Elementary,905-278-8771,http://schools.peelschools.org/1257/Pages/default.aspx
 924008,B66125,Lorne Park Secondary School,Public,Secondary,905-278-6177,http://schools.peelschools.org/sec/lornepark/Pages/default.aspx
 065223,B66125,Lougheed Middle School,Public,Elementary,905-789-8751,http://schools.peelschools.org/1486/Pages/default.aspx
-904203,B66125,Louise Arbour Secondary School,Public,Secondary,,http://schools.peelschools.org/sec/louisearbour/Pages/default.aspx
+904203,B66125,Louise Arbour Secondary School,Public,Secondary, ,http://schools.peelschools.org/sec/louisearbour/Pages/default.aspx
 328324,B66125,Macville Public School,Public,Elementary,905-857-3448,http://schools.peelschools.org/1466/Pages/default.aspx
 328448,B66125,Madoc Drive Public School,Public,Elementary,905-457-3440,http://schools.peelschools.org/1532/Pages/default.aspx
-197410,B66125,Malala Yousafzai PS (Elementary),Public,Elementary,,
+197410,B66125,Malala Yousafzai PS (Elementary),Public,Elementary, , 
 336467,B66125,Maple Wood Public School,Public,Elementary,905-826-3902,http://schools.peelschools.org/1554/Pages/default.aspx
 345610,B66125,Marvin Heights Public School,Public,Elementary,905-677-1526,http://schools.peelschools.org/1110/Pages/default.aspx
 329215,B66125,Massey Street Public School,Public,Elementary,905-791-9392,http://schools.peelschools.org/1437/Pages/default.aspx
 925349,B66125,Mayfield Secondary School,Public,Secondary,905-846-6060,http://schools.peelschools.org/sec/mayfield/Pages/default.aspx
 350192,B66125,McBride Avenue Public School,Public,Elementary,905-270-6414,http://schools.peelschools.org/1377/Pages/default.aspx
-444522,B66125,McClure PS (Elementary),Public,Elementary,,http://schools.peelschools.org/1448
+444522,B66125,McClure PS (Elementary),Public,Elementary, ,http://schools.peelschools.org/1448
 329690,B66125,McCrimmon Middle School,Public,Elementary,905-495-3229,http://schools.peelschools.org/1481/Pages/default.aspx
 351857,B66125,McHugh Public School,Public,Elementary,905-451-2515,http://schools.peelschools.org/1507/Pages/default.aspx
 605063,B66125,McKinnon Public School,Public,Elementary,905-361-2544,http://schools.peelschools.org/1318/Pages/default.aspx
@@ -2676,7 +2676,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 372978,B66125,Mountain Ash (Elementary),Public,Elementary,905-793-7595,http://schools.peelschools.org/1421/Pages/default.aspx
 380164,B66125,Munden Park Public School,Public,Elementary,905-279-9251,http://schools.peelschools.org/1361/Pages/default.aspx
 382647,B66125,Nahani Way Public School,Public,Elementary,905-507-4044,http://schools.peelschools.org/1161/Pages/default.aspx
-212749,B66125,Nelson Mandela P.S. (Elementary),Public,Elementary,,http://schools.peelschools.org/1418/
+212749,B66125,Nelson Mandela P.S. (Elementary),Public,Elementary, ,http://schools.peelschools.org/1418/
 514900,B66125,Nibi Emosaawdang Public School,Public,Elementary,905-457-5535,http://schools.peelschools.org/1540/Pages/default.aspx
 930660,B66125,North Park Secondary School,Public,Secondary,905-456-1906,http://schools.peelschools.org/sec/northpark/Pages/default.aspx
 411655,B66125,Northwood Public School,Public,Elementary,905-451-6464,http://schools.peelschools.org/1533/Pages/default.aspx
@@ -2690,14 +2690,14 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 506508,B66125,Peel Alternative - North Elementary,Public,Elementary,905-455-1225,http://schools.peelschools.org/sec/pas/Pages/default.aspx
 506613,B66125,Peel Alternative - South Elementary,Public,Elementary,905-278-3396,http://schools.peelschools.org/sec/pas/Pages/default.aspx
 918210,B66125,Peel Alternative North,Public,Secondary,905-455-1225,http://schools.peelschools.org/sec/pas
-943381,B66125,Peel Alternative North ISR,Public,Secondary,,http://schools.peelschools.org/sec/pas/Pages/default.aspx
+943381,B66125,Peel Alternative North ISR,Public,Secondary, ,http://schools.peelschools.org/sec/pas/Pages/default.aspx
 918202,B66125,Peel Alternative South,Public,Secondary,905-278-3396,http://schools.peelschools.org/sec/pas
-958431,B66125,Peel Alternative South ISR,Public,Secondary,,http://schools.peelschools.org/sec/pas/Pages/default.aspx
-938684,B66125,Peel eLearning/OeLC Secondary School,Public,Secondary,,
+958431,B66125,Peel Alternative South ISR,Public,Secondary, ,http://schools.peelschools.org/sec/pas/Pages/default.aspx
+938684,B66125,Peel eLearning/OeLC Secondary School,Public,Secondary, , 
 449075,B66125,Plowman's Park Public School,Public,Elementary,905-821-4973,http://schools.peelschools.org/1556/Pages/default.aspx
 449032,B66125,Plum Tree Park Public School,Public,Elementary,905-824-0155,http://schools.peelschools.org/1565/Pages/default.aspx
 935832,B66125,Port Credit Secondary School,Public,Secondary,905-278-3382,http://schools.peelschools.org/sec/portcredit/Pages/default.aspx
-315252,B66125,Pte. Buckam Singh PS (Elementary),Public,Elementary,,
+315252,B66125,Pte. Buckam Singh PS (Elementary),Public,Elementary, , 
 464171,B66125,Queen Elizabeth Senior Public School,Public,Elementary,905-278-7287,http://schools.peelschools.org/1273/Pages/default.aspx
 465232,B66125,Queen Street Public School,Public,Elementary,905-455-6144,http://schools.peelschools.org/1514/Pages/default.aspx
 466778,B66125,Queenston Drive Public School,Public,Elementary,905-277-9523,http://schools.peelschools.org/1378/Pages/default.aspx
@@ -2710,9 +2710,9 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 486400,B66125,Riverside Public School,Public,Elementary,905-274-1515,http://schools.peelschools.org/1281/Pages/default.aspx
 487902,B66125,Robert H Lagerquist Senior Public School,Public,Elementary,905-846-0576,http://schools.peelschools.org/1473/Pages/default.aspx
 487414,B66125,Robert J Lee Public School,Public,Elementary,905-792-2195,http://schools.peelschools.org/1405/Pages/default.aspx
-561022,B66125,Roberta Bondar Public School,Public,Elementary,,http://schools.peelschools.org/1516/Pages/default.aspx
-493318,B66125,Ross Drive P.S. (Elementary),Public,Elementary,,http://schools.peelschools.org/1419/
-330632,B66125,Rowntree Public School,Public,Elementary,,http://schools.peelschools.org/1493/Pages/default.aspx
+561022,B66125,Roberta Bondar Public School,Public,Elementary, ,http://schools.peelschools.org/1516/Pages/default.aspx
+493318,B66125,Ross Drive P.S. (Elementary),Public,Elementary, ,http://schools.peelschools.org/1419/
+330632,B66125,Rowntree Public School,Public,Elementary, ,http://schools.peelschools.org/1493/Pages/default.aspx
 494275,B66125,Royal Orchard Middle School,Public,Elementary,905-595-1253,http://schools.peelschools.org/1483/Pages/default.aspx
 494011,B66125,Russell D Barber Public School,Public,Elementary,905-455-7177,http://schools.peelschools.org/1434/Pages/default.aspx
 107280,B66125,Ruth Thompson Middle School,Public,Elementary,905-814-1729,http://schools.peelschools.org/1315/Pages/default.aspx
@@ -2725,16 +2725,16 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 519871,B66125,Sherwood Mills Public School,Public,Elementary,905-812-8265,http://schools.peelschools.org/1334/Pages/default.aspx
 514241,B66125,Silver Creek Public School,Public,Elementary,905-270-4455,http://schools.peelschools.org/1362/Pages/default.aspx
 514357,B66125,Silverthorn Public School,Public,Elementary,905-279-1651,http://schools.peelschools.org/1160/Pages/default.aspx
-209969,B66125,Sir Isaac Brock P.S. (Elementary),Public,Elementary,,http://schools.peelschools.org/1417
+209969,B66125,Sir Isaac Brock P.S. (Elementary),Public,Elementary, ,http://schools.peelschools.org/1417
 516210,B66125,Sir Wilfrid Laurier Public School,Public,Elementary,905-451-1415,http://schools.peelschools.org/1578/Pages/default.aspx
 373279,B66125,Sir William Gage Middle School,Public,Elementary,905-456-3394,http://schools.peelschools.org/1519/Pages/default.aspx
 516430,B66125,Sir Winston Churchill Public School,Public,Elementary,905-459-2320,http://schools.peelschools.org/1555/Pages/default.aspx
 518042,B66125,Somerset Drive Public School,Public,Elementary,905-846-2500,http://schools.peelschools.org/1470/Pages/default.aspx
 031851,B66125,SouthFields Village (Elementary),Public,Elementary,905-843-3281,http://schools.peelschools.org/1454
-626274,B66125,Springbrook P.S. (Elementary),Public,Elementary,,http://schools.peelschools.org/1445
+626274,B66125,Springbrook P.S. (Elementary),Public,Elementary, ,http://schools.peelschools.org/1445
 527971,B66125,Springdale Public School,Public,Elementary,905-791-5081,http://schools.peelschools.org/1438/Pages/default.aspx
 528137,B66125,Springfield Public School,Public,Elementary,905-279-7950,http://schools.peelschools.org/1379/Pages/default.aspx
-024650,B66125,Stanley Mills Public School,Public,Elementary,,http://schools.peelschools.org/1487/Pages/default.aspx
+024650,B66125,Stanley Mills Public School,Public,Elementary, ,http://schools.peelschools.org/1487/Pages/default.aspx
 962646,B66125,Stephen Lewis Secondary School,Public,Secondary,905-363-0289,http://schools.peelschools.org/sec/stephenlewis/Pages/default.aspx
 945978,B66125,Streetsville Secondary School,Public,Secondary,905-826-1195,http://schools.peelschools.org/sec/streetsville/Pages/default.aspx
 536733,B66125,Sunny View Middle School,Public,Elementary,905-789-1707,http://schools.peelschools.org/1439/Pages/default.aspx
@@ -2746,20 +2746,20 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 954403,B66125,The Woodlands Secondary School,Public,Secondary,905-279-0575,http://schools.peelschools.org/sec/woodlands/Pages/default.aspx
 552259,B66125,Thomas Street Middle School,Public,Elementary,905-812-3725,http://schools.peelschools.org/1654/Pages/default.aspx
 552399,B66125,Thorn Lodge Public School,Public,Elementary,905-822-5481,http://schools.peelschools.org/1329/Pages/default.aspx
-168221,B66125,Thorndale Public School,Public,Elementary,,http://schools.peelschools.org/1440/Pages/default.aspx
+168221,B66125,Thorndale Public School,Public,Elementary, ,http://schools.peelschools.org/1440/Pages/default.aspx
 552887,B66125,Thornwood Public School,Public,Elementary,905-275-4077,http://schools.peelschools.org/1363/Pages/default.aspx
 557234,B66125,Tomken Road Senior Public School,Public,Elementary,905-277-0321,http://schools.peelschools.org/1153/Pages/default.aspx
-006005,B66125,Tony Pontes (Elementary),Public,Elementary,,http://schools.peelschools.org/1497
+006005,B66125,Tony Pontes (Elementary),Public,Elementary, ,http://schools.peelschools.org/1497
 561037,B66125,Treeline Public School,Public,Elementary,905-794-1459,http://schools.peelschools.org/1479/Pages/default.aspx
 561045,B66125,Trelawny Public School,Public,Elementary,905-824-0360,http://schools.peelschools.org/1567/Pages/default.aspx
-067723,B66125,Tribune Drive Public School,Public,Elementary,,
+067723,B66125,Tribune Drive Public School,Public,Elementary, , 
 918440,B66125,Turner Fenton Secondary School,Public,Secondary,905-453-9220,http://schools.peelschools.org/sec/turnerfenton/Pages/default.aspx
 578835,B66125,Vista Heights Public School,Public,Elementary,905-826-1581,http://schools.peelschools.org/1560
-107284,B66125,Walnut Grove P.S. (Elementary),Public,Elementary,,http://schools.peelschools.org/1416
+107284,B66125,Walnut Grove P.S. (Elementary),Public,Elementary, ,http://schools.peelschools.org/1416
 951404,B66125,West Credit Secondary School,Public,Secondary,905-858-3087,http://schools.peelschools.org/sec/westcredit
 598720,B66125,Westacres Public School,Public,Elementary,905-277-0912,http://schools.peelschools.org/1231/Pages/default.aspx
 600091,B66125,Westervelts Corners Public School,Public,Elementary,905-459-3456,http://schools.peelschools.org/1521/Pages/default.aspx
-229647,B66125,Whaley's Corners Public School,Public,Elementary,,http://schools.peelschools.org/1447/
+229647,B66125,Whaley's Corners Public School,Public,Elementary, ,http://schools.peelschools.org/1447/
 604780,B66125,Whitehorn Public School,Public,Elementary,905-819-9807,http://schools.peelschools.org/1335/Pages/default.aspx
 605093,B66125,Whiteoaks Public School,Public,Elementary,905-822-0451,http://schools.peelschools.org/1259/Pages/default.aspx
 505790,B66125,William G. Davis Senior Public School,Public,Elementary,905-459-3661,http://schools.peelschools.org/1573/Pages/default.aspx
@@ -2775,7 +2775,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 731358,B67067,Monsignor Leo Cleary Catholic Elementary School,Catholic,Elementary,905-433-0331,http://MonsignorLeoCleary.pvnccdsb.on.ca
 730688,B67067,Monsignor O'Donoghue Catholic Elementary School,Catholic,Elementary,705-743-9851,http://MonsignorODonoghue.pvnccdsb.on.ca
 832146,B67067,Notre Dame Catholic Elementary School,Catholic,Elementary,905-377-9967,http://NotreDame.pvnccdsb.on.ca
-761361,B67067,PVNC Online Catholic School,Catholic,Secondary,705-878-4117,
+761361,B67067,PVNC Online Catholic School,Catholic,Secondary,705-878-4117, 
 767751,B67067,St. Alphonsus Catholic Elementary School,Catholic,Elementary,705-742-0594,http://StAlphonsus.pvnccdsb.on.ca
 771783,B67067,St. Anne Catholic Elementary School,Catholic,Elementary,705-742-3342,http://stanne.pvnccdsb.on.ca/
 774383,B67067,St. Anthony Catholic Elementary School,Catholic,Elementary,905-885-4583,http://StAnthony.pvnccdsb.on.ca
@@ -2827,7 +2827,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 011550,B28029,Algonquin Road Public School,Public,Elementary,705-522-3171,http://www.rainbowschools.ca/elementary/algonquin/index.php
 011525,B28029,Alternative Program Elementary School,Public,Elementary,705-674-1221,http://www.rainbowschools.ca/programs/AlternativePrograms/Elementary.php
 026590,B28029,Assiginack Public School,Public,Elementary,705-368-7010,http://www.rainbowschools.ca/elementary/assiginack/index.php
-941542,B28029,Barrydowne College Senior,Public,Secondary,,http://www.rainbowschools.ca/schools/schoolsDirectory.php
+941542,B28029,Barrydowne College Senior,Public,Secondary, ,http://www.rainbowschools.ca/schools/schoolsDirectory.php
 073393,B28029,C R Judd Public School,Public,Elementary,705-671-5953,http://www.rainbowschools.ca/elementary/cr_judd/index.php
 084310,B28029,Carl A Nesbitt Public School,Public,Elementary,705-566-3935,http://www.rainbowschools.ca/elementary/ca_nesbitt/index.php
 085618,B28029,Central Manitoulin Public School,Public,Elementary,705-368-7005,http://www.rainbowschools.ca/schools/manitoulinPS/index.php
@@ -2835,7 +2835,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 901121,B28029,Chelmsford Valley District Composite School,Public,Secondary,705-675-0225,http://www.rainbowschools.ca/schools/chelmsfordSS/index.php
 105627,B28029,Chelmsford Valley District Elementary School,Public,Elementary,705-675-0225,http://www.rainbowschools.ca/schools/chelmsfordSS/index.php
 107719,B28029,Churchill Public School,Public,Elementary,705-566-5130,http://www.rainbowschools.ca/schools/churchillPS/index.php
-494578,B28029,Confederation Elementary School,Public,Elementary,,https://confedss.rainbowschools.ca/
+494578,B28029,Confederation Elementary School,Public,Elementary, ,https://confedss.rainbowschools.ca/
 895237,B28029,Confederation Secondary School,Public,Secondary,705-671-5948,https://confedss.rainbowschools.ca/
 122920,B28029,Copper Cliff Public School,Public,Elementary,705-682-4721,http://www.rainbowschools.ca/elementary/copper_cliff/index.php
 004502,B28029,Ernie Checkeris Public School,Public,Elementary,705-566-7610,http://www.rainbowschools.ca/elementary/ernie_checkeris/index.php
@@ -2843,8 +2843,8 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 672785,B28029,Jean Hanson Public School,Public,Elementary,705-674-1221,http://www.rainbowschools.ca/schools/gatchell/index.php
 308439,B28029,Lansdowne Public School,Public,Elementary,705-675-6451,http://www.rainbowschools.ca/schools/landsdowne/
 145807,B28029,Larchwood Public School,Public,Elementary,705-671-5944,http://www.rainbowschools.ca/elementary/larchwood/index.php
-432693,B28029,Lasalle Elementary School,Public,Elementary,705-566-3935,
-359529,B28029,Lasalle Intermediate School,Public,Elementary,705-674-3171,
+432693,B28029,Lasalle Elementary School,Public,Elementary,705-566-3935, 
+359529,B28029,Lasalle Intermediate School,Public,Elementary,705-674-3171, 
 920622,B28029,Lasalle Secondary School,Public,Secondary,705-566-2280,http://www.rainbowschools.ca/secondary/lasalless/
 311944,B28029,Levack Public School,Public,Elementary,705-671-5943,http://www.rainbowschools.ca/elementary/levack/index.php
 314676,B28029,Little Current Public School,Public,Elementary,705-368-2932,http://www.rainbowschools.ca/elementary/little_current/index.php
@@ -2857,7 +2857,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 924679,B28029,Manitoulin Secondary School,Public,Secondary,705-368-7000,http://www.rainbowschools.ca/secondary/manitoulinss/
 237582,B28029,Markstay Public School,Public,Elementary,705-671-5946,http://www.rainbowschools.ca/elementary/markstay/index.php
 125261,B28029,Monetville Public School,Public,Elementary,705-898-2785,http://www.rainbowschools.ca/elementary/monetville/
-902935,B28029,N'Swakamok Native Alternative School,Public,Secondary,705-674-2128,
+902935,B28029,N'Swakamok Native Alternative School,Public,Secondary,705-674-2128, 
 410918,B28029,Northeastern Elementary School,Public,Elementary,705-675-0204,https://northeastern.rainbowschools.ca/
 456632,B28029,Princess Anne Public School,Public,Elementary,705-673-6516,http://www.rainbowschools.ca/elementary/princess_anne/index.php
 464309,B28029,Queen Elizabeth II Public School,Public,Elementary,705-675-6198,http://www.rainbowschools.ca/elementary/queen_elizabeth/index.php
@@ -2966,7 +2966,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 160172,B66109,East Oro Public School,Public,Elementary,705-487-2047,http://eor.scdsb.on.ca/
 907383,B66109,Eastview Secondary School,Public,Secondary,705-728-1321,http://eas.scdsb.on.ca
 908274,B66109,Elmvale District High School,Public,Secondary,705-322-2201,http://elm.scdsb.on.ca/
-402811,B66109,Elmvale District High School 7-8,Public,Elementary,705-322-2201,
+402811,B66109,Elmvale District High School 7-8,Public,Elementary,705-322-2201, 
 181323,B66109,Emma King Elementary School,Public,Elementary,705-728-5401,http://emk.scdsb.on.ca/
 181757,B66109,Ernest Cumberland Elementary School,Public,Elementary,705-435-0676,http://ern.scdsb.on.ca/
 195812,B66109,Ferndale Woods Elementary School,Public,Elementary,705-733-5636,http://fer.scdsb.on.ca/
@@ -2977,8 +2977,8 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 221740,B66109,Goodfellow Public School,Public,Elementary,705-436-3600,http://goo.scdsb.on.ca
 233480,B66109,Guthrie Public School,Public,Elementary,705-487-2532,http://gut.scdsb.on.ca/
 244996,B66109,Harriett Todd Public School,Public,Elementary,705-325-9388,http://har.scdsb.on.ca
-618562,B66109,Harvest Hills Public School,Public,Elementary,,
-485183,B66109,Hewitt's Creek Public School,Public,Elementary,,http://hew.scdsb.on.ca/
+618562,B66109,Harvest Hills Public School,Public,Elementary, , 
+485183,B66109,Hewitt's Creek Public School,Public,Elementary, ,http://hew.scdsb.on.ca/
 257346,B66109,Hillcrest Public School,Public,Elementary,705-728-5246,http://hil.scdsb.on.ca/
 595047,B66109,Hillsdale Elementary School,Public,Elementary,705-835-2108,http://hid.scdsb.on.ca
 263079,B66109,Holly Meadows Elementary School,Public,Elementary,705-733-2633,http://hol.scdsb.on.ca/
@@ -2994,10 +2994,10 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 034808,B66109,Lake Simcoe Public School,Public,Elementary,705-431-0668,http://las.scdsb.on.ca
 087934,B66109,Lions Oval Public School,Public,Elementary,705-325-5031,http://ovl.scdsb.on.ca/
 334820,B66109,Maple Grove Public School,Public,Elementary,705-728-5201,http://map.scdsb.on.ca
-956413,B66109,Maple Ridge Secondary School,Public,Secondary,,
+956413,B66109,Maple Ridge Secondary School,Public,Secondary, , 
 336289,B66109,Mapleview Heights Elementary School,Public,Elementary,705-725-7980,http://mht.scdsb.on.ca/
 337862,B66109,Marchmont Public School,Public,Elementary,705-326-7652,http://mar.scdsb.on.ca
-176014,B66109,Marshview Public School,Public,Elementary,,
+176014,B66109,Marshview Public School,Public,Elementary, , 
 366544,B66109,Minesing Central Public School,Public,Elementary,705-728-1944,http://min.scdsb.on.ca
 378089,B66109,Mountain View Public School,Public,Elementary,705-445-1501,http://mtv.scdsb.on.ca
 466951,B66109,Mundy's Bay Elementary Public School,Public,Elementary,705-526-2091,http://mun.scdsb.on.ca
@@ -3018,7 +3018,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 917231,B66109,Simcoe Shores Secondary School,Public,Secondary,705-728-7601,http://scdsb.on.ca/Schools/Alt-School/Pages/South-Barrie-Campus.aspx
 595993,B66109,Sir William Osler Public School,Public,Elementary,905-775-2922,http://swo.scdsb.on.ca/
 945196,B66109,Stayner Collegiate Institute,Public,Secondary,705-428-2639,http://sta.scdsb.on.ca/
-110418,B66109,Stayner Collegiate Institute 7-8,Public,Elementary,705-428-2639,
+110418,B66109,Stayner Collegiate Institute 7-8,Public,Elementary,705-428-2639, 
 535281,B66109,Steele Street Public School,Public,Elementary,705-728-9292,http://sst.scdsb.on.ca/
 543438,B66109,Sunnybrae Public School,Public,Elementary,705-436-1100,http://sun.scdsb.on.ca/
 574287,B66109,Tay Shores Public School,Public,Elementary,705-534-3101,http://tay.scdsb.on.ca/
@@ -3065,7 +3065,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 777935,B67091,St Bernadette Elementary School,Catholic,Elementary,705-733-0459,http://ber.schools.smcdsb.on.ca/cms/One.aspx
 779849,B67091,St Bernard's Separate School,Catholic,Elementary,705-326-2331,http://sbe.schools.smcdsb.on.ca
 781487,B67091,St Catherine of Siena School,Catholic,Elementary,705-728-7301,http://cat.schools.smcdsb.on.ca/cms/One.aspx
-795995,B67091,St Cecilia Catholic School,Catholic,Elementary,,
+795995,B67091,St Cecilia Catholic School,Catholic,Elementary, , 
 782130,B67091,St Charles School,Catholic,Elementary,905-775-6762,http://sch.schools.smcdsb.on.ca
 786691,B67091,St Dominic Catholic Secondary School,Catholic,Secondary,705-646-8772,http://dom.schools.smcdsb.on.ca
 790044,B67091,St Francis of Assisi Elementary School,Catholic,Elementary,705-431-5711,http://sfa.schools.smcdsb.on.ca
@@ -3114,11 +3114,11 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 846015,B67040,St Philip Catholic School,Catholic,Elementary,519-882-1520,http://www.st-clair.net/spp/
 856800,B67040,St Ursula Catholic School,Catholic,Elementary,519-352-3620,http://www.st-clair.net/suc/
 690762,B67040,St. Angela Merici Catholic School,Catholic,Elementary,519-397-2062,https://sam.sccdsb.net/
-686201,B67040,St. Teresa of Calcutta Catholic School,Catholic,Elementary,,
+686201,B67040,St. Teresa of Calcutta Catholic School,Catholic,Elementary, , 
 864366,B67040,Ursuline College Chatham Catholic Secondary School,Catholic,Secondary,519-351-2987,http://www.st-clair.net/ucc/
 689351,B29033,Bishop Alexander Carter Catholic Secondary School,Catholic,Secondary,705-969-2212,http://baccss.scdsb.edu.on.ca/
 820436,B29033,Bishop Alexander Carter Elementary Schoo,Catholic,Elementary,705-969-2212,https://baccss.sudburycatholicschools.ca/
-869673,B29033,Holy Cross Catholic School School,Catholic,Elementary,,http://www.scdsb.edu.on.ca/schools/schools.php
+869673,B29033,Holy Cross Catholic School School,Catholic,Elementary, ,http://www.scdsb.edu.on.ca/schools/schools.php
 701745,B29033,Holy Trinity School,Catholic,Elementary,705-470-5123,holytrinity.sudburycatholicschools.ca
 721212,B29033,Immaculate Conception Catholic School,Catholic,Elementary,705-897-4483,http://immaculate.scdsb.edu.on.ca/
 730963,B29033,Marymount Academy Catholic School,Catholic,Secondary,705-674-4231,http://marymount.scdsb.edu.on.ca/
@@ -3171,7 +3171,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 892670,B66044,Arthur Voaden Secondary School,Public,Secondary,519-631-3770,http://www.tvdsb.ca/ArthurVoaden.cfm
 026395,B66044,Ashley Oaks Public School,Public,Elementary,519-452-8040,http://www.tvdsb.ca/AshleyOaksPS.cfm
 947148,B66044,B Davison Secondary School Secondary School,Public,Secondary,519-452-2880,http://sites.tvdsb.ca/bdavison.cfm
-467572,B66044,Blenheim District Public School,Public,Elementary,,http://www.tvdsb.ca/BlenheimDistrict.cfm
+467572,B66044,Blenheim District Public School,Public,Elementary, ,http://www.tvdsb.ca/BlenheimDistrict.cfm
 055611,B66044,Bonaventure Meadows Public School,Public,Elementary,519-452-8060,http://www.tvdsb.ca/Bonaventure.cfm
 072095,B66044,Byron Northview Public School,Public,Elementary,519-452-8080,http://www.tvdsb.ca/ByronNorthview.cfm
 058416,B66044,Byron Somerset Public School,Public,Elementary,519-452-8090,http://www.tvdsb.ca/ByronSomerset.cfm
@@ -3202,11 +3202,11 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 170500,B66044,Elgin Court Public School,Public,Elementary,519-631-7118,http://www.tvdsb.ca/ElginCourt.cfm
 179752,B66044,Emily Carr Public School,Public,Elementary,519-452-8160,http://www.tvdsb.ca/EmilyCarr.cfm
 137743,B66044,Emily Stowe Public School,Public,Elementary,519-468-0201,http://sites.tvdsb.ca/EmilyStowePS.cfm
-589890,B66044,Eva Circe-Cote French Immersion Public School,Public,Elementary,519-452-2000,
+589890,B66044,Eva Circe-Cote French Immersion Public School,Public,Elementary,519-452-2000, 
 190268,B66044,Evelyn Harrison Public School,Public,Elementary,519-452-8180,http://www.tvdsb.ca/EvelynHarrison.cfm
 203521,B66044,Forest City Public School Public School,Public,Elementary,519-452-8190,http://www.tvdsb.ca/FDR.cfm
 201529,B66044,Forest Park Public School,Public,Elementary,519-631-3563,http://www.tvdsb.ca/ForestPark.cfm
-911259,B66044,G A Wheable Secondary School,Public,Secondary,,https://www.tvdsb.ca/en/index.aspx#
+911259,B66044,G A Wheable Secondary School,Public,Secondary, ,https://www.tvdsb.ca/en/index.aspx#
 217174,B66044,Glen Cairn Public School,Public,Elementary,519-452-8210,http://www.tvdsb.ca/GlenCairn.cfm
 912824,B66044,Glencoe District High School,Public,Secondary,519-287-3310,http://www.tvdsb.ca/Glencoe.cfm
 912956,B66044,Glendale High School,Public,Secondary,519-842-4207,http://www.tvdsb.ca/Glendale.cfm
@@ -3217,7 +3217,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 918024,B66044,Huron Park Secondary School,Public,Secondary,519-537-2347,http://www.tvdsb.ca/HuronPark.cfm
 918156,B66044,Ingersoll District Collegiate Institute,Public,Secondary,519-485-1200,http://www.tvdsb.ca/Ingersoll.cfm
 275514,B66044,Innerkip Central School,Public,Elementary,519-469-3698,http://www.tvdsb.ca/InnerkipCentral.cfm
-133006,B66044,J. S. Buchanan French Immersion Public School,Public,Elementary,,http://sites.tvdsb.ca/jsbuchanan.cfm
+133006,B66044,J. S. Buchanan French Immersion Public School,Public,Elementary, ,http://sites.tvdsb.ca/jsbuchanan.cfm
 280810,B66044,Jack Chambers Public School,Public,Elementary,519-452-8240,http://www.tvdsb.ca/JackChambers.cfm
 522619,B66044,Jeanne-Sauvé Public School,Public,Elementary,519-452-8250,http://www.tvdsb.ca/JeanneSauve.cfm
 283410,B66044,John Dearness Public School,Public,Elementary,519-452-8260,http://www.tvdsb.ca/JohnDearness.cfm
@@ -3228,7 +3228,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 451436,B66044,Kettle Creek Public School,Public,Elementary,519-782-3983,http://kettlecreek.tvdsb.ca/en/index.aspx
 302716,B66044,Knollwood Park Public School,Public,Elementary,519-452-8290,http://www.tvdsb.ca/KnollwoodPark.cfm
 000469,B66044,Lambeth Public School,Public,Elementary,519-652-2050,http://www.tvdsb.ca/lambeth.cfm
-438062,B66044,Laurie Hawkins Public School,Public,Elementary,,http://www.tvdsb.ca/LaurieHawkins.cfm
+438062,B66044,Laurie Hawkins Public School,Public,Elementary, ,http://www.tvdsb.ca/LaurieHawkins.cfm
 311855,B66044,Lester B Pearson School for the Arts,Public,Elementary,519-452-8300,http://www.tvdsb.ca/Pearson.cfm
 318051,B66044,Lockes Public School,Public,Elementary,519-631-8890,http://www.tvdsb.ca/Locke.cfm
 923745,B66044,London Central Secondary School,Public,Secondary,519-452-2620,http://www.tvdsb.ca/Central.cfm
@@ -3238,7 +3238,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 321370,B66044,Lord Nelson Public School,Public,Elementary,519-452-8320,http://www.tvdsb.ca/LordNelson.cfm
 321435,B66044,Lord Roberts Public School,Public,Elementary,519-452-8330,http://www.tvdsb.ca/LordRoberts.cfm
 273724,B66044,Louise Arbour French Immersion Public School,Public,Elementary,519-452-8230,http://www.tvdsb.ca/louisearbour.cfm
-046639,B66044,Mary Wright Public School,Public,Elementary,,http://sites.tvdsb.ca/marywright.cfm
+046639,B66044,Mary Wright Public School,Public,Elementary, ,http://sites.tvdsb.ca/marywright.cfm
 346780,B66044,Masonville Public School,Public,Elementary,519-452-8390,http://www.tvdsb.ca/Masonville.cfm
 351466,B66044,McGillivray Central School,Public,Elementary,519-293-3342,http://www.tvdsb.ca/McGillivray.cfm
 351725,B66044,McGregor Public School,Public,Elementary,519-773-3362,http://www.tvdsb.ca/McGregor.cfm
@@ -3275,7 +3275,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 557188,B66044,Roch Carrier French Immersion Public School,Public,Elementary,519-537-7321,http://www.tvdsb.ca/RochCarrier.cfm
 456241,B66044,Royal Roads Public School,Public,Elementary,519-485-4849,http://sites.tvdsb.ca/RoyalRoads.cfm?subpage=56
 940437,B66044,Saunders Secondary School,Public,Secondary,519-452-2770,http://www.tvdsb.ca/Saunders.cfm
-014061,B66044,Sir Arthur Currie Public School,Public,Elementary,,http://sites.tvdsb.ca/sirarthurcurrie.cfm
+014061,B66044,Sir Arthur Currie Public School,Public,Elementary, ,http://sites.tvdsb.ca/sirarthurcurrie.cfm
 941743,B66044,Sir Frederick Banting Secondary School,Public,Secondary,519-452-2800,http://www.tvdsb.ca/Banting.cfm
 087548,B66044,Sir George Etienne Cartier Public School,Public,Elementary,519-452-8550,http://www.tvdsb.ca/SirGeorges.cfm
 218863,B66044,Sir Isaac Brock Public School,Public,Elementary,519-452-8560,http://www.tvdsb.ca/SirIsaacBrock.cfm
@@ -3293,7 +3293,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 539180,B66044,Straffordville Public School,Public,Elementary,519-866-3021,http://www.tvdsb.ca/Straffordville.cfm
 945846,B66044,Strathroy District Collegiate Institute,Public,Secondary,519-245-2680,http://www.tvdsb.ca/Strathroy.cfm
 329886,B66044,Summers' Corners Public School,Public,Elementary,519-773-8106,http://www.tvdsb.ca/Summers.cfm
-097313,B66044,Summerside Public School Public School,Public,Elementary,,
+097313,B66044,Summerside Public School Public School,Public,Elementary, , 
 548545,B66044,Tavistock Public School,Public,Elementary,519-655-2350,http://www.tvdsb.ca/Tavistock.cfm
 550493,B66044,Tecumseh Public School,Public,Elementary,519-452-8600,http://www.tvdsb.ca/Tecumseh.cfm
 947237,B66044,Thames Valley Alternative Secondary School,Public,Secondary,519-452-2660,https://www.tvdsb.ca/en/index.aspx#
@@ -3305,14 +3305,14 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 575321,B66044,Victoria Public School,Public,Elementary,519-452-8640,http://www.tvdsb.ca/Victoria.cfm
 579327,B66044,W Sherwood Fox Public School,Public,Elementary,519-452-8730,http://www.tvdsb.ca/SherwoodFox.cfm
 951439,B66044,West Elgin Secondary School,Public,Secondary,519-768-1350,http://www.tvdsb.ca/WestElgin.cfm
-515008,B66044,West Nissouri Public School,Public,Elementary,,http://www.tvdsb.ca/WestNissouri.cfm
+515008,B66044,West Nissouri Public School,Public,Elementary, ,http://www.tvdsb.ca/WestNissouri.cfm
 587215,B66044,West Oaks French Immersion Public School,Public,Elementary,519-452-8650,http://sites.tvdsb.ca/westfieldPS.cfm
 073745,B66044,Westfield Public School,Public,Elementary,519-452-2000,http://sites.tvdsb.ca/westfieldPS.cfm
 600679,B66044,Westminster Central Public School,Public,Elementary,519-452-8660,http://www.tvdsb.ca/WestminsterCentral.cfm
 952346,B66044,Westminster Secondary School,Public,Secondary,519-452-2900,http://www.tvdsb.ca/Westminster.cfm
 602272,B66044,Westmount Public School,Public,Elementary,519-452-8670,http://www.tvdsb.ca/Westmount.cfm
 604836,B66044,White Oaks Public School,Public,Elementary,519-452-8680,http://www.tvdsb.ca/WhiteOaks.cfm
-359520,B66044,Wilberforce Public School,Public,Elementary,,http://www.tvdsb.ca/Wilberforce.cfm
+359520,B66044,Wilberforce Public School,Public,Elementary, ,http://www.tvdsb.ca/Wilberforce.cfm
 605816,B66044,Wilfrid Jury Public School,Public,Elementary,519-452-8690,http://www.tvdsb.ca/WilfridJury.cfm
 612707,B66044,Wilton Grove Public School,Public,Elementary,519-452-8700,http://www.tvdsb.ca/WiltonGrove.cfm
 131377,B66044,Winchester Street Public School,Public,Elementary,519-537-3543,http://www.tvdsb.ca/Winchester.cfm
@@ -3344,9 +3344,9 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 686247,B67059,All Saints Catholic School,Catholic,Elementary,416-393-5290,http://allsaints.tcdsb.org
 686891,B67059,Annunciation Catholic School,Catholic,Elementary,416-393-5299,http://annunciation.tcdsb.org
 689360,B67059,Bishop Allen Academy Catholic Secondary School,Catholic,Secondary,416-393-5549,http://bishopallen.tcdsb.org
-833605,B67059,Bishop Macdonell Catholic School,Catholic,Elementary,,
+833605,B67059,Bishop Macdonell Catholic School,Catholic,Elementary, , 
 691798,B67059,Bishop Marrocco/Thomas Merton Catholic Secondary School,Catholic,Secondary,416-393-5545,http://bishopmarroccothomasmerton.tcdsb.org
-694815,B67059,Blessed Pier Giorgio Frassati Catholic School,Catholic,Elementary,,http://blessedpiergiorgiofrassati.tcdsb.org
+694815,B67059,Blessed Pier Giorgio Frassati Catholic School,Catholic,Elementary, ,http://blessedpiergiorgiofrassati.tcdsb.org
 690538,B67059,Blessed Sacrament Catholic School,Catholic,Elementary,416-393-5226,http://blessedsacrament.tcdsb.org
 690660,B67059,Blessed Trinity Catholic School,Catholic,Elementary,416-393-5289,http://blessedtrinity.tcdsb.org
 690961,B67059,Brebeuf College School,Catholic,Secondary,416-393-5508,http://brebeufcollege.tcdsb.org
@@ -3415,7 +3415,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 766038,B67059,St Albert Catholic School,Catholic,Elementary,416-393-5335,http://stalbert.tcdsb.org
 767913,B67059,St Alphonsus Catholic School,Catholic,Elementary,416-393-5326,http://stalphonsus.tcdsb.org
 768537,B67059,St Ambrose Catholic School,Catholic,Elementary,416-393-5259,http://stambrose.tcdsb.org
-845182,B67059,St Andre Catholic School,Catholic,Elementary,,https://www.tcdsb.org/schools/standre
+845182,B67059,St Andre Catholic School,Catholic,Elementary, ,https://www.tcdsb.org/schools/standre
 768790,B67059,St Andrew Catholic School,Catholic,Elementary,416-393-5295,http://standrew.tcdsb.org
 769525,B67059,St Angela Catholic School,Catholic,Elementary,416-393-5361,http://stangela.tcdsb.org
 772437,B67059,St Anselm Catholic School,Catholic,Elementary,416-393-5243,http://stanselm.tcdsb.org
@@ -3498,7 +3498,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 822876,B67059,St Mark Catholic School,Catholic,Elementary,416-393-5332,http://stmark.tcdsb.org
 823597,B67059,St Martha Catholic School,Catholic,Elementary,416-393-5344,http://stmartha.tcdsb.org
 802247,B67059,St Martin Catholic School (St.Martin),Catholic,Secondary,416-397-6536,http://www.msgrfraseralternative.org/
-852549,B67059,St Martin Catholic School(OL of Lourdes,Catholic,Elementary,416-397-6536,
+852549,B67059,St Martin Catholic School(OL of Lourdes,Catholic,Elementary,416-397-6536, 
 824305,B67059,St Martin De Porres Catholic School,Catholic,Elementary,416-393-5286,http://stmartindeporres.tcdsb.org
 689831,B67059,St Mary Catholic Academy,Catholic,Secondary,416-393-5528,http://stmarysecondary.tcdsb.org
 830933,B67059,St Mary Catholic School,Catholic,Elementary,416-393-5205,http://stmary.tcdsb.org
@@ -3543,7 +3543,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 859591,B67059,Stella Maris Catholic School,Catholic,Elementary,416-393-5371,http://stellamaris.tcdsb.org
 784435,B67059,Sts Cosmas and Damian Catholic School,Catholic,Elementary,416-393-5398,http://stscosmasanddamian.tcdsb.org
 868825,B67059,The Divine Infant Catholic School,Catholic,Elementary,416-393-5414,http://TheDivineInfant.tcdsb.org
-803403,B67059,The Holy Trinity Catholic School,Catholic,Elementary,,https://www.tcdsb.org/schools/TheHolyTrinity
+803403,B67059,The Holy Trinity Catholic School,Catholic,Elementary, ,https://www.tcdsb.org/schools/TheHolyTrinity
 864994,B67059,Transfiguration of our Lord Catholic School,Catholic,Elementary,416-393-5276,http://transfiguration.tcdsb.org
 866423,B67059,Venerable John Merlini Catholic School,Catholic,Elementary,416-393-5397,http://venerablejohnmerlini.tcdsb.org
 890227,B66052,A Y Jackson Secondary School,Public,Secondary,416-395-3140,http://www.ayjackson.ca
@@ -3562,7 +3562,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 011088,B66052,Alexmuir Junior Public School,Public,Elementary,416-396-6025,http://schoolweb.tdsb.on.ca/alexmuir
 013200,B66052,Allenby Junior Public School,Public,Elementary,416-393-9115,http://schoolweb.tdsb.on.ca/allenby
 892475,B66052,Alternative Scarborough Education 1,Public,Secondary,416-396-6914,http://schoolweb.tdsb.on.ca/ase1
-287801,B66052,Alvin Curling Public School,Public,Elementary,,http://schoolweb.tdsb.on.ca/alvincurling
+287801,B66052,Alvin Curling Public School,Public,Elementary, ,http://schoolweb.tdsb.on.ca/alvincurling
 466255,B66052,Amesbury Middle School,Public,Elementary,416-395-2000,http://schoolweb.tdsb.on.ca/amesbury
 018929,B66052,Ancaster Public School,Public,Elementary,416-395-2010,http://schoolweb.tdsb.on.ca/ancaster
 019445,B66052,Annette Street Junior and Senior Public School,Public,Elementary,416-393-9040,http://www.annettestreetpublicschool.com
@@ -3575,7 +3575,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 890120,B66052,Avondale Secondary Alternative School,Public,Secondary,416-395-3130,http://schools.tdsb.on.ca/avondalesa
 030104,B66052,Bala Avenue Community School,Public,Elementary,416-394-2210,http://www.tdsb.on.ca/SchoolWeb/_site/ViewItem.asp?siteid=10031&menuid=7938&pageid=6928
 031011,B66052,Balmy Beach Community School,Public,Elementary,416-393-1565,http://schoolweb.tdsb.on.ca/balmybeach/
-450144,B66052,Bannockburn Public School,Public,Elementary,,
+450144,B66052,Bannockburn Public School,Public,Elementary, , 
 031887,B66052,Banting and Best Public School,Public,Elementary,416-396-5800,http://schoolweb.tdsb.on.ca/banting
 035173,B66052,Baycrest Public School,Public,Elementary,416-395-2040,http://schools.tdsb.on.ca/baycrest/
 037257,B66052,Bayview Middle School,Public,Elementary,416-395-2050,http://schoolweb.tdsb.on.ca/bayviewms/
@@ -3604,7 +3604,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 054933,B66052,Bloorlea Middle School,Public,Elementary,416-394-7140,http://schoolweb.tdsb.on.ca/bloorlea/
 055328,B66052,Blythwood Junior Public School,Public,Elementary,416-393-9105,http://www.tdsb.on.ca/schools/index.asp?schno=5297
 056367,B66052,Bowmore Road Junior and Senior Public School,Public,Elementary,416-393-9450,http://schoolweb.tdsb.on.ca/bowmore
-197030,B66052,Boys Leadership Academy,Public,Elementary,416-394-7900,
+197030,B66052,Boys Leadership Academy,Public,Elementary,416-394-7900, 
 057100,B66052,Braeburn Junior School,Public,Elementary,416-394-7770,http://schoolweb.tdsb.on.ca/braeburn/
 060658,B66052,Brian Public School,Public,Elementary,416-395-2080,http://schoolweb.tdsb.on.ca/brian
 060917,B66052,Briarcrest Junior School,Public,Elementary,416-394-6180,http://schoolweb.tdsb.on.ca/briarcrest/
@@ -3630,11 +3630,11 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 080020,B66052,Cameron Public School,Public,Elementary,416-395-2140,http://schoolweb.tdsb.on.ca/cameron/
 912651,B66052,Caring and Safe Schools LC1,Public,Secondary,416-395-5128,http://www.tdsb.on.ca/schools/tdsb_school_search/SearchBySchool.asp
 909300,B66052,Caring and Safe Schools LC2,Public,Secondary,416-395-5128,http://www.tdsb.on.ca/schools/tdsb_school_search/SearchBySchool.asp
-899704,B66052,Caring and Safe Schools LC3,Public,Secondary,416-395-5128,
+899704,B66052,Caring and Safe Schools LC3,Public,Secondary,416-395-5128, 
 952524,B66052,Caring and Safe Schools LC4,Public,Secondary,416-395-5128,http://www.tdsb.on.ca/schools/tdsb_school_search/SearchBySchool.asp
 425826,B66052,Carleton Village Junior and Senior Public School,Public,Elementary,416-393-1600,http://schoolweb.tdsb.on.ca/carletonvillage
 088080,B66052,Cassandra Public School,Public,Elementary,416-395-2150,http://schoolweb.tdsb.on.ca/cassandra/
-136551,B66052,Castlebar Junior School,Public,Elementary,,
+136551,B66052,Castlebar Junior School,Public,Elementary, , 
 089486,B66052,Cedar Drive Junior Public School,Public,Elementary,416-396-6120,http://schoolweb.tdsb.on.ca/cedardrive
 899178,B66052,Cedarbrae Collegiate Institute,Public,Secondary,416-396-4400,http://www.cedarbraeci.com/
 089770,B66052,Cedarbrook Public School,Public,Elementary,416-396-6115,http://schoolweb.tdsb.on.ca/cedarbrook
@@ -3687,7 +3687,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 135011,B66052,Davisville Junior Public School,Public,Elementary,416-393-0570,http://schoolweb.tdsb.on.ca/davisville
 135534,B66052,Daystrom Public School,Public,Elementary,416-395-2280,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=3090&Status=L
 135798,B66052,Deer Park Junior and Senior Public School,Public,Elementary,416-393-1550,http://schoolweb.tdsb.on.ca/deerpark/
-892483,B66052,Delphi Secondary Alternative School,Public,Secondary,,http://schoolweb.tdsb.on.ca/delphi
+892483,B66052,Delphi Secondary Alternative School,Public,Secondary, ,http://schoolweb.tdsb.on.ca/delphi
 138975,B66052,Delta Senior Alternative School,Public,Elementary,416-393-9730,http://schoolweb.tdsb.on.ca/delta
 137030,B66052,Denlow Public School,Public,Elementary,416-395-2300,http://schoolweb.tdsb.on.ca/denlow/
 137090,B66052,Dennis Avenue Community School,Public,Elementary,416-394-2311,http://schoolweb.tdsb.on.ca/dennis
@@ -3741,7 +3741,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 186759,B66052,Essex Junior and Senior Public School,Public,Elementary,416-393-0717,http://essexpublicschool.com
 909572,B66052,Etobicoke Collegiate Institute,Public,Secondary,416-394-7840,http://www.etobicokeci.ca
 909602,B66052,Etobicoke School of the Arts,Public,Secondary,416-394-6910,http://esainfo.ca
-924246,B66052,Etobicoke Secondary Alternative School,Public,Secondary,,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=2906
+924246,B66052,Etobicoke Secondary Alternative School,Public,Secondary, ,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=2906
 190780,B66052,F H Miller Junior Public School,Public,Elementary,416-394-2336,http://schoolweb.tdsb.on.ca/fhmiller
 361348,B66052,Fairbank Memorial Community School,Public,Elementary,416-394-2333,http://schoolweb.tdsb.on.ca/fairbankmemorial
 190918,B66052,Fairbank Public School,Public,Elementary,416-394-2323,http://schoolweb.tdsb.on.ca/fairbank
@@ -3844,7 +3844,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 282049,B66052,James S Bell Junior Middle School,Public,Elementary,416-394-7680,http://schoolweb.tdsb.on.ca/jamessbell/
 918547,B66052,Jarvis Collegiate Institute,Public,Secondary,416-393-0140,http://schoolweb.tdsb.on.ca/jarvisci
 086698,B66052,Jean Augustine Girls' Leadership Academy,Public,Elementary,416-396-6335,http://schoolweb.tdsb.on.ca/jeanaugustine
-430301,B66052,Jean Lumb Public School,Public,Elementary,,
+430301,B66052,Jean Lumb Public School,Public,Elementary, , 
 282693,B66052,Jesse Ketchum Junior and Senior Public School,Public,Elementary,416-393-1530,http://schoolweb.tdsb.on.ca/jesseketchum/
 283088,B66052,John A Leslie Public School,Public,Elementary,416-396-6380,http://schoolweb.tdsb.on.ca/johnaleslie
 283371,B66052,John Buchan Senior Public School,Public,Elementary,416-396-6385,http://schoolweb.tdsb.on.ca/johnbuchan
@@ -3860,9 +3860,9 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 286060,B66052,Joseph Brant Senior Public School,Public,Elementary,416-396-6400,http://schoolweb.tdsb.on.ca/josephbrant
 286125,B66052,Joseph Howe Senior Public School,Public,Elementary,416-396-6405,http://schoolweb.tdsb.on.ca/josephhowe
 286206,B66052,Joyce Public School,Public,Elementary,416-395-2600,http://schoolweb.tdsb.on.ca/joyce
-943062,B66052,Kapapamahchakwew - Wandering Spirit Scho,Public,Secondary,,http://schoolweb.tdsb.on.ca/fnst
+943062,B66052,Kapapamahchakwew - Wandering Spirit Scho,Public,Secondary, ,http://schoolweb.tdsb.on.ca/fnst
 589896,B66052,Kapapamahchakwew - Wandering Spirit Scho Junior Senior,Public,Elementary,416-393-0555,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=5360
-382068,B66052,Karen Kain School of the Arts,Public,Elementary,,http://schoolweb.tdsb.on.ca/karenkain/Home.aspx
+382068,B66052,Karen Kain School of the Arts,Public,Elementary, ,http://schoolweb.tdsb.on.ca/karenkain/Home.aspx
 288411,B66052,Keele Street Public School,Public,Elementary,416-393-9035,http://schoolweb.tdsb.on.ca/keelestreet
 288543,B66052,Keelesdale Junior Public School,Public,Elementary,416-394-3050,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=6155
 536482,B66052,Kennedy Public School,Public,Elementary,416-396-6410,http://schoolweb.tdsb.on.ca/kennedy
@@ -3926,7 +3926,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 336580,B66052,Mountview Alternative School School,Public,Elementary,416-393-9037,http://mountviewalternative.ca
 378577,B66052,Muirhead Public School,Public,Elementary,416-395-2710,http://schoolweb.tdsb.on.ca/muirhead/
 927708,B66052,Native Learning Centre,Public,Secondary,416-969-8510,http://www.tdsb.on.ca/schools/tdsb_school_search/SearchBySchool.asp
-915166,B66052,Native Learning Centre East,Public,Secondary,,
+915166,B66052,Native Learning Centre East,Public,Secondary, , 
 433624,B66052,Nelson Mandela Park Public School,Public,Elementary,416-393-1620,http://schoolweb.tdsb.on.ca/nelsonmandelapark/
 928810,B66052,Newtonbrook Secondary School,Public,Secondary,416-395-3280,http://sites.google.com/tdsb.on.ca/newtonbrookss/
 384879,B66052,Niagara Street Junior Public School,Public,Elementary,416-393-1371,http://schoolweb.tdsb.on.ca/niagara
@@ -3937,7 +3937,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 929468,B66052,North Albion Collegiate Institute,Public,Secondary,416-394-7550,http://northalbionci.ca
 403202,B66052,North Bendale Junior Public School,Public,Elementary,416-396-6495,http://schoolweb.tdsb.on.ca/northbendale
 403237,B66052,North Bridlewood Junior Public School,Public,Elementary,416-396-6500,http://schoolweb.tdsb.on.ca/northbridlewood
-966722,B66052,North East Secondary Alternative School,Public,Secondary,,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=3948&Status=L
+966722,B66052,North East Secondary Alternative School,Public,Secondary, ,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=3948&Status=L
 407291,B66052,North Kipling Junior Middle School,Public,Elementary,416-394-6340,http://schoolweb.tdsb.on.ca/northkipling/
 409570,B66052,North Preparatory Junior Public School,Public,Elementary,416-393-9230,http://schoolweb.tdsb.on.ca/northpreparatory
 930504,B66052,North Toronto Collegiate Institute,Public,Secondary,416-393-9180,http://www.ntci.on.ca
@@ -3964,7 +3964,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 434140,B66052,Parkdale Junior and Senior Public School,Public,Elementary,416-393-1280,http://schools.tdsb.on.ca/parkdaleps
 434400,B66052,Parkfield Junior School,Public,Elementary,416-394-7960,http://schoolweb.tdsb.on.ca/parkfield
 435180,B66052,Parkside Elementary School,Public,Elementary,416-396-2425,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=1151
-939480,B66052,Parkview Alternative School,Public,Secondary,,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=4176&Status=L
+939480,B66052,Parkview Alternative School,Public,Secondary, ,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=4176&Status=L
 437581,B66052,Pauline Johnson Junior Public School,Public,Elementary,416-396-6510,http://schools.tdsb.on.ca/paulinejohnson/
 437522,B66052,Pauline Junior Public School,Public,Elementary,416-393-9360,http://www.tdsb.on.ca/SchoolWeb/_site/viewitem.asp?siteid=10357&pageid=17561&menuid=20080
 439479,B66052,Pelmo Park Public School,Public,Elementary,416-395-2750,http://schoolweb.tdsb.on.ca/pelmopark
@@ -4037,7 +4037,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 942367,B66052,Sir William Osler High School,Public,Secondary,416-396-6830,http://schoolweb.tdsb.on.ca/sirwilliamosler
 517348,B66052,Sloane Public School,Public,Elementary,416-397-2920,http://schoolweb.tdsb.on.ca/sloane/
 518840,B66052,Smithfield Middle School,Public,Elementary,416-394-7540,http://schoolweb.tdsb.on.ca/smithfield
-960413,B66052,South East Secondary Alternative School,Public,Secondary,,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=4800
+960413,B66052,South East Secondary Alternative School,Public,Secondary, ,http://www.tdsb.on.ca/MOSS/asp_apps/school_landing_page/index.asp?schno=4800
 520110,B66052,Spectrum Alternative Senior School,Public,Elementary,416-393-9311,http://schools.tdsb.on.ca/spectrum
 528269,B66052,Sprucecourt Junior Public School,Public,Elementary,416-393-1522,http://www.sprucecourt.ca
 529176,B66052,St Andrew's Middle School,Public,Elementary,416-395-3090,http://standrewsjhstoronto.wordpress.com
@@ -4260,7 +4260,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 540056,B66192,St Lawrence Intermediate School,Public,Elementary,613-933-8410,http://stlawrence.ucdsb.on.ca/
 944670,B66192,St Lawrence Secondary School,Public,Secondary,613-933-8410,http://stlawrence.ucdsb.on.ca/
 544582,B66192,Sweet's Corners Public School,Public,Elementary,613-928-2777,http://sweetscorners.ucdsb.on.ca/
-375994,B66192,Swift Waters Elementary School,Public,Elementary,,
+375994,B66192,Swift Waters Elementary School,Public,Elementary, , 
 945072,B66192,T R Leger School of Adult & Continuing Secondary School,Public,Secondary,613-933-9626,http://trleger.ucdsb.on.ca/
 091610,B66192,Tagwi Intermediate School,Public,Elementary,613-346-2122,http://tagwi.ucdsb.on.ca/
 946648,B66192,Tagwi Secondary School,Public,Secondary,613-346-2122,http://tagwi.ucdsb.on.ca
@@ -4354,7 +4354,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 381646,B66117,Westminster Woods Public School,Public,Elementary,519-766-4400,http://www.ugdsb.ca/westminsterwoods/
 947253,B66117,Westside Secondary School,Public,Secondary,519-938-9355,http://www.ugdsb.ca/westside
 603244,B66117,Westwood Public School,Public,Elementary,519-823-5450,http://www.ugdsb.ca/westwood
-363687,B66117,William C. Winegard Public School,Public,Elementary,,www.ugdsb.ca/winegard
+363687,B66117,William C. Winegard Public School,Public,Elementary, ,www.ugdsb.ca/winegard
 609552,B66117,Willow Road Public School,Public,Elementary,519-821-1760,http://www.ugdsb.ca/willow
 690767,B67148,Blessed Sacrament Catholic Elementary School,Catholic,Elementary,519-745-5950,http://blessedsacrament.wcdsb.ca
 693693,B67148,Canadian Martyrs Catholic Elementary School,Catholic,Elementary,519-578-7579,http://cmartyrs.wcdsb.ca/
@@ -4404,7 +4404,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 851736,B67148,St Teresa of Avila Catholic Elementary School,Catholic,Elementary,519-669-8843,http://stteresaelmira.wcdsb.ca/
 856592,B67148,St Timothy Catholic Elementary School,Catholic,Elementary,519-748-1874,http://sttimothy.wcdsb.ca/
 858013,B67148,St Vincent de Paul Catholic Elementary School,Catholic,Elementary,519-740-0678,http://stvincent.wcdsb.ca
-718119,B67148,St. Josephine Bakhita Catholic Elementar (Elementary) Separate School,Catholic,Elementary,,
+718119,B67148,St. Josephine Bakhita Catholic Elementar (Elementary) Separate School,Catholic,Elementary, , 
 733121,B67148,St. Teresa of Calcutta Catholic Elementary School,Catholic,Elementary,519-624-7115,http://motherteresa.wcdsb.ca
 000671,B66176,Abraham Erb Public School,Public,Elementary,519-747-7694,http://abe.wrdsb.ca/
 013900,B66176,Alpine Public School,Public,Elementary,519-743-4338,http://alp.wrdsb.ca/
@@ -4460,7 +4460,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 279595,B66176,J F Carmichael Public School,Public,Elementary,519-578-8450,http://jfc.wrdsb.ca/
 486336,B66176,J W Gerth Public School,Public,Elementary,519-896-4159,http://jwg.wrdsb.ca/
 918555,B66176,Jacob Hespeler Secondary School,Public,Secondary,519-658-4910,http://jhss.wrdsb.ca/
-339451,B66176,Janet Metcalfe Public School,Public,Elementary,,http://jme.wrdsb.ca/
+339451,B66176,Janet Metcalfe Public School,Public,Elementary, ,http://jme.wrdsb.ca/
 471541,B66176,Jean Steckle Public School,Public,Elementary,519-748-1919,https://jst.wrdsb.ca
 285536,B66176,John Darling Public School,Public,Elementary,519-749-0834,http://jdp.wrdsb.ca/
 283860,B66176,John Mahood Public School,Public,Elementary,519-669-5153,http://jma.wrdsb.ca/
@@ -4486,7 +4486,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 382620,B66176,N A MacEachern Public School,Public,Elementary,519-885-1731,http://nam.wrdsb.ca
 610429,B66176,New Dundee Public School,Public,Elementary,519-696-2296,http://ndd.wrdsb.ca/
 383422,B66176,Northlake Woods Public School,Public,Elementary,519-885-1115,http://nlw.wrdsb.ca/
-265740,B66176,Oak Creek Public School,Public,Elementary,,
+265740,B66176,Oak Creek Public School,Public,Elementary, , 
 433799,B66176,Park Manor Public School,Public,Elementary,519-669-5183,http://pkm.wrdsb.ca/
 436267,B66176,Parkway Public School,Public,Elementary,519-653-0383,http://pkw.wrdsb.ca/
 445878,B66176,Pioneer Park Public School,Public,Elementary,519-748-0142,http://pio.wrdsb.ca/
@@ -4596,7 +4596,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 859575,B67024,Stella Maris Catholic School,Catholic,Elementary,519-736-6408,https://sites.google.com/a/catholicboard.ca/sm-portal/
 866008,B67024,W J Langlois Catholic School,Catholic,Elementary,519-948-9122,http://www.wecdsb.on.ca/langlois
 686263,B67075,All Saints Catholic Elementary School,Catholic,Elementary,905-887-8780,http://ast.ycdsb.ca
-763560,B67075,Blessed Chiara Badano Catholic Elementary School,Catholic,Elementary,905-713-1211,
+763560,B67075,Blessed Chiara Badano Catholic Elementary School,Catholic,Elementary,905-713-1211, 
 689777,B67075,Blessed Scalabrini Catholic Elementary School,Catholic,Elementary,905-886-3272,http://bsi.ycdsb.ca/
 874361,B67075,Blessed Trinity Catholic Elementary School,Catholic,Elementary,905-303-7150,http://bty.ycdsb.ca/
 693820,B67075,Canadian Martyrs Catholic Elementary School,Catholic,Elementary,905-895-8530,http://cms.ycdsb.ca/
@@ -4698,7 +4698,7 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 852546,B67075,St Theresa of Lisieux Catholic High School,Catholic,Secondary,905-787-1407,http://stlh.ycdsb.ca/
 864080,B67075,St Thomas Aquinas Catholic Elementary School,Catholic,Elementary,905-476-7784,http://sta.ycdsb.ca/
 737242,B67075,St Veronica Catholic Elementary School,Catholic,Elementary,905-653-5920,http://sva.ycdsb.ca/
-753196,B67075,St. Katharine Drexel Catholic Elementary School,Catholic,Elementary,905-713-1211,
+753196,B67075,St. Katharine Drexel Catholic Elementary School,Catholic,Elementary,905-713-1211, 
 890286,B66095,ACCESS Program,Public,Secondary,905-884-6221,http://www.yrdsb.ca/Schools/Pages/default.aspx
 003913,B66095,Adrienne Clarkson Public School,Public,Elementary,905-709-3554,http://adrienneclarkson.ps.yrdsb.ca/
 014176,B66095,Aldergrove Public School,Public,Elementary,905-470-2227,http://aldergrove.ps.yrdsb.ca/
@@ -4708,28 +4708,28 @@ SC0506,B67180,New Riverside South CES Catholic Elementary School,Catholic,Elemen
 000663,B66095,Armadale Public School,Public,Elementary,905-472-4050,http://armadale.ps.yrdsb.ca/
 020702,B66095,Armitage Village Public School,Public,Elementary,905-853-3799,http://armitagevillage.ps.yrdsb.ca/
 026530,B66095,Ashton Meadows Public School,Public,Elementary,905-887-2656,http://ashtonmeadows.ps.yrdsb.ca/
-SC0802,B66095,Aurora 2C Elementary School,Public,Elementary,,
+SC0802,B66095,Aurora 2C Elementary School,Public,Elementary, , 
 028231,B66095,Aurora Grove Public School,Public,Elementary,905-727-4435,http://auroragrove.ps.yrdsb.ca/
 028282,B66095,Aurora Heights Public School,Public,Elementary,905-727-6902,http://auroraheights.ps.yrdsb.ca/
 892998,B66095,Aurora High School,Public,Secondary,905-727-3107,http://aurora.hs.yrdsb.ca/
 054623,B66095,Bakersfield Public School,Public,Elementary,905-731-8227,http://bakersfield.ps.yrdsb.ca/
 030694,B66095,Ballantrae Public School,Public,Elementary,905-640-2232,http://ballantrae.ps.yrdsb.ca/
-570115,B66095,Barbara Reid Elementary Public School,Public,Elementary,,http://www.yrdsb.ca/schools/barbarareid.ps
+570115,B66095,Barbara Reid Elementary Public School,Public,Elementary, ,http://www.yrdsb.ca/schools/barbarareid.ps
 036447,B66095,Baythorn Public School,Public,Elementary,905-889-7992,http://baythorn.ps.yrdsb.ca/
 036455,B66095,Bayview Fairways Public School,Public,Elementary,905-889-1858,http://bayviewfairways.ps.yrdsb.ca/
 036471,B66095,Bayview Glen Public School,Public,Elementary,905-889-2448,http://bayviewglen.ps.yrdsb.ca/
 033561,B66095,Bayview Hill Elementary School,Public,Elementary,905-508-0806,http://bayviewhill.es.yrdsb.ca/
 893978,B66095,Bayview Secondary School,Public,Secondary,905-884-4453,http://bayview.ss.yrdsb.ca/
-120199,B66095,Beckett Farm Public School,Public,Elementary,,http://beckettfarm.ps.yrdsb.ca/
+120199,B66095,Beckett Farm Public School,Public,Elementary, ,http://beckettfarm.ps.yrdsb.ca/
 047910,B66095,Beverley Acres Public School,Public,Elementary,905-884-5059,http://beverleyacres.ps.yrdsb.ca/
-557674,B66095,Beynon Fields Public School,Public,Elementary,,http://beynonfields.ps.yrdsb.ca/
+557674,B66095,Beynon Fields Public School,Public,Elementary, ,http://beynonfields.ps.yrdsb.ca/
 939585,B66095,Bill Crothers Secondary School,Public,Secondary,905-477-8503,http://billcrothers.ss.yrdsb.ca/
-890202,B66095,Bill Hogarth Secondary School,Public,Secondary,,http://www.yrdsb.ca/schools/billhogarth.ss
+890202,B66095,Bill Hogarth Secondary School,Public,Secondary, ,http://www.yrdsb.ca/schools/billhogarth.ss
 050199,B66095,Black River Public School,Public,Elementary,905-722-5889,http://blackriver.ps.yrdsb.ca/
-616722,B66095,Black Walnut Public School,Public,Elementary,,http://blackwalnut.ps.yrdsb.ca/
+616722,B66095,Black Walnut Public School,Public,Elementary, ,http://blackwalnut.ps.yrdsb.ca/
 055131,B66095,Blue Willow Public School,Public,Elementary,905-851-0043,http://bluewillow.ps.yrdsb.ca/
 055395,B66095,Bogart Public School,Public,Elementary,905-836-8041,http://bogart.ps.yrdsb.ca/
-418445,B66095,Bond Lake Public School,Public,Elementary,,http://bondlake.ps.yrdsb.ca/
+418445,B66095,Bond Lake Public School,Public,Elementary, ,http://bondlake.ps.yrdsb.ca/
 056405,B66095,Boxwood Public School,Public,Elementary,905-294-5563,http://boxwood.ps.yrdsb.ca/
 034347,B66095,Brownridge Public School,Public,Elementary,905-660-3083,http://brownridge.ps.yrdsb.ca/
 933346,B66095,Bur Oak Secondary School,Public,Secondary,905-202-1234,http://buroak.ss.yrdsb.ca/
@@ -4746,7 +4746,7 @@ SC0802,B66095,Aurora 2C Elementary School,Public,Elementary,,
 123609,B66095,Cornell Village Public School,Public,Elementary,905-471-1694,http://cornellvillage.ps.yrdsb.ca/
 128511,B66095,Crosby Heights Public School,Public,Elementary,905-884-5281,http://crosbyheights.ps.yrdsb.ca/
 128457,B66095,Crossland Public School,Public,Elementary,905-830-0500,http://crossland.ps.yrdsb.ca/
-246078,B66095,David Suzuki Public School,Public,Elementary,,http://davidsuzuki.ps.yrdsb.ca/
+246078,B66095,David Suzuki Public School,Public,Elementary, ,http://davidsuzuki.ps.yrdsb.ca/
 236411,B66095,Deer Park Public School,Public,Elementary,905-476-4185,http://deerpark.ps.yrdsb.ca/
 136875,B66095,Denne Public School,Public,Elementary,905-853-2303,http://denne.ps.yrdsb.ca/
 139343,B66095,Devins Drive Public School,Public,Elementary,905-727-2022,http://devinsdrive.ps.yrdsb.ca/
@@ -4765,7 +4765,7 @@ SC0802,B66095,Aurora 2C Elementary School,Public,Elementary,,
 201545,B66095,Forest Run Elementary School,Public,Elementary,905-417-9227,http://forestrun.ps.yrdsb.ca/
 054640,B66095,Fossil Hill Public School,Public,Elementary,905-653-8055,http://fossilhill.ps.yrdsb.ca/
 204170,B66095,Franklin Street Public School,Public,Elementary,905-294-3562,http://franklinstreet.ps.yrdsb.ca/
-201776,B66095,Fred Varley Public School,Public,Elementary,,http://fredvarley.ps.yrdsb.ca/
+201776,B66095,Fred Varley Public School,Public,Elementary, ,http://fredvarley.ps.yrdsb.ca/
 213730,B66095,German Mills Public School,Public,Elementary,905-889-8776,http://germanmills.ps.yrdsb.ca/
 213772,B66095,Glad Park Public School,Public,Elementary,905-642-0224,http://gladpark.ps.yrdsb.ca/
 217220,B66095,Glen Cedar Public School,Public,Elementary,905-895-1500,http://glencedar.ps.yrdsb.ca/
@@ -4792,12 +4792,12 @@ SC0802,B66095,Aurora 2C Elementary School,Public,Elementary,,
 281581,B66095,Julliard Public School,Public,Elementary,905-832-3311,http://julliard.ps.yrdsb.ca/
 919233,B66095,Keswick High School,Public,Secondary,905-476-0933,http://keswick.hs.yrdsb.ca/
 291080,B66095,Keswick Public School,Public,Elementary,905-476-4377,http://keswick.ps.yrdsb.ca/
-089442,B66095,Kettle Lakes Public School,Public,Elementary,,http://kettlelakes.ps.yrdsb.ca/
+089442,B66095,Kettle Lakes Public School,Public,Elementary, ,http://kettlelakes.ps.yrdsb.ca/
 291145,B66095,Kettleby Public School,Public,Elementary,905-727-9852,http://kettleby.ps.yrdsb.ca/
 297615,B66095,King City Public School,Public,Elementary,905-833-5115,http://kingcity.ps.yrdsb.ca/
 919586,B66095,King City Secondary School,Public,Secondary,905-833-5332,http://kingcity.ss.yrdsb.ca/
 302457,B66095,Kleinburg Public School,Public,Elementary,905-893-1142,http://kleinburg.ps.yrdsb.ca/
-SC0901,B66095,Kleinburg/Nashville Elementary School,Public,Elementary,,
+SC0901,B66095,Kleinburg/Nashville Elementary School,Public,Elementary, , 
 290254,B66095,Lake Simcoe Public School,Public,Elementary,905-656-5970,http://lakesimcoe.ps.yrdsb.ca/
 303860,B66095,Lake Wilcox Public School,Public,Elementary,905-773-5381,http://lakewilcox.ps.yrdsb.ca/
 304220,B66095,Lakeside Public School,Public,Elementary,905-476-8369,http://lakeside.ps.yrdsb.ca/
@@ -4830,7 +4830,7 @@ SC0901,B66095,Kleinburg/Nashville Elementary School,Public,Elementary,,
 565973,B66095,Nellie McClung Public School,Public,Elementary,905-303-8113,http://nelliemcclung.ps.yrdsb.ca/
 928682,B66095,Newmarket High School,Public,Secondary,905-895-5159,http://newmarket.hs.yrdsb.ca/
 400645,B66095,Nobleton Public School,Public,Elementary,905-859-4590,http://nobleton.ps.yrdsb.ca/
-422035,B66095,Nokiidaa Public School,Public,Elementary,,http://sirjohnamacdonald.ps.yrdsb.ca/
+422035,B66095,Nokiidaa Public School,Public,Elementary, ,http://sirjohnamacdonald.ps.yrdsb.ca/
 406139,B66095,Northern Lights Public School,Public,Elementary,905-727-4224,http://northernlights.ps.yrdsb.ca/
 413348,B66095,O M MacKillop Public School,Public,Elementary,905-884-5711,http://ommackillop.ps.yrdsb.ca/
 413658,B66095,Oak Ridges Public School,Public,Elementary,905-773-5572,http://oakridges.ps.yrdsb.ca/
@@ -4838,7 +4838,7 @@ SC0901,B66095,Kleinburg/Nashville Elementary School,Public,Elementary,,
 234591,B66095,Park Avenue Public School,Public,Elementary,905-836-5951,http://parkavenue.ps.yrdsb.ca/
 431354,B66095,Parkland Public School,Public,Elementary,905-472-8536,http://parkland.ps.yrdsb.ca/
 435546,B66095,Parkview Public School,Public,Elementary,905-477-2172,http://parkview.ps.yrdsb.ca/
-548103,B66095,Phoebe Gilman Public School,Public,Elementary,,http://phoebegilman.ps.yrdsb.ca
+548103,B66095,Phoebe Gilman Public School,Public,Elementary, ,http://phoebegilman.ps.yrdsb.ca
 205611,B66095,Pierre Berton Public School,Public,Elementary,905-303-4540,http://pierreberton.ps.yrdsb.ca/
 894672,B66095,Pierre Elliott Trudeau High School,Public,Secondary,905-887-2216,http://trudeau.hs.yrdsb.ca/
 444286,B66095,Pine Grove Public School,Public,Elementary,905-850-0672,http://pinegrove.ps.yrdsb.ca/
@@ -4856,14 +4856,14 @@ SC0901,B66095,Kleinburg/Nashville Elementary School,Public,Elementary,,
 964809,B66095,Richmond Green Secondary School,Public,Secondary,905-780-7858,http://richmondgreen.ss.yrdsb.ca/
 938106,B66095,Richmond Hill High School,Public,Secondary,905-884-2131,http://richmondhill.hs.yrdsb.ca/
 483176,B66095,Richmond Rose Public School,Public,Elementary,905-737-4311,http://richmondrose.ps.yrdsb.ca/
-257447,B66095,Rick Hansen Public School,Public,Elementary,,http://rickhansen.ps.yrdsb.ca/
-052254,B66095,Robert Munsch Public School,Public,Elementary,,http://robertmunsch.ps.yrdsb.ca/
+257447,B66095,Rick Hansen Public School,Public,Elementary, ,http://rickhansen.ps.yrdsb.ca/
+052254,B66095,Robert Munsch Public School,Public,Elementary, ,http://robertmunsch.ps.yrdsb.ca/
 489310,B66095,Rogers Public School,Public,Elementary,905-895-5441,http://rogers.ps.yrdsb.ca/
-003104,B66095,Roméo Dallaire Public School,Public,Elementary,,http://romeodallaire.ps.yrdsb.ca/
+003104,B66095,Roméo Dallaire Public School,Public,Elementary, ,http://romeodallaire.ps.yrdsb.ca/
 491144,B66095,Rosedale Heights Public School,Public,Elementary,905-882-1864,http://rosedaleheights.ps.yrdsb.ca/
 491470,B66095,Roselawn Public School,Public,Elementary,905-884-5934,http://roselawn.ps.yrdsb.ca/
 491993,B66095,Ross Doan Public School,Public,Elementary,905-884-4022,http://rossdoan.ps.yrdsb.ca/
-356727,B66095,Rouge Park Public School,Public,Elementary,,
+356727,B66095,Rouge Park Public School,Public,Elementary, , 
 493422,B66095,Roy H Crosby Public School,Public,Elementary,905-294-2910,http://royhcrosby.ps.yrdsb.ca/
 413133,B66095,Sam Chapman Public School,Public,Elementary,905-472-8374,http://samchapman.ps.yrdsb.ca/
 298298,B66095,Schomberg Public School,Public,Elementary,905-939-7711,http://schomberg.ps.yrdsb.ca/
@@ -4888,19 +4888,19 @@ SC0901,B66095,Kleinburg/Nashville Elementary School,Public,Elementary,,
 947792,B66095,Thornhill Secondary School,Public,Secondary,905-889-5453,http://thornhill.ss.yrdsb.ca
 548712,B66095,Thornhill Woods Public School,Public,Elementary,905-326-8626,http://thornhillwoods.ps.yrdsb.ca/
 947814,B66095,Thornlea Secondary School,Public,Secondary,905-889-9696,http://thornlea.ss.yrdsb.ca/
-898285,B66095,Tommy Douglas Secondary School,Public,Secondary,,http://tommydouglas.ss.yrdsb.ca/
+898285,B66095,Tommy Douglas Secondary School,Public,Secondary, ,http://tommydouglas.ss.yrdsb.ca/
 561100,B66095,Trillium Woods Public School,Public,Elementary,905-508-5215,http://thornhillwoods.ps.yrdsb.ca/
 949140,B66095,Unionville High School,Public,Secondary,905-479-2787,http://unionville.hs.yrdsb.ca/
 566500,B66095,Unionville Meadows Public School,Public,Elementary,905-479-4795,http://unionvillemeadows.ps.yrdsb.ca/
 340936,B66095,Unionville Public School,Public,Elementary,905-477-1824,http://unionville.ps.yrdsb.ca/
 570419,B66095,Vellore Woods Public School,Public,Elementary,905-417-9211,http://vellorewoods.ps.yrdsb.ca/
 570460,B66095,Ventura Park Public School,Public,Elementary,905-707-6488,http://venturapark.ps.yrdsb.ca/
-462820,B66095,Victoria Square Public School,Public,Elementary,,
-065047,B66095,Viola Desmond Public School,Public,Elementary,,
+462820,B66095,Victoria Square Public School,Public,Elementary, , 
+065047,B66095,Viola Desmond Public School,Public,Elementary, , 
 579246,B66095,W J Watson Public School,Public,Elementary,905-476-1618,http://wjwatson.ps.yrdsb.ca/
 586501,B66095,Walter Scott Public School,Public,Elementary,905-884-2693,http://walterscott.ps.yrdsb.ca/
 028304,B66095,Wellington Public School,Public,Elementary,905-727-9751,http://aurorasenior.ps.yrdsb.ca/
-308026,B66095,Wendat Village Public School,Public,Elementary,,http://wendatvillage.ps.yrdsb.ca/
+308026,B66095,Wendat Village Public School,Public,Elementary, ,http://wendatvillage.ps.yrdsb.ca/
 595500,B66095,Westminster Public School,Public,Elementary,905-731-2963,http://westminster.ps.yrdsb.ca/
 952516,B66095,Westmount Collegiate Institute,Public,Secondary,905-882-0277,http://westmount.ci.yrdsb.ca/
 604674,B66095,Whitchurch Highlands Public School,Public,Elementary,905-888-1980,http://whitchurchhighlands.ps.yrdsb.ca/

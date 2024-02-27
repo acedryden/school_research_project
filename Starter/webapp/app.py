@@ -24,15 +24,19 @@ def School_data():
     engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqROOtWMs4rE@dpg-cnbuglv79t8c73ep52q0-a.ohio-postgres.render.com/project_3_333t", echo=False)
     Base = automap_base()
     Base.prepare(autoload_with=engine)
-    School_Location = Base.classes.School_Location
-    session=Session(engine)
-    data= session.query( School_Location.Street).all()
-    for row in data:
-        print(row) 
+    School_Location = Base.classes.School_Location_2
+    session=Session(engine)    
+    latitude_results = session.query(School_Location.Latitude).all()
+    longitude_results = session.query(School_Location.Longitude).all()
+    
 
-    session.close()
+    latitude_values = [result[0] for result in latitude_results]
+    longitude_values = [result[0] for result in longitude_results]
+    
+    coordinates = {"Latitude" : latitude_values , "Longitude": longitude_values }
 
-    return jsonify({"data" : "data"})
+
+    return jsonify(coordinates)
 
 
 

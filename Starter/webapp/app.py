@@ -28,7 +28,6 @@ def School_data():
     session=Session(engine)    
     latitude_results = session.query(School_Location.Latitude).all()
     longitude_results = session.query(School_Location.Longitude).all()
-    
 
     latitude_values = [result[0] for result in latitude_results]
     longitude_values = [result[0] for result in longitude_results]

@@ -2,6 +2,7 @@ from sqlalchemy import create_engine, inspect
 from sqlalchemy.orm import Session
 from sqlalchemy.ext.automap import automap_base
 from flask import Flask, jsonify, render_template
+
 import pandas as pd
 
 app = Flask(__name__)
@@ -21,21 +22,19 @@ def PlotBikes():
 @app.route("/api/v1.0/school_locations")
 def School_data():
 
-    engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqROOtWMs4rE@dpg-cnbuglv79t8c73ep52q0-a.ohio-postgres.render.com/project_3_333t", echo=False)
-    Base = automap_base()
-    Base.prepare(autoload_with=engine)
-    School_Location = Base.classes.School_Location_2
-    session=Session(engine)    
-    latitude_results = session.query(School_Location.Latitude).all()
-    longitude_results = session.query(School_Location.Longitude).all()
+    #engine = create_engine("sqlite:///dow.sqlite",echo=False)
+    #Base = automap_base()
+    #Base.prepere(autoload_with = engine)
+    #Dow = Base.classes.dow
 
-    latitude_values = [result[0] for result in latitude_results]
-    longitude_values = [result[0] for result in longitude_results]
-    
-    coordinates = {"Latitude" : latitude_values , "Longitude": longitude_values }
+    #session = Session(engine)
+    #result = session.query(dow).all()
+    #session.close()
 
+    School_locations_df = pd.read_csv(test_file)
+    data = School_locations_df.to_dict(orient = "records") 
 
-    return jsonify(coordinates)
+    return jsonify({"data" : data})
 
 
 

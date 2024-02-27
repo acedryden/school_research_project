@@ -2,41 +2,75 @@ from sqlalchemy import create_engine, inspect
 from sqlalchemy.orm import Session
 from sqlalchemy.ext.automap import automap_base
 from flask import Flask, jsonify, render_template
+from sqlalchemy.orm import sessionmaker
+import json
+
 
 import pandas as pd
 
 app = Flask(__name__)
 
-test_file = "school_location_data.csv"
+engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqROOtWMs4rE@dpg-cnbuglv79t8c73ep52q0-a.ohio-postgres.render.com/project_3_333t", echo=False)
 
+Base = automap_base()
+Base.prepare(engine, reflect=True)
+
+School_Location = Base.classes.School_Location_2
+
+
+# Main Route
 
 @app.route('/')
 def main():
-    message = "Work in progres <br> Possible routes: <br> /api/v1.0/school_locations <br> /plot/bikes/for/now"
+
+    message = "Work in progres <br> Possible routes: <br> /tables <br> /map <br> /school_locations"
     return message
 
-@app.route('/plot/bikes/for/now')
-def PlotBikes():
-    return render_template("index.html")
+#Table Names Route PROVVISORY
 
-@app.route("/api/v1.0/school_locations")
-def School_data():
+@app.route('/tables')
+def visualize_tables():
+    engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqROOtWMs4rE@dpg-cnbuglv79t8c73ep52q0-a.ohio-postgres.render.com/project_3_333t", echo=False)
+    inspector = inspect(engine)
+    table_names = inspector.get_table_names()
 
-    #engine = create_engine("sqlite:///dow.sqlite",echo=False)
-    #Base = automap_base()
-    #Base.prepere(autoload_with = engine)
-    #Dow = Base.classes.dow
+    tables = {}
+    for table_name in table_names:
+        columns = inspector.get_columns(table_name)
+        tables[table_name] = [column["name"] for column in columns]
 
-    #session = Session(engine)
-    #result = session.query(dow).all()
-    #session.close()
+    return jsonify(tables)
 
-    School_locations_df = pd.read_csv(test_file)
-    data = School_locations_df.to_dict(orient = "records") 
+#School Locations Route
 
-    return jsonify({"data" : data})
+@app.route('/school_locations')
+def get_school_locations():
+    Session = sessionmaker(bind=engine)
+    session = Session()
 
+    results = session.query(School_Location).all()
+    print(results)
 
+    school_data = []
+
+    for result in results:
+        school_data.append({
+            "school_name": result.School_Number,
+            "latitude": result.Latitude,
+            "longitude": result.Longitude
+        })
+
+    session.close()
+
+    return jsonify(school_data)
+    
+# Map Route
+
+@app.route("/map")
+def map():
+    return render_template('index.html')
+
+# Debugging Function 
 
 if __name__ == "__main__":
     app.run(debug = True)

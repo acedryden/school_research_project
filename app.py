@@ -20,6 +20,8 @@ def dow_data():
 def website():
     return render_template('index.html')
 
+
+
 @app.route("/v0")
 def welcome():
     session = Session(engine)
@@ -32,6 +34,9 @@ def welcome():
     print(data)
     return jsonify(data)
 
+@app.route("/close")
+def wewb():
+    return render_template('test.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -7,7 +7,7 @@ from flask import Flask, jsonify, render_template
 engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqROOtWMs4rE@dpg-cnbuglv79t8c73ep52q0-a.ohio-postgres.render.com/project_3_333t", echo=False)
 Base = automap_base()
 Base.prepare(autoload_with=engine)
-school_location = Base.classes.School_Info_2
+elementary = Base.classes.Elementary_School_Enrolment
 app = Flask(__name__)
 
 
@@ -25,13 +25,12 @@ def website():
 @app.route("/v0")
 def welcome():
     session = Session(engine)
-    schoolnums = session.query(school_location.School_Number).limit(5).all()
-    boardnums = session.query(school_location.Board_Number).limit(5).all()
+    schoolnums = session.query(elementary.School_Number).all()
+    grade8 = session.query(elementary.Grade_8_Enrolment).all()
 
     school_num = [row[0] for row in schoolnums]
-    board_num = [row[0] for row in boardnums]
-    data = {"School Number" : school_num, "Board Number" : board_num}
-    print(data)
+    grade_8 = [row[0] for row in grade8]
+    data = {"School_Number" : school_num, "Grade_8_Enrolment" : grade_8}
     return jsonify(data)
 
 @app.route("/close")

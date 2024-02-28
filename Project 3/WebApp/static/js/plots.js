@@ -5,42 +5,25 @@ url = '/api/v1.0/dow_data'
 // console.log(data)
 // }
 
-d3.json(url).then(makeGraph)
+d3.json(url).then(gettingDowData)
 
-function makeGraph(response) {
-    may_high = response.high
-    may_low = response.low
-    stock_names = response.names
+function gettingDowData(data) {
+console.log(data)
 
+let id = data (splice(1,0))
+let schoolname = data (splice (0,1))
+  
     let trace1 = {
-        x: stock_names, 
-        y: may_high, 
-        text: 'high',
-        name: "High",
-        type: 'bar'
+        x: id, 
+        y: schoolname, 
+        type:"bar"
     }
 
-    let trace2 = {
-        x: stock_names, 
-        y: may_low, 
-        text: 'low', 
-        name: 'Low', 
-        type: 'bar'
-    }
-
-    let data = [trace1, trace2]
+    let item = [trace1]
 
     let layout = {
-        title: "Stock High/Low in May 2023",
-        barmode: "group",
-        margin: {
-          l: 50,
-          r: 50,
-          b: 200,
-          t: 50,
-          pad: 4
-        }
+        title: "Names of Schools in Ontario",
     }
 
-    Plotly.newPlot('plot', data, layout)
+    Plotly.newPlot('plot', item, layout)
 }

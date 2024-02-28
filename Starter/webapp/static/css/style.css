@@ -5,3 +5,9 @@ body,
   padding: 0;
   margin: 0;
 }
+
+.with-background {
+  background-image: url('https://grantme.com/wp-content/uploads/2021/09/uoftpic.jpeg');
+  background-size: cover;
+  background-position: center;
+}

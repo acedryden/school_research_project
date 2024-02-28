@@ -13,13 +13,12 @@ app = Flask(__name__)
 
 @app.route("/")
 def dow_data():
-    return ("hello")
+    return render_template('Jumbo.html')
 
 
 @app.route("/site")
 def website():
     return render_template('index.html')
-
 
 
 @app.route("/v0")

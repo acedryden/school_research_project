@@ -1,4 +1,4 @@
-from sqlalchemy import create_engine, inspect
+from sqlalchemy import create_engine, inspect 
 from sqlalchemy.orm import Session
 from sqlalchemy.ext.automap import automap_base
 from flask import Flask, jsonify, render_template
@@ -44,25 +44,19 @@ def get_school_data():
     Base = automap_base()
     Base.prepare(engine, reflect=True)
 
-    School_Data = Base.classes.School_Location_2
+    School_Data = Base.classes.School_info
+
+    
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    results = session.query(School_Data).all()
-    print(results)
+    School_results = session.query(School_Data).all()
 
-    school_data = []
+    Schools = []
 
-    for result in results:
-        school_data.append({
-            "school_name": result.School_Number,
-            "latitude": result.Latitude,
-            "longitude": result.Longitude
-        })
+    
 
-    session.close()
-
-    return jsonify(school_data)
+    return jsonify(Schools)
 
     
 # Map Route

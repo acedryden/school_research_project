@@ -19,7 +19,6 @@ engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqR
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 
-
 # Main Route
 
 @app.route('/')
@@ -27,7 +26,7 @@ def main():
 
     return render_template('home.html')
 
-
+### API Routes
 
 # School Data Route
 
@@ -60,7 +59,6 @@ def get_school_data():
     # Return Jsonify School_data
 
     return jsonify(School_data)
-
 
 
 # Board Data Route
@@ -161,16 +159,8 @@ def get_enrollment_data():
 
     return jsonify(Enrollment__data)
 
-
-
-
-
-
-
-
-
     
-# Map Route
+# Map Test Route
 
 @app.route("/map")
 def map():

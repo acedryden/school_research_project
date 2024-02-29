@@ -1,3 +1,4 @@
+
 function createMap(School_location) {
 
      // Create the tile layer that will be the background of our map.
@@ -29,9 +30,9 @@ function createMap(School_location) {
      }).addTo(map);
 }
   
-
-    // Pull the "stations" property from response.data.
-    //let School = response.data.stations;
+function createMarkers(response) {
+    // Pull the 
+    let School = response.data.stations;
   
     // Initialize an array to hold School Markers.
     //let schoolMarkers = [];

@@ -30,7 +30,7 @@ def main():
 
 # School Data Route
 
-@app.route('/api/v1.0/school/info')
+@app.route('/api/v1.0/school/info.json')
 def get_school_data():
 
     # Assign the School_info table to a variable
@@ -63,7 +63,7 @@ def get_school_data():
 
 # Board Data Route
 
-@app.route('/api/v1.0/board/info')
+@app.route('/api/v1.0/board/info.json')
 def get_board_data():
 
     # Assign the Board_info table to a variable
@@ -96,7 +96,7 @@ def get_board_data():
 
 # Board Graduation Data Route
 
-@app.route('/api/v1.0/board/grad')
+@app.route('/api/v1.0/board/grad.json')
 def get_graduation_data():
 
     # Assign the Board_Grad table to a variable
@@ -129,7 +129,7 @@ def get_graduation_data():
 
 # Enrollment Data Route
 
-@app.route('/api/v1.0/enrollment')
+@app.route('/api/v1.0/enrollment.json')
 def get_enrollment_data():
 
     # Assign the Enrollment table to a variable

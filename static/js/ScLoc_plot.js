@@ -1,59 +1,122 @@
 
-function createMap(School_location) {
-
-     // Create the tile layer that will be the background of our map.
-    let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    });
-  
-  
-     // Create a baseMaps object to hold the streetmap layer.
-     let baseMaps = {
-       "Street Map": streetmap
-     };
-  
-     // Create an overlayMaps object to hold the bikeStations layer.
-     let overlayMaps = {
-       "School Location": School_location
-     };
-  
-     // Create the map object with options.
-     let map = L.map("map-id", {
-       center: [51.2538, -85.3232],
-       zoom: 12,
-       layers: [streetmap, School_location]
-     });
-  
-     // Create a layer control, and pass it baseMaps and overlayMaps. Add the layer control to the map.
-     L.control.layers(baseMaps, overlayMaps, {
-       collapsed: false
-     }).addTo(map);
-}
-  
 function createMarkers(response) {
-    // Pull the 
-    let School = response.data.stations;
-  
-    // Initialize an array to hold School Markers.
-    //let schoolMarkers = [];
-  
-    // Loop through the stations array.
-    //for (let index = 0; index < stations.length; index++) {
-      //let station = stations[index];
-  
-      // For each station, create a marker, and bind a popup with the station's name.
-      //let schoolMarker = L.marker([station.lat, station.lon])
-        //.bindPopup("<h3>" + station.name + "<h3><h3>Capacity: " + station.capacity + "</h3>");
-  
-      // Add the marker to the schoolMarkers array.
-      //schoolMarkers.push(schoolMarker);
-    //}
-  
-    // Create a layer group that's made from the bike markers array, and pass it to the createMap function.
-    //createMap(L.layerGroup(schoolMarkers));
+      
+      // Asigh schools to a variable
+    
+    let Schools = response;
 
-  
-  
-  // Perform an API call to the Citi Bike API to get the station information. Call createMarkers when it completes.
 
-  d3.json("/api/v1.0/School_Data").then(Response);
+      // Importing the Enrolment data
+
+    let Enrolment_Data = d3.json("/api/v1.0/enrollment.json");
+
+    // Enrolment API Call
+
+    Enrolment_Data.then(function(enrolment_data_response){
+
+        // Asigning Enrolment Dataset to a variable
+
+      let enrolment_data = enrolment_data_response
+  
+        // Initialize an array to hold School Markers.
+
+      let Elementary_markerCluster = L.markerClusterGroup();
+      let Secondary_markerCluster = L.markerClusterGroup();
+  
+        // Assigning Markers Color to Variables
+
+      let Color = ""
+
+        // Loop through the stations array.
+
+      for (let index = 0; index < 500; index++) {  //Schools.length
+
+        let school = Schools[index];
+
+        
+          // Matching the two tables
+
+        let enrolment = enrolment_data.find(item => item.School_Number === school.School_Number)
+
+
+        if (enrolment) {
+
+          if (enrolment.Total_Enrolment <= 300){
+            Color = "red"
+          } else if (enrolment.Total_Enrolment <= 500){
+            Color = "orange"
+          } else if (enrolment.Total_Enrolment <= 1000){
+            Color = "green"
+          } else if (enrolment.Total_Enrolment > 1000){
+            Color = "yellow"
+          }
+
+        let CustomMarker = L.ExtraMarkers.icon({
+
+          icon: 'fa-coffee',
+          markerColor : Color,
+          shape: 'circle',
+          prefix: 'fa'
+    
+        });
+
+          // Creating Markers for each school
+
+        let schoolMarker = L.marker([parseFloat(school.Latitude), parseFloat(school.Longitude),{icon: CustomMarker}])
+          .bindPopup("<h3>" + school.School_Name + "</h3>" + 
+          "<p>Address: " + school.Street + ", " + school.City + "," + 
+          "<p>Postal Code: " + school.Postal_Code + "</p>");
+
+
+          // If statement to split elementary from secondary 
+
+        if (school.School_Level === "Elementary") {
+          Elementary_markerCluster.addLayer(schoolMarker);
+        } else if (school.School_Level === "Secondary") {
+          Secondary_markerCluster.addLayer(schoolMarker); 
+        }
+      }
+
+      }
+
+      // Create Tile Layer
+
+    let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      });
+
+
+     // Create a baseMaps 
+
+    let baseMaps = {
+      "Street Map": streetmap
+      };
+
+     // Create an overlayMaps
+
+    let overlayMaps = {
+      "Elementary Location": Elementary_markerCluster,
+      "Secondary School" : Secondary_markerCluster
+      };
+
+      // Create the map 
+
+    let map = L.map("map-id", {
+       center: [45.1623, -81.4045],
+       zoom: 6,
+       layers: [streetmap, Elementary_markerCluster]
+      });
+
+     // Create a layer control
+
+    L.control.layers(baseMaps, overlayMaps, {
+      collapsed: false
+      }).addTo(map);
+
+
+  });
+}
+
+// API Call
+
+d3.json("/api/v1.0/school/info.json").then(createMarkers);

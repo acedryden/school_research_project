@@ -10,30 +10,33 @@ from flask import Flask, jsonify, render_template
 engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqROOtWMs4rE@dpg-cnbuglv79t8c73ep52q0-a.ohio-postgres.render.com/project_3_333t", echo=False)
 Base = automap_base()
 Base.prepare(autoload_with=engine)
+school_grad = Base.classes.Board_Grad
 #Base.classes.keys()
-#schools_table = Base.classes.School_Location_2
-#school_info = Base.classes.School_Info_2
 #session.commit()
-Dow = Base.classes.School_Info_2
+
 app = Flask(__name__)
 
-@app.route("/api/v1.0/dow_data")
+@app.route("/api/v1.0/Arti/grad_data")
 def dow_data():
     session = Session(engine)
-    
-    results= session.query(Dow.School_Number, Dow.School_Name).all()
-    #for row in data:
-       # print(row)
-    
-    data = dict(results)
-    #results2 = session.query(school_info.School_Number, school_info.School_Name).all()
-   
+    fiveyear_gradrate = session.query(school_grad.Five_Year_Graduation_Rate_2017_2018_Grade_9_Cohort).all()
+    boardnums = session.query(school_grad.Board_Number).all()
+    fouryear_gradrate = session.query(school_grad.Four_Year_Graduation_Rate_2017_2018_Grade_9_Cohort).all()
+    regions = session.query(school_grad.Region).all()
+    fouryear_gradrate2 = session.query(school_grad.Four_Year_Graduation_Rate_2018_2019_Grade_9_Cohort).all()
+
     #data = {"names":"my name", "low":2, "high":30}
-    session.close() 
+    fouryeargrad = [float(row[0]*100) for row in fouryear_gradrate]
+    fiveyeargrad = [float(row[0]*100) for row in fiveyear_gradrate]
+    board_nums = [row[0] for row in boardnums]
+    fouryeargrad2 = [float(row[0]*100) for row in fouryear_gradrate2]
+    regions1 = [row[0]for row in regions]
 
-    print(data)
+    schooldict = {"Board_Numbers":board_nums, "Regions": regions1, "Four_Year_Grads": fouryeargrad, "Five_Year_Grads": fiveyeargrad, "Four_Year_Grads_2019": fouryeargrad2}
 
-    return jsonify(data)
+    return jsonify(schooldict)
+
+    sesssion.close()
 
 @app.route("/")
 def welcome():
@@ -42,4 +45,4 @@ def welcome():
 if __name__ == "__main__":
     app.run(debug=True)
     
-#print to get results: http://127.0.0.1:5000//api/v1.0/dow_data
+#print to get results: http://127.0.0.1:5000/api/v1.0/Arti/grad_data

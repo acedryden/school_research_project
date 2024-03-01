@@ -23,16 +23,13 @@ function createMarkers(response) {
       let Elementary_markerCluster = L.markerClusterGroup();
       let Secondary_markerCluster = L.markerClusterGroup();
   
-        // Assigning Markers Color to Variables
-
-      let Color = ""
-
+        
         // Loop through the stations array.
 
       for (let index = 0; index < 500; index++) {  //Schools.length
 
         let school = Schools[index];
-
+        let Color = '';
         
           // Matching the two tables
 
@@ -41,28 +38,30 @@ function createMarkers(response) {
 
         if (enrolment) {
 
-          if (enrolment.Total_Enrolment <= 300){
+          if (parseInt(enrolment.Total_Enrolment) <= 100){
             Color = "red"
-          } else if (enrolment.Total_Enrolment <= 500){
+          } else if (parseInt(enrolment.Total_Enrolment) <= 300){
             Color = "orange"
-          } else if (enrolment.Total_Enrolment <= 1000){
+          } else if (parseInt(enrolment.Total_Enrolment) <= 500){
             Color = "green"
-          } else if (enrolment.Total_Enrolment > 1000){
+          } else if (parseInt(enrolment.Total_Enrolment) > 500){
             Color = "yellow"
           }
-
-        let CustomMarker = L.ExtraMarkers.icon({
-
-          icon: 'fa-coffee',
-          markerColor : Color,
-          shape: 'circle',
-          prefix: 'fa'
-    
-        });
+          };
 
           // Creating Markers for each school
+          
+          var colorIcon = new L.Icon({
+            iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-${Color}.png`,
+            shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+            iconSize: [25, 41],
+            iconAnchor: [12, 41],
+            popupAnchor: [1, -34],
+            shadowSize: [41, 41]
+          }); 
 
-        let schoolMarker = L.marker([parseFloat(school.Latitude), parseFloat(school.Longitude),{icon: CustomMarker}])
+                   
+        let schoolMarker = L.marker([parseFloat(school.Latitude), parseFloat(school.Longitude)] ,{icon: colorIcon})
           .bindPopup("<h3>" + school.School_Name + "</h3>" + 
           "<p>Address: " + school.Street + ", " + school.City + "," + 
           "<p>Postal Code: " + school.Postal_Code + "</p>");
@@ -76,9 +75,6 @@ function createMarkers(response) {
           Secondary_markerCluster.addLayer(schoolMarker); 
         }
       }
-
-      }
-
       // Create Tile Layer
 
     let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -113,9 +109,10 @@ function createMarkers(response) {
       collapsed: false
       }).addTo(map);
 
-
+    
   });
 }
+
 
 // API Call
 

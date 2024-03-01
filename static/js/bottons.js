@@ -4,13 +4,17 @@ function showSchoolApi() {
   }
   
   function showBoardApi() {
-    window.location.href = '/board-api'; 
+    window.location.href = '/api/v1.0/board/info.json'; 
   }
   
   function showEnrollmentApi() {
-    window.location.href = '/enrollment-api'; 
+    window.location.href = '/api/v1.0/enrollment.json'; 
   }
   
   function showGraduationApi() {
-    window.location.href = '/graduation-api'; 
+    window.location.href = '/api/v1.0/board/grad.json'; 
+  }
+
+  function showMap() {
+    window.location.href = '/map'; 
   }

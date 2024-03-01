@@ -26,7 +26,7 @@ function createMarkers(response) {
         
         // Loop through the stations array.
 
-      for (let index = 0; index < 500; index++) {  //Schools.length
+      for (let index = 0; index < 1000; index++) {  //Schools.length
 
         let school = Schools[index];
         let Color = '';

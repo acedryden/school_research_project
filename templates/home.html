@@ -30,7 +30,12 @@
     <!-- Bottons elements -->
     <script src="static\js\bottons.js"></script>
 
-
+    <style>
+        .py-5 {
+        background-image: url("https://world.uz/files/UofT-Homepage-e1567714055465_029299eq.jpg");
+        background-size: cover;
+        }
+    </style>
 
 
 </head>
@@ -44,7 +49,7 @@
 
     <div class="my-5 text-center">
         <div class="h-100 p-5 text-bg-dark border rounded-3">
-            <div class="container-fluid py-5">
+            <div class="container-fluid py-5 rounded-3">
                 <h1 class="display-5 fw-bold">Analysis of the school enrollment and graduation in the province of Ontario</h1>
                 <p class="col-lg-8 mx-auto lead">
                     In this page you will find different routes that will show the graphs, maps, and API that we build for the project
@@ -55,7 +60,7 @@
 
     <!-- Map Jumbo-->
     
-    <div class="container my-5">
+    <div class="container my-6">
         <div class="p-5 bg-body-tertiary rounded-3">
             <div class="row">
                 <div class="col-lg-8">
@@ -66,9 +71,12 @@
                     </p>
                     <div class="d-inline-flex gap-2 mb-5">
                         <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showMap()">
-                            Show Map (ICON)
-                            <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
-                          </button>
+                            Show Map
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                            <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -79,18 +87,21 @@
 
     <!-- Graph Jumbo-->
 
-    <div class="container my-5">
+    <div class="container my-7">
         <div class="row align-items-md-stretch">
             <div class="col-lg-12">
                 <div class="h-100 p-5 bg-dark text-light rounded-3">
-                    <h2>Change the background</h2>
-                    <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron look. Then, mix and match with additional component themes and more.</p>
+                    <h2>Graphs</h2>
+                    <p>Here you'll find the graphs</p>
                     <div class="d-inline-flex gap-2 mb-5">
                         <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-                            Show Graphs (ICON)
-                            <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
+                            Show Graphs
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                            <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
                         </button>
-                    </div>                </div>
+                    </div>                
             </div>
         </div>
     </div>
@@ -98,7 +109,7 @@
 
     <!-- API Jumbo -->
 
-    <div class="container my-5">
+    <div class="container my-8">
         <div class="p-5 bg-body-tertiary rounded-3 d-flex align-items-center justify-content-center" style="min-height: 80vh;">
             <div class="row">
                 <div class="col-lg-8">
@@ -111,21 +122,33 @@
                 <div class="col-lg-4 d-flex align-items-center justify-content-center">
                     <div class="d-inline-flex flex-column gap-2">
                       <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showSchoolApi()">
-                        Show School API (ICON)
-                        <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
-                      </button>
+                        Show School API
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                        </button>
                       <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showBoardApi()">
-                        Show Board API (ICON)
-                        <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
-                      </button>
+                        Show Board API
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                        </button>
                       <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showEnrollmentApi()">
-                        Show Enrollment API (ICON)
-                        <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
-                      </button>
+                        Show Enrollment API  
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                        </button>
                       <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showGraduationApi()">
-                        Show Graduation API (ICON)
-                        <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
-                      </button>
+                        Show Graduation API
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -134,7 +157,7 @@
 
     <!-- Footer -->
     <div class="container">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-6 my-9 border-top">
           <div class="col mb-3">
             <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
               <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>

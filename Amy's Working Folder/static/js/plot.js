@@ -1,27 +1,62 @@
 let selectedPrimarySchoolNumber = null;
 let selectedSecondarySchoolNumber = null;
+let school_info;
 
 document.addEventListener("DOMContentLoaded", function () {
     console.log('DOM Content Loaded');
     const apiUrl = "http://localhost:5000/api/v1.0/amy_test";
-
     fetch(apiUrl)
         .then(response => response.json())
         .then(data => {
-            populateSchoolDropdown(data.elementary_data.map(item => item['School_Number']), 'primarySchoolSelector');
-            populateSchoolDropdown(data.secondary_data.map(item => item['School_Number']), 'secondarySchoolSelector');
-            console.log('Fetched Data:', data);
+            if (data.school_info) {
+                school_info = data.school_info;
+                populateSchoolNamesDropdown(data.school_info.map(item => item['School_Name']));
+                populateSchoolDropdown(data.elementary_data.map(item => item['School_Number']), 'primarySchoolSelector');
+                populateSchoolDropdown(data.secondary_data.map(item => item['School_Number']), 'secondarySchoolSelector');
+                console.log('Fetched Data:', data);
 
             // Setup primary chart after data is fetched
             primarysetupChart('Title', data);
 
             secondarysetupChart('Secondary Title', data);
+            } else {
+                console.error('School info data is missing');
 
+            }    
         })
         .catch(error => {
             console.error("Error fetching data:", error);
         });
 });
+function populateSchoolNamesDropdown(schoolNames) {
+            let schoolNameSelector = document.getElementById('schoolNameSelector');
+
+            // Populate the dropdown with school names
+            schoolNames.forEach(school => {
+                let option = document.createElement('option');
+                option.value = school;
+                option.text = school;
+                schoolNameSelector.appendChild(option);
+            });
+            schoolNameSelector.addEventListener('change', function () {
+                const selectedSchoolName = this.value;
+                console.log('Selected School Name:', selectedSchoolName);
+
+                // Find corresponding school info
+                const selectedSchoolInfo = findSchoolInfoByName(selectedSchoolName);
+                if (selectedSchoolInfo) {
+                    const schoolInfoDisplay = document.getElementById('schoolInfoDisplay');
+
+                    // Display school number and type
+                    schoolInfoDisplay.innerHTML = `School Number: ${selectedSchoolInfo.School_Number}, School Level: ${selectedSchoolInfo.School_Level}`;
+                }
+            });
+        }
+
+ function findSchoolInfoByName(schoolName) {
+    return school_info.find(item => item['School_Name'] === schoolName);
+        }
+
 
 function primarysetupChart(title, data) {
     console.log('Inside primarysetupChart');

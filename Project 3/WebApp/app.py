@@ -1,4 +1,5 @@
 import pandas as pd
+import plotly.graph_objects as go
 from sqlalchemy.ext.automap import automap_base
 from sqlalchemy.orm import Session
 from sqlalchemy import create_engine, text, inspect, func, select, Table, MetaData
@@ -11,6 +12,7 @@ engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqR
 Base = automap_base()
 Base.prepare(autoload_with=engine)
 school_grad = Base.classes.Board_Grad
+board_info = Base.classes.Board_info
 #Base.classes.keys()
 #session.commit()
 
@@ -24,6 +26,8 @@ def dow_data():
     fouryear_gradrate = session.query(school_grad.Four_Year_Graduation_Rate_2017_2018_Grade_9_Cohort).all()
     regions = session.query(school_grad.Region).all()
     fouryear_gradrate2 = session.query(school_grad.Four_Year_Graduation_Rate_2018_2019_Grade_9_Cohort).all()
+    boardnames = session.query(board_info.Board_Name).all()
+    boardtypes = session.query(board_info.Board_Type).all()
 
     #data = {"names":"my name", "low":2, "high":30}
     fouryeargrad = [float(row[0]*100) for row in fouryear_gradrate]
@@ -31,9 +35,10 @@ def dow_data():
     board_nums = [row[0] for row in boardnums]
     fouryeargrad2 = [float(row[0]*100) for row in fouryear_gradrate2]
     regions1 = [row[0]for row in regions]
+    schoolnames = [row[0] for row in boardnames]
+    board_types = [row[0] for row in boardtypes]
 
-    schooldict = {"Board_Numbers":board_nums, "Regions": regions1, "Four_Year_Grads": fouryeargrad, "Five_Year_Grads": fiveyeargrad, "Four_Year_Grads_2019": fouryeargrad2}
-
+    schooldict = {"Board_Names":schoolnames, "Board_Types": board_types, "Board_Numbers":board_nums, "Regions": regions1, "Four_Year_Grads": fouryeargrad, "Five_Year_Grads": fiveyeargrad, "Four_Year_Grads_2019": fouryeargrad2}
     return jsonify(schooldict)
 
     sesssion.close()

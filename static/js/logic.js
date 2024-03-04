@@ -29,18 +29,15 @@ let myMap = L.map("map", {
   });
 
 function optionChanged(go){
-  return go
+  myMap.removeLayer(layerGroup);
+  boundaries(go)
   }
 
-
-url_mongo = "/mongo"
+function boundaries(newData){
+  url_mongo = "/mongo"
     d3.json(url_mongo).then(function (response){
-
       url_mongo = "/api/v0/grad_rate"
       d3.json(url_mongo).then(function (call){
-
-
-
         function getRate(name,year){
           for (const [key, value] of Object.entries(call)){
               if (name == key){
@@ -50,39 +47,28 @@ url_mongo = "/mongo"
               }
         }
         }
+        
+        layerGroup = new L.LayerGroup();
 
-        L.geoJSON(response.requests[0], {
+        let geolayer = L.geoJSON(response.requests[0], {
           onEachFeature: function (feature, layer) {
             hi = feature.properties.MUNICIPAL_NAME_SHORTFORM
             layer.bindPopup(`<h3>${hi}</h3><hr>
-            <h4>Graduation Rate 2017-2018: ${getRate(hi,"Five_2017_2018")}</h4>
-            <h4>Graduation Rate 2017-2018: ${getRate(hi,"Four_2017_2018")}</h4>
-            <h4>Graduation Rate 2017-2018: ${getRate(hi,"Four_2018_2019")}</h4>
+            <h4>Graduation Rate: ${getRate(hi,newData)*100}%</h4>
             `)
 
-            layer.setStyle({color: getColor(getRate(hi,"Five_2017_2018"))}); 
-             }}).addTo(myMap)
-      
+            layer.setStyle({color: getColor(getRate(hi,newData))}); 
+             }})
+         layerGroup.addTo(myMap);
+         layerGroup.addLayer(geolayer);
       })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
     })
 
+  
+}
+
+boundaries("Five_2017_2018")
 
 
 

@@ -58,7 +58,7 @@ def grad_rates():
     session.close()
     return jsonify(data)
 
-@app.route("/mongo")
+@app.route("/api/v0/boundaries")
 def dmongo():
     objects = bounds.find({},{"_id":False}) 
     return jsonify({"requests": list(objects)})

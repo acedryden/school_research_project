@@ -1,36 +1,111 @@
-//summary charts: 
-// import Chart from 'chart.js/auto'
-// const enr_summaryStatsData = [{"School Type":"Catholic","School Level":"Elementary","Total Enrolment":357040}
-// ,{"School Type":"Catholic","School Level":"Secondary","Total Enrolment":210060}
-// ,{"School Type":"Public","School Level":"Elementary","Total Enrolment":789530}
-// ,{"School Type":"Public","School Level":"Secondary","Total Enrolment":427290}];
-// const labels = enr_summaryStatsData.map(entry => `${entry["School Type"]} - ${entry["School Level"]}`);
-// const dataValues = enr_summaryStatsData.map(entry => entry["Total Enrolment"]);
-// const data = {
-//   labels: labels,
-//   datasets: [{
-//     label: 'Enrollment by Summary Stats',
-//     data: dataValues,
-//     backgroundColor: [
-//       'rgb(243,169,53)',
-//       'rgb(199,53,88)',
-//       'rgb(110,190,159)',
-//       'rgb(37,134,164)'
-//     ]
-//   }]
-// };
+// Graduation Plots:
+url = '/api/v1.0/Arti/grad_data'
+d3.json(url).then(gettingdata);
+    
+function gettingdata(response){
+    // let response = schooldict
+    console.log(response);
 
-// const config = {
-//   type: 'polarArea',
-//   data: data,
-//   options: {}
-// };
+    var trace1 = {
+      x: response.Board_Numbers,
+      y: response.Four_Year_Grads,
+      text: response.Board_Names,
+      
+      mode: 'markers',
+      marker: {
+        size: 10,
+        color: "green", 
+        opacity: [0.4]
+       }
+  };
+  var trace2 = {
+    x: response.Board_Numbers,
+    y: response.Four_Year_Grads_2019,
+    text: response.Board_Names,
+    
+    mode: 'markers',
+    marker: {
+      size: 10,
+      color: "blue", 
+      opacity: [0.8]
+     }
+  };
 
-// //Get the canvas element by ID
-// const ctx = document.getElementById('acquisitions');
+  var trace3 = {
+    x: response.Board_Numbers,
+    y: response.Five_Year_Grads,
+    text: response.Board_Names,
+    
+    mode: 'markers',
+    marker: {
+      size: 10 ,
+      color: "orange",
+      opacity:[0.6] 
+     }
+  };
+  
+  var pizza = [trace1,trace2,trace3];
+  
+  var show = {
+      title: 'Rates of Graduation By Board 2021-2022',
+      showlegend: false
+  };
+  
+  Plotly.newPlot('plot', pizza, show);
 
-// //Create the chart
-// new Chart(ctx, config);
+  let info1 = {
+    x: response.Regions,
+    y: response.Four_Year_Grads,
+    text: "%",
+    name: "Four Year Graduation Rate 2017-2018 Grade 9 Cohort",
+    type: "bar"
+  };
+  
+  // Trace 2 for the 2018-2019 cohort
+  let info2 = {
+    x: response.Regions,
+    y: response.Four_Year_Grads_2019,
+    text: "%",
+    name: "Four Year Graduation Rate 2018-2019 Grade 9 Cohort",
+    type: "bar"
+  };
+
+  //
+  let info3 = {
+    x: response.Regions,
+    y: response.Five_Year_Grads,
+    text: "%",
+    name: "Five Year Graduation Rate 2017-2018 Grade 9 Cohort",
+    type: "bar"
+  };
+  
+  // Create data array
+  let read = [info1, info2, info3];
+  
+  // Apply a title to the layout
+  let panel = {
+    title: "Graduation Rates Across Ontario By Region", 
+  };
+  
+  // Render the plot to the div tag with id "plot"
+  Plotly.newPlot("plot3", read, panel);
+
+}
+//Enrollment Charts:
+document.addEventListener('DOMContentLoaded', function(){
+    let enr_data = [{
+    values: [357040, 210060, 789530, 427290],
+    labels: ['Catholic Elementary', 'Catholic Secondary', 'Public Elementary', 'Public Secondary'],
+    type: 'pie'
+}];
+  
+let enr_layout = {
+    height: 400,
+    width: 600,
+};
+  
+Plotly.newPlot('enr_pie', enr_data, enr_layout);
+});
 
 let top10boards = [
   {"Board Name:" : "Toronto DSB", "Total Enrollment": 193105}, 

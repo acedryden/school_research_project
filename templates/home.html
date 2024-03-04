@@ -30,14 +30,6 @@
     <!-- Bottons elements -->
     <script src="static\js\bottons.js"></script>
 
-    <style>
-        .py-5 {
-        background-image: url("https://world.uz/files/UofT-Homepage-e1567714055465_029299eq.jpg");
-        background-size: cover;
-        }
-    </style>
-
-
 </head>
 
 
@@ -47,7 +39,7 @@
 
     <!-- Title Jumbo-->
 
-    <div class="my-5 text-center">
+    <div class="my-5 text-center jumbotron">
         <div class="h-100 p-5 text-bg-dark border rounded-3">
             <div class="container-fluid py-5 rounded-3">
                 <h1 class="display-5 fw-bold">Analysis of the school enrollment and graduation in the province of Ontario</h1>
@@ -58,10 +50,12 @@
         </div>
     </div>
 
+    <div class="row my-4"></div>
+
     <!-- Map Jumbo-->
     
     <div class="container my-6">
-        <div class="p-5 bg-body-tertiary rounded-3">
+        <div class="p-5 bg-body-tertiary rounded-3 jumbotron bg-with-image">
             <div class="row">
                 <div class="col-lg-8">
                     <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
@@ -83,14 +77,14 @@
         </div>
     </div>
 
-    
+    <div class="row my-4"></div>
 
     <!-- Graph Jumbo-->
 
     <div class="container my-7">
         <div class="row align-items-md-stretch">
-            <div class="col-lg-12">
-                <div class="h-100 p-5 bg-dark text-light rounded-3">
+            <div class="col-lg-12 jumbotron rounded-3 graph h-100">
+                <div class="p-5 bg-light text-light rounded-3 graph h-100">
                     <h2>Graphs</h2>
                     <p>Here you'll find the graphs</p>
                     <div class="d-inline-flex gap-2 mb-5">
@@ -102,62 +96,78 @@
                             <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
                         </button>
                     </div>                
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="row my-4"></div>
 
 
     <!-- API Jumbo -->
 
     <div class="container my-8">
-        <div class="p-5 bg-body-tertiary rounded-3 d-flex align-items-center justify-content-center" style="min-height: 80vh;">
-            <div class="row">
-                <div class="col-lg-8">
-                    <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
-                    <h1 class="text-body-emphasis">Display the Jsonifyed API we used</h1>
-                    <p class="fs-5 text-muted">
-                        Here you'll find our API 
-                    </p>
-                </div>
-                <div class="col-lg-4 d-flex align-items-center justify-content-center">
-                    <div class="d-inline-flex flex-column gap-2">
-                      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showSchoolApi()">
-                        Show School API
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                        </svg>
-                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
-                      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showBoardApi()">
-                        Show Board API
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                        </svg>
-                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
-                      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showEnrollmentApi()">
-                        Show Enrollment API  
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                        </svg>
-                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
-                      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showGraduationApi()">
-                        Show Graduation API
-                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                        </svg>
-                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="p-3 bg-body-tertiary rounded-3 api_im  jumbotron">
+                    <div class="container-fluid py-6 rounded-3">
+                        <div class="row align-items-center">
+                            <div class="col-md-9">
+                                <h1 class="text-white">Display the Jsonifyed API we used</h1>
+                                <p class="fs-5 text-white">
+                                    Here you'll find our API 
+                                    </p>
+                                </div>
+                            </div>
+                        <div class="row">
+                            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                                <div class="d-inline-flex flex-column gap-2">
+                                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showSchoolApi()">
+                                        Show School API
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                                    </button>
+                                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showBoardApi()">
+                                        Show Board API
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                                <div class="d-inline-flex flex-column gap-2">
+                                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showEnrollmentApi()">
+                                        Show Enrollment API  
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                                    </button>
+                                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showGraduationApi()">
+                                        Show Graduation API
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="row my-4"></div>
+
     <!-- Footer -->
     <div class="container">
-        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-6 my-9 border-top">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-7 my-9 border-top">
           <div class="col mb-3">
             <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
               <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>

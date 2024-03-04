@@ -27,16 +27,21 @@
     <!-- Our CSS -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
 
+
+
   </head>
   <body>
+
+  <!-- <select id="selDataset" onchange="optionChanged(this.value)">
+      <option value="australia">Australia</option>
+      <option value="brazil">Brazil</option>
+  </select> -->
+
 
     <!-- map div -->
     <div id="map"></div>
 
     <!-- JavaScript file -->
-    <script type="text/javascript" src="{{ url_for('static', filename='js/bounds.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/schools.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/data.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>
     <!-- <script type="text/javascript" src="static/js/logic2.js"></script> -->
     <!-- <script type="text/javascript" src="static/js/logic3.js"></script> -->

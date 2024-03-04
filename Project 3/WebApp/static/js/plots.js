@@ -55,42 +55,42 @@ function gettingdata(response){
   Plotly.newPlot('plot', pizza, show);
 
 //Line Chart
-  let item1 = {
-    x: response.Board_Numbers,
-    y: response.Four_Year_Grads,
-    text: "%",
-    name: "Four Year Graduation Rate 2017-2018 Grade 9 Cohort",
-    type: "line"
-  };
+  // let item1 = {
+  //   x: response.Board_Numbers,
+  //   y: response.Four_Year_Grads,
+  //   text: "%",
+  //   name: "Four Year Graduation Rate 2017-2018 Grade 9 Cohort",
+  //   type: "line"
+  // };
   
-  // Trace 2 for the 2018-2019 cohort
-  let item2 = {
-    x: response.Board_Numbers,
-    y: response.Four_Year_Grads_2019,
-    text: "%",
-    name: "Four Year Graduation Rate 2018-2019 Grade 9 Cohort",
-    type: "line"
-  };
+  // // Trace 2 for the 2018-2019 cohort
+  // let item2 = {
+  //   x: response.Board_Numbers,
+  //   y: response.Four_Year_Grads_2019,
+  //   text: "%",
+  //   name: "Four Year Graduation Rate 2018-2019 Grade 9 Cohort",
+  //   type: "line"
+  // };
 
-  //
-  let item3 = {
-    x: response.Board_Numbers,
-    y: response.Five_Year_Grads,
-    text: "%",
-    name: "Five Year Graduation Rate 2017-2018 Grade 9 Cohort",
-    type: "line"
-  };
+  // //
+  // let item3 = {
+  //   x: response.Board_Numbers,
+  //   y: response.Five_Year_Grads,
+  //   text: "%",
+  //   name: "Five Year Graduation Rate 2017-2018 Grade 9 Cohort",
+  //   type: "line"
+  // };
   
-  // Create data array
-  let data = [item1, item2, item3];
+  // // Create data array
+  // let data = [item1, item2, item3];
   
-  // Apply a title to the layout
-  let layout = {
-    title: "Graduation Rates Across Ontario 2021-2022", 
-    };
+  // // Apply a title to the layout
+  // let layout = {
+  //   title: "Graduation Rates Across Ontario 2021-2022", 
+  //   };
   
-  // Render the plot to the div tag with id "plot"
-  Plotly.newPlot("plot2", data, layout);
+  // // Render the plot to the div tag with id "plot"
+  // Plotly.newPlot("plot2", data, layout);
 
   //Bar Chart
   let info1 = {

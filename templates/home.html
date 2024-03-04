@@ -41,11 +41,8 @@
 
     <div class="my-5 text-center jumbotron">
         <div class="h-100 p-5 text-bg-dark border rounded-3">
-            <div class="container-fluid py-5 rounded-3">
-                <h1 class="display-5 fw-bold">Analysis of the school enrollment and graduation in the province of Ontario</h1>
-                <p class="col-lg-8 mx-auto lead">
-                    In this page you will find different routes that will show the graphs, maps, and API that we build for the project
-                </p>
+            <div class="container-fluid py-5 rounded-3 title">
+                <h1 class="display-5 fw-bold text-white">Analysis of the school enrollment and graduation in the province of Ontario</h1>
             </div>
         </div>
     </div>
@@ -57,12 +54,12 @@
     <div class="container my-6">
         <div class="p-5 bg-body-tertiary rounded-3 jumbotron bg-with-image">
             <div class="row">
-                <div class="col-lg-8">
-                    <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100"><use xlink:href="#bootstrap"></use></svg>
-                    <h1 class="text-body-emphasis">School and Board Map</h1>
-                    <p class="fs-5 text-muted">
+                <div class="col-lg-12">
+                    <h1 class="text-body-emphasis text-dark">School and Board Map</h1>
+                    <p class="fs-5 text-muted text-dark">
                         This visualization will show the map of Ontario and generate the markers for each school and relative information. We are still working on this feature.
                     </p>
+                    <hr class="my-4">
                     <div class="d-inline-flex gap-2 mb-5">
                         <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showMap()">
                             Show Map
@@ -81,12 +78,13 @@
 
     <!-- Graph Jumbo-->
 
-    <div class="container my-7">
+    <div class="container my-7 jumbotron">
         <div class="row align-items-md-stretch">
-            <div class="col-lg-12 jumbotron rounded-3 graph h-100">
-                <div class="p-5 bg-light text-light rounded-3 graph h-100">
+            <div class="col-lg- rounded-3 graph">
+                <div class="p-5 bg-light text-light rounded-3 graph">
                     <h2>Graphs</h2>
                     <p>Here you'll find the graphs</p>
+                    <hr class="my-4">
                     <div class="d-inline-flex gap-2 mb-5">
                         <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
                             Show Graphs
@@ -108,8 +106,8 @@
 
     <div class="container my-8">
         <div class="row">
-            <div class="col-lg-12">
-                <div class="p-3 bg-body-tertiary rounded-3 api_im  jumbotron">
+            <div class="col-lg-12 rounded-3 jumbotron api_im">
+                <div class="p-5 bg-body-tertiary rounded-3 api_im  jumbotron">
                     <div class="container-fluid py-6 rounded-3">
                         <div class="row align-items-center">
                             <div class="col-md-9">
@@ -119,18 +117,19 @@
                                     </p>
                                 </div>
                             </div>
+                        <hr class="my-4 text-white">
                         <div class="row">
                             <div class="col-lg-6 d-flex align-items-center justify-content-center">
                                 <div class="d-inline-flex flex-column gap-2">
                                     <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showSchoolApi()">
-                                        Show School API
+                                        School API
                                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                         </svg>
                                         <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
                                     </button>
                                     <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showBoardApi()">
-                                        Show Board API
+                                        Board API
                                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                         </svg>
@@ -141,14 +140,14 @@
                             <div class="col-lg-6 d-flex align-items-center justify-content-center">
                                 <div class="d-inline-flex flex-column gap-2">
                                     <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showEnrollmentApi()">
-                                        Show Enrollment API  
+                                        Enrollment API  
                                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                         </svg>
                                         <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
                                     </button>
                                     <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showGraduationApi()">
-                                        Show Graduation API
+                                        Graduation API
                                         <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
                                         </svg>
@@ -176,43 +175,50 @@
           </div>
       
           <div class="col mb-3">
-      
-          </div>
-      
-          <div class="col mb-3">
-            <h5>Section</h5>
+            <h5>Amy Dryden</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              <li class="nav-item mb-2">
+                <p class="text-body-secondary">Personal links</p>
+                <p class="text-body-secondary"><a href="https://github.com/janesmith" target="_blank">GitHub</a></p>
+                <p class="text-body-secondary">janesmith@email.com</p>
+              </li>
+            </ul>
+          </div>
+        
+          <div class="col mb-3">
+            <h5>Arti Bhatia</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <p class="text-body-secondary">Personal links</p>
+                <p class="text-body-secondary"><a href="https://github.com/johndoe" target="_blank">GitHub</a></p>
+                <p class="text-body-secondary">johndoe@email.com</p>
+              </li>
             </ul>
           </div>
       
           <div class="col mb-3">
-            <h5>Section</h5>
+            <h5>Khemaka Oo</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              <li class="nav-item mb-2">
+                <p class="text-body-secondary">Personal links</p>
+                <p class="text-body-secondary"><a href="https://github.com/janesmith" target="_blank">GitHub</a></p>
+                <p class="text-body-secondary">janesmith@email.com</p>
+              </li>
             </ul>
           </div>
-      
+        
           <div class="col mb-3">
-            <h5>Section</h5>
+            <h5>Alessandro Mori</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+              <li class="nav-item mb-2">
+                <p class="text-body-secondary">Personal links</p>
+                <p class="text-body-secondary"><a href="https://github.com/johndoe" target="_blank">GitHub</a></p>
+                <p class="text-body-secondary">johndoe@email.com</p>
+              </li>
             </ul>
           </div>
         </footer>
-      </div>
+    </div>
 
   <!-- Our JavaScript file -->
   <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>

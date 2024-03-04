@@ -65,8 +65,8 @@ function createMarkers(response) {
           .bindPopup("<h3>" + school.School_Name + "</h3>" + 
           "<p>Address: " + school.Street + ", " + school.City + "," + 
           "<p>Postal Code: " + school.Postal_Code + "</p>" +
-          "<p>Total Enrolment: " + enrolment.Total_Enrolment + "</p>" + 
-          "<p>School Website: <a href='" + school.School_Website + "' target='_blank'>" + school.School_Website + "</a></p>"
+          "<p>School Website: <a href='" + school.School_Website + "' target='_blank'>" + school.School_Website + "</a></p>" +
+          "<p><strong>Total Enrolment:</strong> " + enrolment.Total_Enrolment + "</p>" 
           );
 
 

@@ -44,7 +44,7 @@ body,
 
   /* Header Image*/
 
-.py-5 {
+.title {
   background-image: url("https://grantme.ca/wp-content/uploads/2021/09/uoftpic.jpeg");
   background-size: cover;
   background-position: center-top;
@@ -70,8 +70,9 @@ body,
     /* Map Image */
 
 .bg-with-image {
-    background-image: url("https://cdn.pixabay.com/photo/2013/07/12/12/54/world-map-146505_640.png");
+    background-image: url("https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg");
     background-size: cover;
+    background-position: center;
 }
 
 /* Jumbotron Shadow */

@@ -15,6 +15,10 @@ function showSchoolApi() {
     window.location.href = '/api/v1.0/board/grad.json'; 
   }
 
-  function showMap() {
+  function showSchoolMap() {
     window.location.href = '/map'; 
+  }
+
+  function showBoardMap() {
+    window.location.href = '/api/v0/Graduation_Map'; 
   }

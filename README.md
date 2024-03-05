@@ -9,7 +9,7 @@ Links to the dataset:
 3. https://data.ontario.ca/dataset/school-information-and-student-demographics
 
 Visualizations:
-- PiecChart showing total enrollments by school type and level
+- Pie Chart showing total enrollments by school type and level
 - Bar graph showing Top 10 School Boards by Enrollment
 - Bar graph showing Top 10 Elementary Schools by Enrollment
 - Bar graph showing Top 10 Secondary Schools by Enrollment

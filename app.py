@@ -65,7 +65,7 @@ def dmongo():
 
 @app.route("/api/v0/Graduation_Map")
 def website():
-    return render_template('index.html')
+    return render_template('grad_rate_map.html')
 
 if __name__ == "__main__":
     app.run(debug=True)

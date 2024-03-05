@@ -264,7 +264,7 @@ def enroll_chart():
         enrollment.Grade_3_Enrolment,
         enrollment.Grade_4_Enrolment,
         enrollment.Grade_5_Enrolment,
-        enrollment.Grade_6_Enrolment,
+        enrollment.Grade_6_Enrolment, 
         enrollment.Grade_7_Enrolment,
         enrollment.Grade_8_Enrolment,
         enrollment.Grade_9_Enrolment,
@@ -272,17 +272,14 @@ def enroll_chart():
         enrollment.Grade_11_Enrolment,
         enrollment.Grade_12_Enrolment,
         enrollment.Total_Enrolment,
+        school_info.School_Level,  
+        school_info.Board_Number,
+        school_info.School_Name,
     ]
 
-    ele_data = (
+    enr_data = (
         session.query(*sel)
-        .filter(enrollment.School_Level.in_(['Elementary']))
-        .all()
-    )
-
-    sec_data = (
-        session.query(*sel)
-        .filter(enrollment.School_Level.in_(['Secondary']))
+        .outerjoin(school_info, enrollment.School_Number == school_info.School_Number)
         .all()
     )
 
@@ -297,7 +294,7 @@ def enroll_chart():
 
     session.close()
     
-    ele_data_list = [
+    enr_data_list = [
         {
             "School_Number": record.School_Number,
             "Grade_1_Enrolment": record.Grade_1_Enrolment,
@@ -309,38 +306,18 @@ def enroll_chart():
             "Grade_7_Enrolment": record.Grade_7_Enrolment,
             "Grade_8_Enrolment": record.Grade_8_Enrolment,
             "Grade_9_Enrolment": record.Grade_9_Enrolment,
-            "Total_Enrolment": record.Total_Enrolment,
-        }
-        for record in ele_data
-    ]
-    
-    sec_data_list = [
-        {
-            "School_Number": record.School_Number,
-            "Grade_9_Enrolment": record.Grade_9_Enrolment,
             "Grade_10_Enrolment": record.Grade_10_Enrolment,
             "Grade_11_Enrolment": record.Grade_11_Enrolment,
             "Grade_12_Enrolment": record.Grade_12_Enrolment,
             "Total_Enrolment": record.Total_Enrolment,
+            "School_Level": record.School_Level,
+            "Board_Number": record.Board_Number,
+            "School_Name": record.School_Name,
         }
-        for record in sec_data
+        for record in enr_data
     ]
-
-    school_info_list = [ 
-        {
-        "School_Number": record.School_Number, 
-        "Board_Number": record.Board_Number, 
-        "School_Name" : record.School_Name,
-        "School_Level": record.School_Level
-        }
-        for record in school_info_data
-    ]
-
-
-    data = {"elementary_data": ele_data_list, "secondary_data": sec_data_list, "school_info": school_info_list}
-
-
-    return jsonify(data)
+    
+    return jsonify({"enr_data": enr_data_list})
 
 # School Map Route
 

@@ -22,6 +22,7 @@ function getColor(grad_rate){
   }
 }
 
+
 let myMap = L.map("map", {
     center: [43.6532, -79.3832],
     zoom: 17,
@@ -38,34 +39,28 @@ function boundaries(newData){
     d3.json(url_mongo).then(function (response){
       url_mongo = "/api/v0/grad_rate"
       d3.json(url_mongo).then(function (call){
-        function getRate(name,year){
-          for (const [key, value] of Object.entries(call)){
-              if (name == key){
-                for (const [key_1, value_1] of Object.entries(value)){
-                  return call[name][key_1][year]
-                }
-              }
+        function getRate(board_name,year){
+         return call[board_name][year]   
         }
-        }
-        
         layerGroup = new L.LayerGroup();
 
         let geolayer = L.geoJSON(response.requests[0], {
-          onEachFeature: function (feature, layer) {
-            hi = feature.properties.MUNICIPAL_NAME_SHORTFORM
-            layer.bindPopup(`<h3>${hi}</h3><hr>
-            <h4>Graduation Rate: ${(getRate(hi,newData)*100).toFixed(2)}%</h4>
+          onEachFeature: function (feature, layer){ 
+            layer.setStyle({color: getColor(getRate(feature.properties.BOARD_NUM,newData))}); 
+            
+            
+            layer.bindPopup(`<h3>${feature.properties.BOARD_NAME
+            }</h3><hr>
+            <h4>Graduation Rate: ${(getRate(feature.properties.BOARD_NUM,newData)*100).toFixed(2)}%</h4>
             `)
 
-            layer.setStyle({color: getColor(getRate(hi,newData))}); 
-             }})
+             }}).addTo(myMap)
          layerGroup.addTo(myMap);
          layerGroup.addLayer(geolayer);
       })
 
     })
 
-  
 }
 
 boundaries("Four_2017_2018")
@@ -88,6 +83,5 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(myMap);
-
 
     

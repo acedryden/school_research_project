@@ -20,7 +20,7 @@ CORS(app)
 
 mongo = MongoClient(f"mongodb+srv://khemakaoo:Sr6djqX1vUKxLU7F@cluster0.f5fh96l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = mongo['Boundary']
-bounds = db["asd"]
+bounds = db["Board_bounds"]
 
 # Starting Engine
 
@@ -65,20 +65,16 @@ def grad_rates():
     data = {}
 
     for i in range(len(Four_2017_2018)):
-        data[(Four_2017_2018[i][1]).upper()] = {}
-
-
-    for i in range(len(Four_2017_2018)):
-        data[(Four_2017_2018[i][1]).upper()][Four_2017_2018[i][2]] = {}
+        data[(Four_2017_2018[i][2]).upper()] = {}
 
     for i in range(len(Four_2017_2018)):
-        data[(Four_2017_2018[i][1]).upper()][Four_2017_2018[i][2]]["Four_2017_2018"] = float(Four_2017_2018[i][0])
+        data[Four_2017_2018[i][2]]["Four_2017_2018"] = float(Four_2017_2018[i][0])
 
     for i in range(len(Five_2017_2018)):
-        data[(Four_2017_2018[i][1]).upper()][Five_2017_2018[i][2]]["Five_2017_2018"] = float(Five_2017_2018[i][0])
+        data[Five_2017_2018[i][2]]["Five_2017_2018"] = float(Five_2017_2018[i][0])
 
     for i in range(len(Four_2018_2019)):
-        data[(Four_2017_2018[i][1]).upper()][Five_2017_2018[i][2]]["Four_2018_2019"] = float(Four_2018_2019[i][0])
+        data[Five_2017_2018[i][2]]["Four_2018_2019"] = float(Four_2018_2019[i][0])
 
 
     session.close()

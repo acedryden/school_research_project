@@ -32,7 +32,7 @@ finally:
 CORS(app)
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('charts.html')
 
 CORS(app)
 @app.route("/api/v1.0/Arti/grad_data")

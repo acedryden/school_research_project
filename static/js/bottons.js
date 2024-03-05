@@ -22,3 +22,7 @@ function showSchoolApi() {
   function showBoardMap() {
     window.location.href = '/api/v0/Graduation_Map'; 
   }
+
+  function showGraphs() {
+    window.location.href = '/graphs'; 
+  }

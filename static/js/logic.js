@@ -54,7 +54,7 @@ function boundaries(newData){
           onEachFeature: function (feature, layer) {
             hi = feature.properties.MUNICIPAL_NAME_SHORTFORM
             layer.bindPopup(`<h3>${hi}</h3><hr>
-            <h4>Graduation Rate: ${getRate(hi,newData)*100}%</h4>
+            <h4>Graduation Rate: ${(getRate(hi,newData)*100).toFixed(2)}%</h4>
             `)
 
             layer.setStyle({color: getColor(getRate(hi,newData))}); 

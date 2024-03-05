@@ -28,6 +28,7 @@ Tools Used:
 - QuickDBD for DB Schema
 - Flask API
 - HTML/CSS
-- JavaScript (Plotly, Leaflet) 
+- JavaScript (Plotly, Leaflet)
+- Flask-CORS (https://flask-cors.readthedocs.io/en/latest/)
 
 

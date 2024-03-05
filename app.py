@@ -58,12 +58,12 @@ def grad_rates():
     session.close()
     return jsonify(data)
 
-@app.route("/api/v0/boundaries")
+@app.route("/api/v0/boundaries.json")
 def dmongo():
     objects = bounds.find({},{"_id":False}) 
     return jsonify({"requests": list(objects)})
 
-@app.route("/site")
+@app.route("/api/v0/Graduation_Map")
 def website():
     return render_template('index.html')
 

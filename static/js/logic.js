@@ -34,7 +34,7 @@ function optionChanged(go){
   }
 
 function boundaries(newData){
-  url_mongo = "/mongo"
+  url_mongo = "/api/v0/boundaries.json"
     d3.json(url_mongo).then(function (response){
       url_mongo = "/api/v0/grad_rate"
       d3.json(url_mongo).then(function (call){
@@ -70,6 +70,24 @@ function boundaries(newData){
 
 boundaries("Five_2017_2018")
 
+var legend = L.control({position: "bottomright"});
+legend.onAdd = function (map) {
+  
+  var div = L.DomUtil.create('div', 'info legend'),
+      grades = [50, 60, 70, 80, 90]
+      
+
+  // loop through our density intervals and generate a label with a colored square for each interval
+  for (var i = 0; i < grades.length; i++) {
+      div.innerHTML +=
+          '<i style="background:' + getColor((grades[i] + 1)/100) + '"></i> ' +
+          grades[i] + (grades[i + 1] ? '&ndash;' + grades[i + 1] + '<br>' : '+');
+  }
+
+  return div;
+};
+
+legend.addTo(myMap);
 
 
     

@@ -32,7 +32,7 @@ finally:
 CORS(app)
 @app.route("/")
 def index():
-    return render_template('index.html')
+    return render_template('charts.html')
 
 CORS(app)
 @app.route("/api/v1.0/Arti/grad_data")
@@ -150,12 +150,6 @@ def enroll_chart():
 
 
     return jsonify(data)
-
-CORS(app)
-@app.route('/<path:dummy>')
-def fallback(dummy):
-    return f"404 Not Found: {dummy}"
-
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -41,10 +41,6 @@ def grad_rates():
     for i in range(len(Four_2017_2018)):
         data[(Four_2017_2018[i][2]).upper()] = {}
 
-
-    # for i in range(len(Four_2017_2018)):
-    #     data[(Four_2017_2018[i][1]).upper()][Four_2017_2018[i][2]] = {}
-
     for i in range(len(Four_2017_2018)):
         data[Four_2017_2018[i][2]]["Four_2017_2018"] = float(Four_2017_2018[i][0])
 

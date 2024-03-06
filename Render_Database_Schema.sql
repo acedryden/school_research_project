@@ -1,65 +1,81 @@
+﻿
+CREATE TABLE "Board_info" (
+    "Board_Number" varchar,
+    "Board_Name" varchar,
+    "Board_Type" varchar ,
+    "Municipality" varchar ,
+    "Board_Website" varchar,
+    CONSTRAINT "pk_Board_info" PRIMARY KEY (
+        "Board_Number"
+     )
+);
 
-CREATE TABLE "School_Location" (
-    "School_Number" varchar   NOT NULL,
-    "Street" varchar   NOT NULL,
-	"Municipality" varchar   NOT NULL,
-	"City" varchar   NOT NULL,
-	"Province" varchar   NOT NULL,
-	"Postal_Code" varchar   NOT NULL,
-	"Fax_Number" varchar NOT NULL,
-	"Latitude" decimal   NOT NULL,
-	"Longitude" decimal  NOT NULL,
-
-    CONSTRAINT "pk_School_Location" PRIMARY KEY (
+CREATE TABLE "School_info" (
+    "School_Number" int ,
+    "Board_Number" varchar ,
+    "School_Name" varchar  ,
+    "School_Type" varchar ,
+    "School_Level" varchar ,
+    "Street" varchar    ,
+    "Municipality" varchar    ,
+    "City" varchar    ,
+    "Province" varchar   ,
+    "Postal_Code" varchar  ,
+	"Fax_Number" varchar,
+    "Latitude" decimal  ,
+    "Longitude" decimal  ,
+    "Phone_Number" varchar   ,
+    "School_Website" varchar   ,
+    CONSTRAINT "pk_School_info" PRIMARY KEY (
         "School_Number"
      )
 );
 
-CREATE TABLE "School_Info" (
-    "School_Number" varchar   NOT NULL,
-	"Board_Number" varchar NOT NULL,
-	"School_Name" varchar NOT NULL,
-	"School_Type" varchar NOT NULL,
-	"School_Level" varchar NOT NULL,
-	"Phone_Number" varchar NOT NULL,
-	"School_Website" varchar NOT NULL,
-
-    CONSTRAINT "pk_School_Info" PRIMARY KEY (
-        "School_Number"
+CREATE TABLE "Board_Grad" (
+    "Board_Number" varchar ,
+    "Year" varchar ,
+    "Region" varchar ,
+    "Progress_in_Grade_10_OSSLT_Results" decimal ,
+    "Four_Year_Graduation_Rate_2017_2018_Grade_9_Cohort" decimal,
+    "Progress_in_Four_Year_Graduation_Rate_2017_2018_Grade_9_Cohort" decimal  ,
+    "Five_Year_Graduation_Rate_2017_2018_Grade_9_Cohort" decimal,
+    "Progress_in_Five_Year_Graduation_Rate_2017_2018_Grade_9_Cohort" decimal ,
+    "Four_Year_Graduation_Rate_2018_2019_Grade_9_Cohort" decimal  ,
+    "Progress_in_Four_Year_Graduation_Rate_2018_2019_Grade_9_Cohort" decimal  ,
+    CONSTRAINT "pk_Board_Grad" PRIMARY KEY (
+        "Board_Number","Year"
      )
 );
 
-CREATE TABLE "Elementary_School_Enrolment" (
-    "School_Number" varchar NOT NULL,
-	"School_Type" varchar NOT NULL,
-	"Grade_1_Enrolment" int NOT NULL,
-	"Grade_2_Enrolment" int NOT NULL,
-	"Grade_3_Enrolment" int NOT NULL,
-	"Grade_4_Enrolment" int NOT NULL,
-	"Grade_5_Enrolment" int NOT NULL,
-	"Grade_6_Enrolment" int NOT NULL,
-	"Grade_7_Enrolment" int NOT NULL,
-	"Grade_8_Enrolment" int NOT NULL,
-
-    CONSTRAINT "pk_Elementary_School_Enrolment" PRIMARY KEY (
-        "School_Number"
+CREATE TABLE "Enrollment" (
+    "School_Number" int ,
+    "Year" varchar ,
+    "School_Type" varchar ,
+    "School_Level" varchar ,
+    "Grade_1_Enrolment" int ,
+    "Grade_2_Enrolment" int  ,
+    "Grade_3_Enrolment" int ,
+    "Grade_4_Enrolment" int ,
+    "Grade_5_Enrolment" int ,
+    "Grade_6_Enrolment" int ,
+    "Grade_7_Enrolment" int  ,
+    "Grade_8_Enrolment" int ,
+    "Grade_9_Enrolment" int ,
+    "Grade_10_Enrolment" int ,
+    "Grade_11_Enrolment" int ,
+    "Grade_12_Enrolment" int  ,
+    "Total_Enrolment" int  ,
+    CONSTRAINT "pk_Enrollment" PRIMARY KEY (
+        "School_Number","Year"
      )
 );
 
-CREATE TABLE "Secondary_School_Enrolment" (
-    "School_Number" varchar NOT NULL,
-	"School_Type" varchar NOT NULL,
-	"Grade_9_Enrolment" int NOT NULL,
-	"Grade_10_Enrolment" int NOT NULL,
-	"Grade_11_Enrolment" int NOT NULL,
-	"Grade_12_Enrolment" int NOT NULL,
+ALTER TABLE "School_info" ADD CONSTRAINT "fk_School_info_Board_Number" FOREIGN KEY("Board_Number")
+REFERENCES "Board_info" ("Board_Number");
 
+ALTER TABLE "Board_Grad" ADD CONSTRAINT "fk_Board_Grad_Board_Number" FOREIGN KEY("Board_Number")
+REFERENCES "Board_info" ("Board_Number");
 
-    CONSTRAINT "pk_Secondary_School_Enrolment" PRIMARY KEY (
-        "School_Number"
-     )
-);
+ALTER TABLE "Enrollment" ADD CONSTRAINT "fk_Enrollment_School_number" FOREIGN KEY("School_Number")
+REFERENCES "School_info" ("School_Number");
 
-
---ALTER TABLE "School_Location" ADD CONSTRAINT "fk_School_Location_School_Number" FOREIGN KEY("School_Number")
---REFERENCES "School_Info_2" ("School_Number");

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HTML Head -->
+<head>
+  <meta charset="UTF-8">
+  <title>Project 3 Home</title>
+
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
+  <!-- Leaflet JavaScript code -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+
+
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style2.css') }}">
+
+    <!-- Bottons elements -->
+    <script src="static\js\bottons.js"></script>
+
+</head>
+
+
+
+<!-- HTML Body -->
+<body>
+
+    <!-- Title Jumbo-->
+
+    <div class="my-5 text-center jumbotron">
+        <div class="h-100 p-5 text-bg-dark border rounded-3">
+            <div class="container-fluid py-5 rounded-3 title">
+                <h1 class="display-5 fw-bold text-white">Analysis of enrollment and graduation rate for the elementary and secondary schools in the Ontario province</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-4"></div>
+
+    <!-- Map Jumbo-->
+    
+    <div class="container my-6">
+        <div class="p-5 bg-body-tertiary rounded-3 bg-with-image  jumbotron">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="text-body-emphasis text-dark">Interactive Map</h1>
+                    <p class="fs-5 text-muted text-dark">
+                        Navigate Ontario's Schools and Graduation Rates and dive into Ontario's education landscape with our interactive map. Explore schools enrollment numbers and graduation rates by school board across the province. 
+                    </p>
+                    <hr class="my-4">
+                    <div class="d-inline-flex gap-2 mb-5">
+                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showSchoolMap()">
+                            Show School Map
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                            <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                        </button>
+                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showBoardMap()">
+                            Show Board Map
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                            <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-4"></div>
+
+    <!-- Graph Jumbo-->
+
+    <div class="container my-7">
+        <div class="row align-items-md-stretch">
+            <div class="col-lg- rounded-3">
+                <div class="p-5 bg-light text-light rounded-3 jumbotron graph">
+                    <h2>Graphical Insights</h2>
+                    <p>Explore Ontario's Education Landscape and discover insightful graphs showcasing enrollment and graduation rates across Ontario, categorized by region, school names, and types. Explore data from the top 10 schools in Ontario for deeper insights into educational trends and performance</p>
+                    <hr class="my-4">
+                    <div class="d-inline-flex gap-2 mb-5">
+                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showGraphs()">
+                            Show Graphs
+                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                            </svg>
+                            <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                        </button>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-4"></div>
+
+
+    <!-- API Jumbo -->
+
+    <div class="container my-8">
+        <div class="row">
+            <div class="col-lg rounded-3">
+                <div class="p-5 bg-body-tertiary rounded-3 api_im  jumbotron">
+                    <div class="container-fluid py-6 rounded-3">
+                        <div class="row align-items-center">
+                            <div class="col-md-9">
+                                <h1 class="text-white">API Access</h1>
+                                <p class="fs-5 text-white">
+                                    Explore Ontario Education Data! Display the Jsonifyed API we used and consult them to retrieve comprehensive insights into enrollment rates, graduation statistics and more.
+                                    </p>
+                                </div>
+                            </div>
+                        <hr class="my-4 text-white">
+                        <div class="row">
+                            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                                <div class="d-inline-flex flex-column gap-2">
+                                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showSchoolApi()">
+                                        School API
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                                    </button>
+                                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showBoardApi()">
+                                        Board API
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 d-flex align-items-center justify-content-center">
+                                <div class="d-inline-flex flex-column gap-2">
+                                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showEnrollmentApi()">
+                                        Enrollment API  
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                                    </button>
+                                    <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showGraduationApi()">
+                                        Graduation API
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                                        </svg>
+                                        <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-4"></div>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-7 my-9 border-top">
+          <div class="col mb-3">
+            <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
+              <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <p class="text-body-secondary">© 2024</p>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Amy Dryden</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <p class="text-body-secondary">Personal links</p>
+                <p class="text-body-secondary"><a href="https://github.com/acedryden" target="_blank">GitHub</a></p>
+                <p class="text-body-secondary">dryden.amy@gmail.com</p>
+                <p class="text-body-secondary"><a href="https://www.linkedin.com/in/amy-dryden/" target="_blank">Linkedin</a></p>
+              </li>
+            </ul>
+          </div>
+        
+          <div class="col mb-3">
+            <h5>Arti Bhatia</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <p class="text-body-secondary">Personal links</p>
+                <p class="text-body-secondary"><a href="https://github.com/Artib03" target="_blank">GitHub</a></p>
+                <p class="text-body-secondary">artib.9803@gmail.com</p>
+                <p class="text-body-secondary"><a href="https://www.linkedin.com/in/arti-bhatia-1a7070138/" target="_blank">Linkedin</a></p>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5>Khemaka Oo</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <p class="text-body-secondary">Personal links</p>
+                <p class="text-body-secondary"><a href="https://github.com/Khemaka14" target="_blank">GitHub</a></p>
+                <p class="text-body-secondary">Khemakaoo@gmail.com</p>
+                <p class="text-body-secondary"><a href="https://www.linkedin.com/in/khemaka-oo-737390293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">Linkedin</a></p>
+              </li>
+            </ul>
+          </div>
+        
+          <div class="col mb-3">
+            <h5>Alessandro Mori</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <p class="text-body-secondary">Personal links</p>
+                <p class="text-body-secondary"><a href="https://github.com/AleMori22" target="_blank">GitHub</a></p>
+                <p class="text-body-secondary">alemori22@gmail.com</p>
+                <p class="text-body-secondary"><a href="https://www.linkedin.com/in/alessandro-mori-169ab719a/" target="_blank">Linkedin</a></p>
+              </li>
+            </ul>
+          </div>
+        </footer>
+    </div>
+
+  <!-- Our JavaScript file -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>
+  
+  <!-- Bootstrap JavaScript file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

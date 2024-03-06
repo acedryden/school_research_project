@@ -1,14 +1,26 @@
-from sqlalchemy import create_engine, inspect 
+from sqlalchemy import create_engine, text, inspect, func
 from sqlalchemy.orm import Session
 from sqlalchemy.ext.automap import automap_base
 from flask import Flask, jsonify, render_template
 from sqlalchemy.orm import sessionmaker
 import json
-
-
+from pymongo import MongoClient
+from pprint import pprint
 import pandas as pd
 
+from flask_cors import CORS
+
+
 app = Flask(__name__)
+
+CORS(app)
+
+
+# Setting up Mongo db
+
+mongo = MongoClient(f"mongodb+srv://khemakaoo:Sr6djqX1vUKxLU7F@cluster0.f5fh96l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+db = mongo['Boundary']
+bounds = db["Board_bounds"]
 
 # Starting Engine
 
@@ -19,6 +31,18 @@ engine = create_engine("postgresql://project_3_333t_user:3LuhMTGZ77yugy4ExOkIqqR
 Base = automap_base()
 Base.prepare(engine, reflect=True)
 
+# Bord Map variables
+
+elementary = Base.classes.Enrollment
+school_info = Base.classes.School_info
+board_info = Base.classes.Board_info
+board_grad = Base.classes.Board_Grad
+
+# Graph Variables
+
+school_grad = Base.classes.Board_Grad
+enrollment = Base.classes.Enrollment
+
 # Main Route
 
 @app.route('/')
@@ -27,6 +51,34 @@ def main():
     return render_template('home.html')
 
 ### API Routes
+
+# Graduation Table API
+
+@app.route("/api/v0/grad_rate")
+def grad_rates():
+    session = Session(engine)
+
+    Four_2017_2018 = session.query(board_grad.Four_Year_Graduation_Rate_2017_2018_Grade_9_Cohort , board_info.Municipality ,board_grad.Board_Number ).filter(board_info.Board_Number == board_grad.Board_Number).all()
+    Five_2017_2018 = session.query(board_grad.Five_Year_Graduation_Rate_2017_2018_Grade_9_Cohort , board_info.Municipality, board_grad.Board_Number).filter(board_info.Board_Number == board_grad.Board_Number).all()
+    Four_2018_2019 = session.query(board_grad.Four_Year_Graduation_Rate_2018_2019_Grade_9_Cohort , board_info.Municipality, board_grad.Board_Number).filter(board_info.Board_Number == board_grad.Board_Number).all()
+
+    data = {}
+
+    for i in range(len(Four_2017_2018)):
+        data[(Four_2017_2018[i][2]).upper()] = {}
+
+    for i in range(len(Four_2017_2018)):
+        data[Four_2017_2018[i][2]]["Four_2017_2018"] = float(Four_2017_2018[i][0])
+
+    for i in range(len(Five_2017_2018)):
+        data[Five_2017_2018[i][2]]["Five_2017_2018"] = float(Five_2017_2018[i][0])
+
+    for i in range(len(Four_2018_2019)):
+        data[Five_2017_2018[i][2]]["Four_2018_2019"] = float(Four_2018_2019[i][0])
+
+
+    session.close()
+    return jsonify(data)
 
 # School Data Route
 
@@ -159,12 +211,131 @@ def get_enrollment_data():
 
     return jsonify(Enrollment__data)
 
+# Boundries Data Route
+
+@app.route("/api/v0/boundaries.json")
+def dmongo():
+    objects = bounds.find({},{"_id":False}) 
+    return jsonify({"requests": list(objects)})
     
-# Map Test Route
+# Graduation Data Route
+
+CORS(app)
+@app.route("/api/v1.0/Arti/grad_data")
+def dow_data():
+
+    session = Session(engine)
+    fiveyear_gradrate = session.query(school_grad.Five_Year_Graduation_Rate_2017_2018_Grade_9_Cohort).all()
+    boardnums = session.query(school_grad.Board_Number).all()
+    fouryear_gradrate = session.query(school_grad.Four_Year_Graduation_Rate_2017_2018_Grade_9_Cohort).all()
+    regions = session.query(school_grad.Region).all()
+    fouryear_gradrate2 = session.query(school_grad.Four_Year_Graduation_Rate_2018_2019_Grade_9_Cohort).all()
+    boardnames = session.query(board_info.Board_Name).all()
+    boardtypes = session.query(board_info.Board_Type).all()
+
+    #data = {"names":"my name", "low":2, "high":30}
+    fouryeargrad = [float(row[0]*100) for row in fouryear_gradrate]
+    fiveyeargrad = [float(row[0]*100) for row in fiveyear_gradrate]
+    board_nums = [row[0] for row in boardnums]
+    fouryeargrad2 = [float(row[0]*100) for row in fouryear_gradrate2]
+    regions1 = [row[0]for row in regions]
+    schoolnames = [row[0] for row in boardnames]
+    board_types = [row[0] for row in boardtypes]
+
+    schooldict = {"Board_Names":schoolnames, "Board_Types": board_types, "Board_Numbers":board_nums, "Regions": regions1, "Four_Year_Grads": fouryeargrad, "Five_Year_Grads": fiveyeargrad, "Four_Year_Grads_2019": fouryeargrad2}
+    
+    session.close()
+
+    return jsonify(schooldict)
+
+
+# Enrolment Data Route
+
+CORS(app)
+@app.route("/api/v1.0/amy_test")
+def enroll_chart():
+    
+    session = Session(engine)
+    
+    sel = [
+        enrollment.School_Number,
+        enrollment.Grade_1_Enrolment,
+        enrollment.Grade_2_Enrolment,
+        enrollment.Grade_3_Enrolment,
+        enrollment.Grade_4_Enrolment,
+        enrollment.Grade_5_Enrolment,
+        enrollment.Grade_6_Enrolment, 
+        enrollment.Grade_7_Enrolment,
+        enrollment.Grade_8_Enrolment,
+        enrollment.Grade_9_Enrolment,
+        enrollment.Grade_10_Enrolment,
+        enrollment.Grade_11_Enrolment,
+        enrollment.Grade_12_Enrolment,
+        enrollment.Total_Enrolment,
+        school_info.School_Level,  
+        school_info.Board_Number,
+        school_info.School_Name,
+    ]
+
+    enr_data = (
+        session.query(*sel)
+        .outerjoin(school_info, enrollment.School_Number == school_info.School_Number)
+        .all()
+    )
+
+    sel_school_info = [ 
+        school_info.School_Number, 
+        school_info.Board_Number, 
+        school_info.School_Name, 
+        school_info.School_Level,
+    ]
+
+    school_info_data = session.query(*sel_school_info).all()
+
+    session.close()
+    
+    enr_data_list = [
+        {
+            "School_Number": record.School_Number,
+            "Grade_1_Enrolment": record.Grade_1_Enrolment,
+            "Grade_2_Enrolment": record.Grade_2_Enrolment,
+            "Grade_3_Enrolment": record.Grade_3_Enrolment,
+            "Grade_4_Enrolment": record.Grade_4_Enrolment,
+            "Grade_5_Enrolment": record.Grade_5_Enrolment,
+            "Grade_6_Enrolment": record.Grade_6_Enrolment,
+            "Grade_7_Enrolment": record.Grade_7_Enrolment,
+            "Grade_8_Enrolment": record.Grade_8_Enrolment,
+            "Grade_9_Enrolment": record.Grade_9_Enrolment,
+            "Grade_10_Enrolment": record.Grade_10_Enrolment,
+            "Grade_11_Enrolment": record.Grade_11_Enrolment,
+            "Grade_12_Enrolment": record.Grade_12_Enrolment,
+            "Total_Enrolment": record.Total_Enrolment,
+            "School_Level": record.School_Level,
+            "Board_Number": record.Board_Number,
+            "School_Name": record.School_Name,
+        }
+        for record in enr_data
+    ]
+    
+    return jsonify({"enr_data": enr_data_list})
+
+# School Map Route
 
 @app.route("/map")
 def map():
     return render_template('index.html')
+
+# Board Map Route
+
+@app.route("/api/v0/Graduation_Map")
+def website():
+    return render_template('grad_rate_map.html')
+
+# Chart Route
+
+@app.route("/graphs")
+def index():
+    return render_template('charts.html')
 
 # Debugging Function 
 

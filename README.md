@@ -8,11 +8,11 @@
 - Khemaka: @Khemaka14
 
 **Components:** 
-1. Landing page including links to school maps, board maps, enrollment and graduation charts, and links to the four data APIs used: ![index](https://github.com/acedryden/school_research_project/blob/main/Charts/images/dashboard.png)
-2. Interactive map that utilizes markets to show the geolocation of individual schools, colour coded by the number of total enrolled students per school: ![school_map](https://github.com/acedryden/school_research_project/blob/main/Charts/images/school%20map.png)
-3. Interactive choropleth map that shows graduation rates on a board level, with a dropdown menu to explore three different sets of graduation data: ![board_map](https://github.com/acedryden/school_research_project/blob/main/Charts/images/board%20map%20.png)
-4. Bubble chart showing the graduation rates by school board for all three data sets, and a summary bar chart showing graduation rates by region for all three data sets: ![grad_charts](https://github.com/acedryden/school_research_project/blob/main/Charts/images/graduation%20charts%20.png)
-5. An exploratory chart where an user can select any school in Ontario and the chart visualizes changes in enrollment levels by grade: ![enr_chart](https://github.com/acedryden/school_research_project/blob/main/Charts/images/enrollment%20charts.png)
+1. Landing page including links to school maps, board maps, enrollment and graduation charts, and links to the four data APIs used: ![index](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/dashboard.png)
+2. Interactive map that utilizes markets to show the geolocation of individual schools, colour coded by the number of total enrolled students per school: ![school_map](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/school%20map.png)
+3. Interactive choropleth map that shows graduation rates on a board level, with a dropdown menu to explore three different sets of graduation data: ![board_map](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/board%20map%20.png)
+4. Bubble chart showing the graduation rates by school board for all three data sets, and a summary bar chart showing graduation rates by region for all three data sets: ![grad_charts](https://github.com/acedryden/school_research_project/blob/mainOutput%20Images/graduation%20charts%20.png)
+5. An exploratory chart where an user can select any school in Ontario and the chart visualizes changes in enrollment levels by grade: ![enr_chart](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/enrollment%20charts.png)
   
 **Tools Used:** 
 - PostgreSQL and Render Server and MongoDB for data storage and transformation

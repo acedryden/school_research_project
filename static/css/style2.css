@@ -1,0 +1,84 @@
+html,
+body,
+#map-id {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Map Legend Style */
+
+.legend {
+  padding: 6px 8px;
+  font: 14px Arial, Helvetica, sans-serif;
+  background: rgb(230, 230, 230);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  line-height: 24px;
+  color: #7a7a7a;
+}
+.legend h4 {
+  text-align: center;
+  font-size: 16px;
+  margin: 2px 12px 8px;
+  color: #777;
+}
+
+.legend span {
+  position: relative;
+  bottom: 3px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin: 0 8px 0 0;
+  opacity: 0.7;
+}
+
+.legend i.icon {
+  background-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+  /* Header Image*/
+
+.title {
+  background-image: url("https://grantme.ca/wp-content/uploads/2021/09/uoftpic.jpeg");
+  background-size: cover;
+  background-position: center-top;
+  }
+
+  /* API Route Jumbo Image*/
+
+.api_im {
+  background-image: url("https://media.istockphoto.com/id/1448152453/vector/big-data-technology-and-data-science-illustration-data-flow-concept-querying-analysing.jpg?s=612x612&w=0&k=20&c=To0lhCrVmDYdSkOUOGxGsjlYe0buj_wwGCDqYhF9p2o=");
+  background-size: cover;
+  background-position: center;
+
+  }
+
+  /* Graph Image */
+
+.graph {
+  background-image: url("https://img.pikbest.com/ai/illus_our/20230428/80152a29e9ba77d0265faa6430f10146.jpg!w700wp");
+  background-size: cover;
+  background-position: center;
+  }
+
+    /* Map Image */
+
+.bg-with-image {
+    background-image: url("https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Jumbotron Shadow */
+
+.jumbotron {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+

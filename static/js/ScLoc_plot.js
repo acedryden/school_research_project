@@ -24,9 +24,9 @@ function createMarkers(response) {
       let Secondary_markerCluster = L.markerClusterGroup();
   
         
-        // Loop through the stations array.
+        // Loop through the school array.
 
-      for (let index = 0; index < Schools.length; index++) {  //Schools.length
+      for (let index = 0; index < Schools.length; index++) {  
 
         let school = Schools[index];
         let Color = '';

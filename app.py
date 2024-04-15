@@ -7,7 +7,7 @@ import json
 from pymongo import MongoClient
 from pprint import pprint
 import pandas as pd
-
+import pickle
 from flask_cors import CORS
 
 
@@ -336,6 +336,17 @@ def website():
 @app.route("/graphs")
 def index():
     return render_template('charts.html')
+
+
+
+@app.route("/api/v1.0/<x1>/<x2>")
+def ml(x1,x2):
+    with open("model.pk1","rb") as f:
+        model = pickle.load(f)
+        prediction = model.predict([[int(x1), int(x2)]])
+        output = [int(i) for i in prediction]
+        responde = { "prediction" : output}
+        return jsonify(responde)
 
 # Debugging Function 
 

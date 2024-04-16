@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine, text, inspect, func
 from sqlalchemy.orm import Session
 from sqlalchemy.ext.automap import automap_base
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, request
 from sqlalchemy.orm import sessionmaker
 import json
 from pymongo import MongoClient
@@ -9,7 +9,6 @@ from pprint import pprint
 import pandas as pd
 import pickle
 from flask_cors import CORS
-
 
 app = Flask(__name__)
 
@@ -33,10 +32,13 @@ Base.prepare(engine, reflect=True)
 
 # Bord Map variables
 
-elementary = Base.classes.Enrollment
-school_info = Base.classes.School_info
-board_info = Base.classes.Board_info
-board_grad = Base.classes.Board_Grad
+elementary = Base.classes.Enrollment_2
+school_info = Base.classes.School_info_2
+board_info = Base.classes.Board_info_2
+board_grad = Base.classes.Board_Grad_2
+Enrollment_Data = Base.classes.Enrollment_2
+Future_Enrollment_Data = Base.classes.Future_Enrollment
+
 
 # Graph Variables
 
@@ -153,7 +155,7 @@ def get_graduation_data():
 
     # Assign the Board_Grad table to a variable
     
-    Board_graduation_Data = Base.classes.Board_Grad
+    Board_graduation_Data = Base.classes.Board_Grad_2
 
     # Iniciate Session
 
@@ -179,6 +181,71 @@ def get_graduation_data():
     return jsonify(Board_grad_data)
 
 
+# Predicted data 
+
+@app.route('/api/v1.0/predicted/<x>.json')
+def predicted_data(x):
+
+
+    # Assign the future enrolment to a variable 
+    Future_Enrollment_Data = Base.classes.Future_Enrollment
+    Enrollment_Data = Base.classes.Enrollment_2
+
+    # Iniciate Session
+    Session = sessionmaker(bind=engine)
+    session = Session()
+
+    Future_Enrollment_results = session.query(Future_Enrollment_Data).all()
+    Enrollment_results = session.query(Enrollment_Data).all()
+
+    # Extracting the data in the Enrollment table
+    Enrollment__data = [{column.name: str(getattr(result, column.name)) for column in Enrollment_Data.__table__.columns} for result in Enrollment_results]
+
+    # Extracting the data in the Future_Enrollment table
+    Future__Enrollment__data = [{column.name: str(getattr(result, column.name)) for column in Future_Enrollment_Data.__table__.columns} for result in Future_Enrollment_results]
+    
+    # Closing Session 
+    session.close()
+
+    # Trasform the data in to Dataframes
+    Enrollment_df = pd.DataFrame(Enrollment__data)
+    Future_Enrollment_df = pd.DataFrame(Future__Enrollment__data)
+
+    # Need to fix this
+
+    model_path = "D:\School UFT\school_research_project\enrollment_prediction_model.pkl"
+
+    # Importing the ML model
+    with open(model_path, "rb") as f:
+        model = pickle.load(f)
+
+        # Making predictions on the Future_Enrollment_df
+        predictions = model.predict(Future_Enrollment_df)
+
+        # Importing predictions in the Future_Enrollment_df
+        Future_Enrollment_df["Total_Enrolment"] = predictions
+
+        # Dimensioning the predicted Total Enrolment as Integer
+        Future_Enrollment_df["Total_Enrolment"] = Future_Enrollment_df["Total_Enrolment"].astype(int)
+
+    # Select only the columns needed from Enrollment_df
+    enrollment_columns = Enrollment_df[["School_Number", "School_Type", "School_Level"]]
+
+    # Merge selected columns to Future_Enrollment_df based on School_Number
+    Future_Enrollment_df = pd.merge(Future_Enrollment_df, enrollment_columns, on="School_Number", how="left")
+
+    Future_Enrollment_df = Future_Enrollment_df[Future_Enrollment_df["Year"] == x]
+
+    # Convert DataFrame back to list of dictionaries
+    Future__Enrollment__data = Future_Enrollment_df.to_dict(orient='records')
+
+    # Return Jsonify Board_data
+    return jsonify(Future__Enrollment__data)
+
+
+
+
+
 # Enrollment Data Route
 
 @app.route('/api/v1.0/enrollment.json')
@@ -186,7 +253,7 @@ def get_enrollment_data():
 
     # Assign the Enrollment table to a variable
     
-    Enrollment_Data = Base.classes.Enrollment
+    Enrollment_Data = Base.classes.Enrollment_2
 
     # Iniciate Session
 
@@ -201,15 +268,26 @@ def get_enrollment_data():
 
     Enrollment__data = []
 
-    for result in Enrollment_results:
-        record = {column.name: str(getattr(result, column.name)) for column in Enrollment_Data.__table__.columns}
-        Enrollment__data.append(record)
+    # Extracting the data in the Enrollment table
+    Enrollment__data = [{column.name: str(getattr(result, column.name)) for column in Enrollment_Data.__table__.columns} for result in Enrollment_results]
 
+    # Close session
     session.close()
+
+    # Trasform the data in to Dataframes
+    Enrollment_df = pd.DataFrame(Enrollment__data)
+
+    # Extracting the first year for each row and transforming to int
+    Enrollment_df["Year"] = Enrollment_df["Year"].astype(str).str.split("-").str[0].astype(int)
+
+    # Convert DataFrame back to list of dictionaries
+    Enrollment__data = Enrollment_df.to_dict(orient='records')
 
     # Return Jsonify Board_data
 
     return jsonify(Enrollment__data)
+
+
 
 # Boundries Data Route
 
@@ -338,17 +416,10 @@ def index():
     return render_template('charts.html')
 
 
-
-@app.route("/api/v1.0/<x1>/<x2>")
-def ml(x1,x2):
-    with open("model.pk1","rb") as f:
-        model = pickle.load(f)
-        prediction = model.predict([[int(x1), int(x2)]])
-        output = [int(i) for i in prediction]
-        responde = { "prediction" : output}
-        return jsonify(responde)
-
 # Debugging Function 
 
 if __name__ == "__main__":
     app.run(debug = True)
+
+
+

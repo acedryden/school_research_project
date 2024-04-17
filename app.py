@@ -10,6 +10,10 @@ import pandas as pd
 import pickle
 from flask_cors import CORS
 
+
+
+import csv
+
 app = Flask(__name__)
 
 CORS(app)
@@ -225,31 +229,73 @@ def predicted_data(x):
         # Importing predictions in the Future_Enrollment_df
         Future_Enrollment_df["Total_Enrolment"] = predictions
 
-        # Dimensioning the predicted Total Enrolment as Integer
+        # Dimentioning the predicted Total Enrolment as Integer
         Future_Enrollment_df["Total_Enrolment"] = Future_Enrollment_df["Total_Enrolment"].astype(int)
 
-    # Select only the columns needed from Enrollment_df
-    enrollment_columns = Enrollment_df[["School_Number", "School_Type", "School_Level"]]
+    # Extracting the first year for each row and transforming to int
+    Enrollment_df["Year"] = Enrollment_df["Year"].astype(str).str.split("-").str[0]    
 
     # Merge selected columns to Future_Enrollment_df based on School_Number
-    Future_Enrollment_df = pd.merge(Future_Enrollment_df, enrollment_columns, on="School_Number", how="left")
+    Future_Enrollment_df = Future_Enrollment_df.merge(Enrollment_df[["School_Number", "School_Type", "School_Level"]], on="School_Number", how="left")
 
-    Future_Enrollment_df = Future_Enrollment_df[Future_Enrollment_df["Year"] == x]
+    Complete_df = pd.concat([Enrollment_df,Future_Enrollment_df])
+
+    # Selecting the data for a specific year
+    Final_df = Complete_df[Complete_df["Year"] == x]
+
+    print(Final_df.columns)
+
+    Final_df = Final_df.drop_duplicates(subset=["School_Number", "Year"])
 
     # Convert DataFrame back to list of dictionaries
-    Future__Enrollment__data = Future_Enrollment_df.to_dict(orient='records')
+    Complete__Enrollment = Final_df.to_dict(orient='records')
+
 
     # Return Jsonify Board_data
-    return jsonify(Future__Enrollment__data)
+    return jsonify(Complete__Enrollment)
 
+
+
+
+# Regolar rnrolment route
+
+@app.route('/api/v1.0/enrollment.json')
+def enrollment_data():
+
+    # Assign the Enrollment table to a variable
+    
+    Enrollment_Data = Base.classes.Enrollment
+
+    # Iniciate Session
+
+    Session = sessionmaker(bind=engine)
+    session = Session()
+
+    # Query Enrollment_Data
+
+    Enrollment_results = session.query(Enrollment_Data).all()
+
+    # Extracting the data in the Enrollment table
+
+    Enrollment__data = []
+
+    for result in Enrollment_results:
+        record = {column.name: str(getattr(result, column.name)) for column in Enrollment_Data.__table__.columns}
+        Enrollment__data.append(record)
+
+    session.close()
+
+    # Return Jsonify Board_data
+
+    return jsonify(Enrollment__data)
 
 
 
 
 # Enrollment Data Route
 
-@app.route('/api/v1.0/enrollment.json')
-def get_enrollment_data():
+@app.route('/api/v1.0/enrollment/<x>.json')
+def get_enrollment_data(x):
 
     # Assign the Enrollment table to a variable
     
@@ -278,10 +324,13 @@ def get_enrollment_data():
     Enrollment_df = pd.DataFrame(Enrollment__data)
 
     # Extracting the first year for each row and transforming to int
-    Enrollment_df["Year"] = Enrollment_df["Year"].astype(str).str.split("-").str[0].astype(int)
+    Enrollment_df["Year"] = Enrollment_df["Year"].astype(str).str.split("-").str[0]
+
+
+    Enrollment__df = Enrollment_df[Enrollment_df["Year"] == x]
 
     # Convert DataFrame back to list of dictionaries
-    Enrollment__data = Enrollment_df.to_dict(orient='records')
+    Enrollment__data = Enrollment__df.to_dict(orient='records')
 
     # Return Jsonify Board_data
 

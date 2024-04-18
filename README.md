@@ -21,6 +21,7 @@
 - HTML/CSS
 - JavaScript (Plotly, Leaflet)
 - Flask-CORS (https://flask-cors.readthedocs.io/en/latest/)
+- Tableau for Visualizations Dashboard 
 
 **Links to the datasets:** 
 1. https://open.canada.ca/data/dataset/d89271cf-c5b7-4537-9d8b-5905766d93c6

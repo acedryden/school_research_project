@@ -15,10 +15,6 @@ app = Flask(__name__)
 CORS(app)
 #model = pickle.load(open("graduation_prediction_model.pkl", "rb"))
 
-#@app.route("/")
-#def home():
-    #return render_template("index.html")
-
 # Setting up Mongo db
 
 mongo = MongoClient(f"mongodb+srv://khemakaoo:Sr6djqX1vUKxLU7F@cluster0.f5fh96l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -36,32 +32,32 @@ Base.prepare(engine, reflect=True)
 
 ###predication model for graduate students
 
-@app.route('/api/v1.0/graduations_predicted/<x>.json')
-def predicted_grad_data(x):
+@app.route('/api/v1.0/grad_model')
+def predicted_grad_data():
 
     # Assign the future enrolment to a variable 
-    Future_grad_Data = Base.classes.Future_grads
+    #Future_grad_Data = Base.classes.Future_grads
     Graduation_data = Base.classes.Board_grad_2
 
     # Iniciate Session
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    Future_grad_results = session.query(Future_grad_Data).all()
+    #Future_grad_results = session.query(Future_grad_Data).all()
     Graduation_results = session.query(Graduation_data).all()
 
     # Extracting the data in the graduation table
     Graduation__data = [{column.name: str(getattr(result, column.name)) for column in Graduation_data.__table__.columns} for result in Graduation_results]
 
     # Extracting the data in the future-graducation table
-    Future__grad__data = [{column.name: str(getattr(result, column.name)) for column in Future__grad__data.__table__.columns} for result in Future_grad_results]
+    #Future__grad__data = [{column.name: str(getattr(result, column.name)) for column in Future__grad__data.__table__.columns} for result in Future_grad_results]
  
     # Closing Session 
     session.close()
 
     # Trasform the data in to Dataframes
     Graduation_df = pd.DataFrame(Graduation__data)
-    Future_grad_df = pd.DataFrame(Future__grad__data)
+    #Future_grad_df = pd.DataFrame(Future__grad__data)
 
     # Need to fix this
 
@@ -74,10 +70,10 @@ def predicted_grad_data(x):
         # Making predictions on the Future_Enrollment_df
         predictions = model.predict(Future_grad_df)
 
-        # Importing predictions in the Future_Enrollment_df
+        # Importing predictions 
         Future_grad_df["Four Year Graduation Rate 2017-2018 Grade 9 Cohort"] = predictions
 
-        # Dimentioning the predicted Total Enrolment as Integer
+        # Dimentioning the predicted 
         Future_grad_df["Four Year Graduation Rate 2017-2018 Grade 9 Cohort"] = Future_grad_df["Four Year Graduation Rate 2017-2018 Grade 9 Cohort"].astype(float)
 
     # Extracting the first year for each row and transforming to int
@@ -86,7 +82,7 @@ def predicted_grad_data(x):
     # Merge selected columns to Future_Enrollment_df based on Board_number
     Future_grad_df = Future_grad_df.merge(Graduation_df[["Board Number", "Region", "Board Type"]], on="Board Number", how="left")
 
-    Complete_df = pd.concat([Graduation_df, Future_grad_df])
+    Complete_df = pd.concat([Graduation_df ])#Future_grad_df])
 
     # Selecting the data for a specific year
     Final_df = Complete_df[Complete_df["Year"] == x]
@@ -98,3 +94,6 @@ def predicted_grad_data(x):
 
     # Return Jsonify Board_data
     return jsonify(Complete__grads)
+
+if __name__ == "__main__":
+    app.run(debug=True)

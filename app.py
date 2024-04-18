@@ -40,8 +40,6 @@ elementary = Base.classes.Enrollment_2
 school_info = Base.classes.School_info_2
 board_info = Base.classes.Board_info_2
 board_grad = Base.classes.Board_Grad_2
-Enrollment_Data = Base.classes.Enrollment_2
-Future_Enrollment_Data = Base.classes.Future_Enrollment
 
 
 # Graph Variables
@@ -217,7 +215,7 @@ def predicted_data(x):
 
     # Need to fix this
 
-    model_path = "D:\School UFT\school_research_project\enrollment_prediction_model.pkl"
+    model_path = "enrollment_prediction_model.pkl"
 
     # Importing the ML model
     with open(model_path, "rb") as f:
@@ -242,8 +240,6 @@ def predicted_data(x):
 
     # Selecting the data for a specific year
     Final_df = Complete_df[Complete_df["Year"] == x]
-
-    print(Final_df.columns)
 
     Final_df = Final_df.drop_duplicates(subset=["School_Number", "Year"])
 
@@ -289,52 +285,6 @@ def enrollment_data():
 
     return jsonify(Enrollment__data)
 
-
-
-
-# Enrollment Data Route
-
-@app.route('/api/v1.0/enrollment/<x>.json')
-def get_enrollment_data(x):
-
-    # Assign the Enrollment table to a variable
-    
-    Enrollment_Data = Base.classes.Enrollment_2
-
-    # Iniciate Session
-
-    Session = sessionmaker(bind=engine)
-    session = Session()
-
-    # Query Enrollment_Data
-
-    Enrollment_results = session.query(Enrollment_Data).all()
-
-    # Extracting the data in the Enrollment table
-
-    Enrollment__data = []
-
-    # Extracting the data in the Enrollment table
-    Enrollment__data = [{column.name: str(getattr(result, column.name)) for column in Enrollment_Data.__table__.columns} for result in Enrollment_results]
-
-    # Close session
-    session.close()
-
-    # Trasform the data in to Dataframes
-    Enrollment_df = pd.DataFrame(Enrollment__data)
-
-    # Extracting the first year for each row and transforming to int
-    Enrollment_df["Year"] = Enrollment_df["Year"].astype(str).str.split("-").str[0]
-
-
-    Enrollment__df = Enrollment_df[Enrollment_df["Year"] == x]
-
-    # Convert DataFrame back to list of dictionaries
-    Enrollment__data = Enrollment__df.to_dict(orient='records')
-
-    # Return Jsonify Board_data
-
-    return jsonify(Enrollment__data)
 
 
 

@@ -18,7 +18,7 @@ let baseMaps = {
 let Elementary_markerCluster = L.markerClusterGroup();
 let Secondary_markerCluster = L.markerClusterGroup();
 let overlayMaps = {
-  "Elementary Location": Elementary_markerCluster,
+  "Elementary School": Elementary_markerCluster,
   "Secondary School": Secondary_markerCluster
 };
 
@@ -52,9 +52,6 @@ function createMarkers(response, selectedYear) {
   d3.json(`/api/v1.0/predicted/${selectedYear}.json`)
     .then(function(enrolment_data_response) {
 
-      // debugging code 
-      console.log("Enrolment data response:", enrolment_data_response);
-
       let enrolment_data = enrolment_data_response;
       
       // Clear existing markers in clusters
@@ -68,9 +65,6 @@ function createMarkers(response, selectedYear) {
 
         // Matching the two tables
         let enrolment = enrolment_data.find(item => item.School_Number === school.School_Number);
-
-        // Logging enrolment for debugging
-        console.log("Enrolment:", enrolment);
 
         if (enrolment && enrolment.Total_Enrolment !== undefined) {
           if (parseInt(enrolment.Total_Enrolment) <= 100) {

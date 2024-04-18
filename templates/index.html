@@ -17,21 +17,41 @@
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
   crossorigin=""></script>
 
+  <!-- Leaflet Cluster funcion-->
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style2.css') }}">
 
 </head>
 <body>
 
+  <div class="row my-4"></div>
+
+  <div class="container justify-content-center bg-with-image">
+    <div class="row">
+      <div class="col-md-10 offset-md-1 text-center">
+        <div id="instructions-container">
+          <h2>Navigate the Ontario School Map</h2>
+          <p>Below you'll find some instructions to help you utilize the features of our map:</p>
+          <ul>
+            <li>Utilize the map interface to select either or both Elementary or Secondary school location.</li>
+            <li>Choose a specific year of interest from the map's dropdown menu.</li>
+            <li>Use the zoom function to adjust the map view and navigate to your desired location.</li>
+            <li>Click on a school marker to access detailed information about the selected institution.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
   <!-- The div that holds our map -->
   <div id="map-id"></div>
 
-
-  <!-- Leaflet Cluster funcion-->
-  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
-
+  
   <!-- Our JavaScript file -->
   <script type="text/javascript" src="{{ url_for('static', filename='js/ScLoc_plot.js') }}"></script>
 </body>

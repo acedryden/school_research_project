@@ -76,6 +76,13 @@ body,
     background-position: center;
 }
 
+.bg-image {
+  background-image: url("https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg");
+  background-size: cover;
+  background-position: top;
+}
+
+
 /* Jumbotron Shadow */
 
 .jumbotron {

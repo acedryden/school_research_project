@@ -15,15 +15,15 @@ app = Flask(__name__)
 CORS(app)
 #model = pickle.load(open("graduation_prediction_model.pkl", "rb"))
 
-@app.route("/")
-def home():
-    return render_template("index.html")
+#@app.route("/")
+#def home():
+    #return render_template("index.html")
 
 # Setting up Mongo db
 
-#mongo = MongoClient(f"mongodb+srv://khemakaoo:Sr6djqX1vUKxLU7F@cluster0.f5fh96l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-#db = mongo['Boundary']
-#bounds = db["Board_bounds"]
+mongo = MongoClient(f"mongodb+srv://khemakaoo:Sr6djqX1vUKxLU7F@cluster0.f5fh96l.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+db = mongo['Boundary']
+bounds = db["Board_bounds"]
 
 ### Starting Engine
 
@@ -37,7 +37,7 @@ Base.prepare(engine, reflect=True)
 ###predication model for graduate students
 
 @app.route('/api/v1.0/graduations_predicted/<x>.json')
-def predicted_grad_data():
+def predicted_grad_data(x):
 
     # Assign the future enrolment to a variable 
     Future_grad_Data = Base.classes.Future_grads
@@ -50,10 +50,10 @@ def predicted_grad_data():
     Future_grad_results = session.query(Future_grad_Data).all()
     Graduation_results = session.query(Graduation_data).all()
 
-    # Extracting the data in the Enrollment table
+    # Extracting the data in the graduation table
     Graduation__data = [{column.name: str(getattr(result, column.name)) for column in Graduation_data.__table__.columns} for result in Graduation_results]
 
-    # Extracting the data in the Future_Enrollment table
+    # Extracting the data in the future-graducation table
     Future__grad__data = [{column.name: str(getattr(result, column.name)) for column in Future__grad__data.__table__.columns} for result in Future_grad_results]
  
     # Closing Session 

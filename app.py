@@ -39,7 +39,7 @@ Base.prepare(engine, reflect=True)
 elementary = Base.classes.Enrollment_2
 school_info = Base.classes.School_info_2
 board_info = Base.classes.Board_info_2
-board_grad = Base.classes.Board_Grad_2
+board_grad = Base.classes.Board_Grad
 
 
 # Graph Variables
@@ -91,7 +91,7 @@ def get_school_data():
 
     # Assign the School_info table to a variable
 
-    School_info_Data = Base.classes.School_info
+    School_info_Data = Base.classes.School_info_2
 
     # Iniciate Session
 

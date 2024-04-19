@@ -1,0 +1,9 @@
+sqlalchemy
+flask
+json
+pymongo
+pprint
+pandas
+pickle 
+flask_cors 
+gunicorn

@@ -1,4 +1,5 @@
 html,
+
 body{
   height: 100%;
   padding: 0;
@@ -11,6 +12,7 @@ body{
   padding: 0;
   margin: 30px;
 }
+
 
 /* Map Legend Style */
 
@@ -79,6 +81,7 @@ body{
     background-size: cover;
     background-position: center;
 }
+
 
 .bg-image {
   background-image: url("https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg");

@@ -45,6 +45,7 @@ enrollment = Base.classes.Enrollment
 
 # Main Route
 
+
 @app.route('/')
 def main():
 
@@ -325,6 +326,7 @@ def enroll_chart():
 def map():
     return render_template('index.html')
 
+
 @app.route("/enroll_graph")
 def enroll_graph():
     return render_template('enroll_graph.html')
@@ -347,6 +349,12 @@ def board_graph():
 @app.route("/Graduation_Map")
 def website():
     return render_template('grad_rate_map.html')
+
+# Chart Route
+
+@app.route("/graphs")
+def index():
+    return render_template('charts.html')
 
 
 # Debugging Function 

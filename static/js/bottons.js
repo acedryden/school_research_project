@@ -20,11 +20,13 @@ function showSchoolApi() {
   }
 
   function showBoardMap() {
+
     window.location.href = 'Graduation_Map'; 
   }
 
   function showGraphs() {
     window.location.href = '/graphs'; 
+
   }
 
 

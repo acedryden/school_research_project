@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- HTML Head -->
+<head>
+  <meta charset="UTF-8">
+  <title>Project 3 Home</title>
+
+  <!-- D3 library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""/>
+
+  <!-- Leaflet JavaScript code -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+
+ 
+  <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+   <!-- Bootstrap JavaScript file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ 
+  <!-- Marker cluster JavaScript code -->
+  <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
+
+  <!-- Marker cluster CSS -->
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.css">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/leaflet.markercluster@1.0.3/dist/MarkerCluster.Default.css">
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style .css') }}">
+
+  <!-- Buttons elements -->
+  <script src="static\js\bottons.js"></script>
+
+</head>
+
+
+
+<!-- HTML Body -->
+<body>
+    <!-- Dropdown -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+
+            <li class="nav-item dropdown">
+              <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+                  Interactive Maps
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li> <a class="dropdown-item" onclick="showSchoolMap()" type="button">School Map</a></li>
+                <li><a class="dropdown-item" onclick="showBoardMap()" type="button">Board Map</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+              Graphical Insights
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" onclick="showEnrollGraph()" type="button">Enrollments</a></li>
+              <li><a class="dropdown-item" onclick="showGradGraph()" type="button">Graduation</a></li>
+              <li><a class = "dropdown-item" onclick = "showBoardGraph()" type = "button">Board & School</a></li>
+            </ul>
+          </li>
+        
+          <div class="btn-group">
+          <button type="button" class="btn btn-dark" onclick = "showAPIPage()">API Access</button>
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" onclick="showSchoolApi()" type="button">School API</a></li>
+              <li><a class="dropdown-item" onclick="showEnrollmentApi()" type="button">Enrollment API</a></li>
+              <li><a class = "dropdown-item" onclick = "showBoardApi()" type = "button">Board API</a></li>
+              <li><a class = "dropdown-item" onclick = "showGraduationApi()" type = "button">Graduation API</a></li>
+            </ul>
+          </li>
+        </div>
+        
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+      <div class='tableauPlaceholder' id='viz1713402345148' style='position: relative'>
+        <noscript><a href='#'><img alt='Enrollment Dashboard ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;On&#47;OntarioSchoolEnrollmentDashboard&#47;EnrollmentDashboard&#47;1_rss.png' style='border: none' /></a></noscript>
+        <object class='tableauViz'  style='display:none;'>
+           <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+           <param name='embed_code_version' value='3' />
+           <param name='site_root' value='' />
+           <param name='name' value='OntarioSchoolEnrollmentDashboard&#47;EnrollmentDashboard' />
+           <param name='tabs' value='no' />
+           <param name='toolbar' value='yes' />
+           <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;On&#47;OntarioSchoolEnrollmentDashboard&#47;EnrollmentDashboard&#47;1.png' />
+           <param name='animate_transition' value='yes' />
+           <param name='display_static_image' value='yes' />
+           <param name='display_spinner' value='yes' />
+           <param name='display_overlay' value='yes' />
+           <param name='display_count' value='yes' />
+           <param name='language' value='en-US' />
+        </object>
+     </div>
+     <script type='text/javascript'>
+        var divElement = document.getElementById('viz1713402345148');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1920px';vizElement.style.height='827px';} 
+        else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1920px';vizElement.style.height='827px';} 
+        else { vizElement.style.width='100%';vizElement.style.height='1477px';}
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+     </script>
+
+
+
+    <!-- <div class="dropdown show">
+        <div class="p-3 mb-2 bg-dark text-white">
+
+            
+          <button type="button" class="btn btn-primary" onclick="showHome()">Home</button>
+
+          
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Interactive Maps
+          </button>
+
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" onclick="showSchoolMap()" type="button">School Map</a>
+          <a class="dropdown-item" onclick="showBoardMap()" type="button">Board Map</a>
+        </div>
+        
+
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Graphical Insights
+          </button>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" onclick="showSchoolMap()" type="button">Enrollments</a>
+          <a class="dropdown-item" onclick="showBoardMap()" type="button">Graduation</a>
+          <a class = "dropdown-item" type = "button"> District Board & School Explorer</a>
+        </div>
+
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            API Access
+          </button>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" onclick="showEnrollmentApi()" type="button">Enrollment API</a>
+          <a class="dropdown-item" onclick="showSchoolApi()" type="button"> School API</a>
+          <a class = "dropdown-item" onclick="showGraduationApi()" type = "button"> Graduation API</a>
+          <a class = "dropdown-item" onclick="showBoardApi() " type = "button"> Board API</a>
+        </div>
+        
+      </div>
+
+      </div> -->
+
+  <!-- Our JavaScript file -->
+  
+
+
+ 
+
+</body>
+</html>

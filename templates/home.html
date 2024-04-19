@@ -19,16 +19,18 @@
   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
   crossorigin=""></script>
 
-
+ 
   <!-- Bootstrap CSS-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-
+   <!-- Bootstrap JavaScript file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style2.css') }}">
 
-    <!-- Bottons elements -->
-    <script src="static\js\bottons.js"></script>
+  <!-- Buttons elements -->
+  <script src="static\js\bottons.js"></script>
 
 </head>
 
@@ -36,6 +38,63 @@
 
 <!-- HTML Body -->
 <body>
+    <!-- Dropdown -->
+    <style>
+      body {
+        background-image: url('https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg');
+      }
+      </style>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="true" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+
+            <li class="nav-item dropdown">
+              <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+                  Interactive Maps
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                <li> <a class="dropdown-item" onclick="showSchoolMap()" type="button">School Map</a></li>
+                <li><a class="dropdown-item" onclick="showBoardMap()" type="button">Board Map</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+              Graphical Insights
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" onclick="showEnrollGraph()" type="button">Enrollments</a></li>
+              <li><a class="dropdown-item" onclick="showGradGraph()" type="button">Graduation</a></li>
+              <li><a class = "dropdown-item" onclick = "showBoardGraph()" type = "button">Board & School</a></li>
+            </ul>
+          </li>
+        
+          <div class="btn-group">
+          <button type="button" class="btn btn-dark" onclick = "showAPIPage()">API Access</button>
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" onclick="showSchoolApi()" type="button">School API</a></li>
+              <li><a class="dropdown-item" onclick="showEnrollmentApi()" type="button">Enrollment API</a></li>
+              <li><a class = "dropdown-item" onclick = "showBoardApi()" type = "button">Board API</a></li>
+              <li><a class = "dropdown-item" onclick = "showGraduationApi()" type = "button">Graduation API</a></li>
+            </ul>
+          </li>
+        </div>
+        
+          </ul>
+        </div>
+      </div>
+    </nav>
+
 
     <!-- Title Jumbo-->
 
@@ -50,61 +109,104 @@
     <div class="row my-4"></div>
 
     <!-- Map Jumbo-->
-    
-    <div class="container my-6">
-        <div class="p-5 bg-body-tertiary rounded-3 bg-with-image  jumbotron">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1 class="text-body-emphasis text-dark">Interactive Map</h1>
-                    <p class="fs-5 text-muted text-dark">
-                        Navigate Ontario's Schools and Graduation Rates and dive into Ontario's education landscape with our interactive map. Explore schools enrollment numbers and graduation rates by school board across the province. 
-                    </p>
-                    <hr class="my-4">
-                    <div class="d-inline-flex gap-2 mb-5">
-                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showSchoolMap()">
-                            Show School Map
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                            </svg>
-                            <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
-                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showBoardMap()">
-                            Show Board Map
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                            </svg>
-                            <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
-                    </div>
-                </div>
+
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-6">
+
+          <div class="card mx-auto" >
+            <img class="card-img-top" src="{{ url_for('static', filename='image/school map.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">School Enrollment Map</h5>
+              <p class="card-text">Discover the educational landscape of Ontario like never before with our interactive 
+                map showcasing enrollment rates across schools. Whether you're a parent scouting for the perfect school 
+                or a policymaker seeking insights, our map provides a comprehensive overview. Zoom in to explore specific 
+                regions or click on individual schools to access detailed enrollment data. With this tool, understanding 
+                enrollment trends, identifying areas of growth, and making informed decisions about education has never 
+                been easier. Explore, analyze, and navigate Ontario's education system with confidence.</p>
+              <a onclick="showSchoolMap()" class="btn btn-primary">School Map</a>
             </div>
+          </div>
         </div>
+        <div class = "col-6">
+          <div class="card mx-auto" >
+            <img class="card-img-top" src="{{ url_for('static', filename='image/board map .png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Board Graduation Map</h5>
+              <p class="card-text">Embark on a journey through Ontario's educational landscape with our interactive map, 
+                designed to illuminate graduation rates across diverse school boards. Whether you're a concerned parent,
+                 a diligent educator, or a policymaker with a vision for educational reform, our map offers invaluable 
+                 insights. Dive into specific regions or navigate through various school boards to uncover graduation trends 
+                 and disparities. With just a click, access detailed information, empowering you to make informed decisions 
+                 and drive positive change in Ontario's education system. Explore the map, unlock understanding, and pave 
+                 the way for brighter futures across the province.</p>
+              <a onclick="showBoardMap()" class="btn btn-primary">Board Map</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="row my-4"></div>
 
     <!-- Graph Jumbo-->
 
-    <div class="container my-7">
-        <div class="row align-items-md-stretch">
-            <div class="col-lg- rounded-3">
-                <div class="p-5 bg-light text-light rounded-3 jumbotron graph">
-                    <h2>Graphical Insights</h2>
-                    <p>Explore Ontario's Education Landscape and discover insightful graphs showcasing enrollment and graduation rates across Ontario, categorized by region, school names, and types. Explore data from the top 10 schools in Ontario for deeper insights into educational trends and performance</p>
-                    <hr class="my-4">
-                    <div class="d-inline-flex gap-2 mb-5">
-                        <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button" onclick="showGraphs()">
-                            Show Graphs
-                            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="20" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
-                            </svg>
-                            <svg class="bi ms-1" width="1" height="1"><use xlink:href="#arrow-right-short"></use></svg>
-                        </button>
-                    </div>                
-                </div>
+    <div class = "container">
+      <div class = "row">
+        <div class = "col-4">
+          <div class="card mx-auto" >
+            <img class="card-img-top" src="{{ url_for('static', filename='image/enroll.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Enrollment Graphs</h5>
+              <p class="card-text">Experience Ontario's educational landscape 
+                like never before with our Tableau dashboard, meticulously 
+                rafted to showcase enrollment data from schools across the province. 
+                Seamlessly navigate through different regions and school types 
+                to gain a comprehensive understanding of enrollment patterns. Dynamic visualizations 
+                provide real-time insights, empowering educators, policymakers, and parents to make 
+                informed decisions. Whether you're analyzing enrollment trends, identifying capacity issues, 
+                or planning for the future, our interactive dashboard is your key to unlocking the full potential 
+                of Ontario's education system. Explore, analyze, and innovate with confidence, all at your fingertips.</p>
+              <a onclick="showEnrollGraph()" class="btn btn-primary">Enrollments</a>
             </div>
+          </div>
         </div>
-    </div>
+
+        <div class = "col-4">
+          <div class="card mx-auto" >
+            <img class="card-img-top" src="{{ url_for('static', filename='image/grad.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Graduation Graphs</h5>
+              <p class="card-text">Dive into the heart of Ontario's public education system with our 
+                Tableau dashboard, meticulously designed to spotlight graduation rates across all public 
+                school boards in the province. Navigate effortlessly through diverse regions and school boards, 
+                uncovering invaluable insights into graduation trends and achievements. Dynamic visualizations provide 
+                real-time data, empowering stakeholders—from educators to policymakers—to make informed decisions and drive 
+                positive change. Whether you're assessing performance, addressing equity gaps, or celebrating successes, our 
+                interactive dashboard is your gateway to understanding and shaping the future of public education in Ontario. 
+                Explore, analyze, and inspire with confidence, all at your fingertips.</p>
+              <a onclick="showGradGraph()" class="btn btn-primary">Graduation</a>
+            </div>
+          </div>
+        </div>
+
+        <div class = "col-4">
+          <div class="card mx-auto" >
+            <img class="card-img-top" src="{{ url_for('static', filename='image/board.png') }}" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">District Board & School Explorer</h5>
+              <p class="card-text">Step into the realm of educational analysis with our innovative Tableau dashboard, 
+                offering a comparative view of enrollment and graduation rates across various schools and boards throughout 
+                Ontario. Seamlessly juxtapose data from different regions, school types, and grade levels to discern meaningful 
+                patterns and trends. Dynamic visualizations empower users to explore disparities, identify areas for improvement, 
+                and celebrate successes across the province's diverse educational landscape. Whether you're a parent seeking the best 
+                educational fit or a policymaker crafting strategies for student success, our interactive dashboard equips you with 
+                the insights needed to make informed decisions and foster positive change in Ontario's education system. Unlock the 
+                power of data, drive innovation, and chart a course toward educational excellence.</p>
+              <a onclick="showBoardGraph()" class="btn btn-primary">School and Boards</a>
+            </div>
+          </div>
+        </div>
 
     <div class="row my-4"></div>
 
@@ -172,7 +274,7 @@
     <div class="row my-4"></div>
 
     <!-- Footer -->
-    <div class="container">
+    <div class="container" >
         <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-7 my-9 border-top">
           <div class="col mb-3">
             <a href="/" class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none">
@@ -234,8 +336,9 @@
   <!-- Our JavaScript file -->
   <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js') }}"></script>
   
-  <!-- Bootstrap JavaScript file -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+ 
 
 </body>
 </html>

@@ -7,7 +7,13 @@
   <!-- D3 library -->
   <script src="https://d3js.org/d3.v7.min.js"></script>
 
-  <!-- Leaflet CSS -->
+   <!-- Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Bootstrap JavaScript file -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+   <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
   crossorigin=""/>
@@ -19,9 +25,80 @@
 
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style2.css') }}">
-
+ 
 </head>
 <body>
+
+  <!-- Dropdown -->
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">Home</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+
+          <li class="nav-item dropdown">
+            <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+                Interactive Maps
+            </button>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li> <a class="dropdown-item" onclick="showSchoolMap()" type="button">School Map</a></li>
+              <li><a class="dropdown-item" onclick="showBoardMap()" type="button">Board Map</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+          <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+            Graphical Insights
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" onclick="showEnrollGraph()" type="button">Enrollments</a></li>
+            <li><a class="dropdown-item" onclick="showGradGraph()" type="button">Graduation</a></li>
+            <li><a class = "dropdown-item" onclick = "showBoardGraph()" type = "button">Board & School</a></li>
+          </ul>
+        </li>
+      
+        <div class="btn-group">
+        <button type="button" class="btn btn-dark" onclick = "showAPIPage()">API Access</button>
+        <li class="nav-item dropdown">
+          <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="true">
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" onclick="showSchoolApi()" type="button">School API</a></li>
+            <li><a class="dropdown-item" onclick="showEnrollmentApi()" type="button">Enrollment API</a></li>
+            <li><a class = "dropdown-item" onclick = "showBoardApi()" type = "button">Board API</a></li>
+            <li><a class = "dropdown-item" onclick = "showGraduationApi()" type = "button">Graduation API</a></li>
+          </ul>
+        </li>
+      </div>
+      
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="row my-4"></div>
+
+  <div class="container justify-content-center bg-image">
+    <div class="row">
+      <div class="col-md-10 offset-md-1 text-center">
+        <div id="instructions-container">
+          <h2>Navigate the Ontario School Map</h2>
+          <p>Below you'll find some instructions to help you utilize the features of our map:</p>
+          <ul>
+            <li>Utilize the map interface to select either or both Elementary or Secondary school location.</li>
+            <li>Choose a specific year of interest from the map's dropdown menu.</li>
+            <li>Use the zoom function to adjust the map view and navigate to your desired location.</li>
+            <li>Click on a school marker to access detailed information about the selected institution.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- The div that holds our map -->
   <div id="map-id"></div>
@@ -33,6 +110,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
 
   <!-- Our JavaScript file -->
+  <script type="text/javascript" src="{{ url_for('static', filename='js/bottons.js') }}"></script>
   <script type="text/javascript" src="{{ url_for('static', filename='js/ScLoc_plot.js') }}"></script>
 </body>
 </html>

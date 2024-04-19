@@ -325,17 +325,29 @@ def enroll_chart():
 def map():
     return render_template('index.html')
 
+@app.route("/enroll_graph")
+def enroll_graph():
+    return render_template('enroll_graph.html')
+
+@app.route("/API_page")
+def API_page():
+    return render_template('API_page.html')
+
+
+@app.route("/grad_graph")
+def grad_graph():
+    return render_template('grad_graph.html')
+
+@app.route("/board_graph")
+def board_graph():
+    return render_template('board_graph.html')
+
 # Board Map Route
 
-@app.route("/api/v0/Graduation_Map")
+@app.route("/Graduation_Map")
 def website():
     return render_template('grad_rate_map.html')
 
-# Chart Route
-
-@app.route("/graphs")
-def index():
-    return render_template('charts.html')
 
 # Debugging Function 
 

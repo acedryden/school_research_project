@@ -1,11 +1,13 @@
 # Ontario Education Dashboard
 ## An user-friendly dashboard of interactive maps and graphs exploring Ontario's enrollment and graduation rates of Public and Catholic schools. 
 
+
 ### **Team Members:** 
 - Alessandro: @AleMori22
 - Amy: @acedryden 
 - Arti: @Artib03
 - Khemaka: @Khemaka14
+
 
 ### **Components:** 
 1. Landing page including links to school maps, board maps, enrollment and graduation charts, and links to the four data APIs used: ![index](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/dashboard.png)

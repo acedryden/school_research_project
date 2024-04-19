@@ -1,9 +1,16 @@
 html,
-body,
-#map-id {
+
+body{
   height: 100%;
   padding: 0;
   margin: 0;
+}
+
+#map-id {
+  height: 700px;
+  width : auto;
+  padding: 0;
+  margin: 30px;
 }
 
 
@@ -75,10 +82,16 @@ body,
     background-position: center;
 }
 
+
+.bg-image {
+  background-image: url("https://simplemaps.com/static/demos/resources/svg-library/svgs/world.svg");
+  background-size: cover;
+  background-position: top;
+}
+
 /* Jumbotron Shadow */
 
 .jumbotron {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
-
 

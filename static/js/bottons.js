@@ -20,9 +20,28 @@ function showSchoolApi() {
   }
 
   function showBoardMap() {
-    window.location.href = '/api/v0/Graduation_Map'; 
+
+    window.location.href = 'Graduation_Map'; 
   }
 
   function showGraphs() {
     window.location.href = '/graphs'; 
+
+  }
+
+
+  function showEnrollGraph() {
+    window.location.href = 'enroll_graph'
+  }
+
+  function showGradGraph() {
+    window.location.href = 'grad_graph'
+  }
+
+  function showBoardGraph() {
+    window.location.href = 'board_graph'
+  }
+
+  function showAPIPage() {
+    window.location.href = 'API_page'
   }

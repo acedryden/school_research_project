@@ -13,7 +13,6 @@ from flask_cors import CORS
 import csv
 app = Flask(__name__)
 CORS(app)
-#model = pickle.load(open("graduation_prediction_model.pkl", "rb"))
 
 # Setting up Mongo db
 
@@ -33,41 +32,35 @@ Base.prepare(engine, reflect=True)
 ###predication model for graduate students
 
 @app.route('/api/v1.0/grad_model')
-def predicted_grad_data():
+def predicted_grad_data():#x):
 
-    # Assign the future enrolment to a variable 
-    #Future_grad_Data = Base.classes.Future_grads
-    Graduation_data = Base.classes.Board_grad_2
+    # Assign the graduations to a variable 
+    Graduation_data = Base.classes.Board_Grad_2
 
     # Iniciate Session
     Session = sessionmaker(bind=engine)
     session = Session()
 
-    #Future_grad_results = session.query(Future_grad_Data).all()
     Graduation_results = session.query(Graduation_data).all()
 
     # Extracting the data in the graduation table
     Graduation__data = [{column.name: str(getattr(result, column.name)) for column in Graduation_data.__table__.columns} for result in Graduation_results]
 
-    # Extracting the data in the future-graducation table
-    #Future__grad__data = [{column.name: str(getattr(result, column.name)) for column in Future__grad__data.__table__.columns} for result in Future_grad_results]
- 
     # Closing Session 
     session.close()
 
     # Trasform the data in to Dataframes
     Graduation_df = pd.DataFrame(Graduation__data)
-    #Future_grad_df = pd.DataFrame(Future__grad__data)
 
     # Need to fix this
 
-    model_path = "graduation_prediction_model.pkl"
+    model_path = 'graduation_prediction_model.pkl'
 
     # Importing the ML model
     with open(model_path, "rb") as f:
         model = pickle.load(f)
 
-        # Making predictions on the Future_Enrollment_df
+        # Making predictions on the Future_grad_df
         predictions = model.predict(Future_grad_df)
 
         # Importing predictions 
@@ -82,15 +75,15 @@ def predicted_grad_data():
     # Merge selected columns to Future_Enrollment_df based on Board_number
     Future_grad_df = Future_grad_df.merge(Graduation_df[["Board Number", "Region", "Board Type"]], on="Board Number", how="left")
 
-    Complete_df = pd.concat([Graduation_df ])#Future_grad_df])
+    Complete_df = pd.concat([Graduation_df])#Future_grad_df])
 
     # Selecting the data for a specific year
-    Final_df = Complete_df[Complete_df["Year"] == x]
+    #Final_df = Complete_df[Complete_df["Year"] == x]
 
-    Final_df = Final_df.drop_duplicates(subset=["Boad Number", "Year"])
+    #Final_df = Final_df.drop_duplicates(subset=["Boad Number", "Year"])
 
     # Convert DataFrame back to list of dictionaries
-    Complete__grads = Final_df.to_dict(orient='records')
+    Complete__grads = Complete_df.to_dict(orient='records')
 
     # Return Jsonify Board_data
     return jsonify(Complete__grads)

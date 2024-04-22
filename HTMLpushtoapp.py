@@ -9,6 +9,7 @@ from pprint import pprint
 import pandas as pd
 import pickle
 from flask_cors import CORS
+import numpy as np
 
 import csv
 app = Flask(__name__)
@@ -31,62 +32,67 @@ Base.prepare(engine, reflect=True)
 
 ###predication model for graduate students
 
-@app.route('/api/v1.0/grad_model')
-def predicted_grad_data():#x):
+#@app.route('/api/v1.0/grad_model')
+# @app.route('/')
 
-    # Assign the graduations to a variable 
-    Graduation_data = Base.classes.Board_Grad_2
+# def predicted_grad_data():#x):
 
-    # Iniciate Session
-    Session = sessionmaker(bind=engine)
-    session = Session()
+#     # Assign the graduations to a variable 
+#     Graduation_data = Base.classes.Board_Grad_2
 
-    Graduation_results = session.query(Graduation_data).all()
+#     # Iniciate Session
+#     Session = sessionmaker(bind=engine)
+#     session = Session()
 
-    # Extracting the data in the graduation table
-    Graduation__data = [{column.name: str(getattr(result, column.name)) for column in Graduation_data.__table__.columns} for result in Graduation_results]
+#     Graduation_results = session.query(Graduation_data).all()
 
-    # Closing Session 
-    session.close()
+#     # Extracting the data in the graduation table
+#     Graduation__data = [{column.name: str(getattr(result, column.name)) for column in Graduation_data.__table__.columns} for result in Graduation_results]
 
-    # Trasform the data in to Dataframes
-    Graduation_df = pd.DataFrame(Graduation__data)
+#     # Closing Session 
+#     session.close()
+
+#     # Trasform the data in to Dataframes
+#     Graduation_df = pd.DataFrame(Graduation__data)
+
+#     grads = np.array(list(Graduation_df))
+
+#     return (grads)
 
     # Need to fix this
+import numpy as np
+from flask import Flask, request, jsonify, render_template
+import pickle
 
-    model_path = 'graduation_prediction_model.pkl'
+model = pickle.load(open('graduation_prediction_model.pkl', 'rb'))
 
-    # Importing the ML model
-    with open(model_path, "rb") as f:
-        model = pickle.load(f)
+# @app.route('/')
+# def home():
+#     return render_template('index.html')
 
-        # Making predictions on the Future_grad_df
-        predictions = model.predict(Future_grad_df)
+@app.route('/predict',methods=['POST'])
+def predict():
+    '''
+    For rendering results on HTML GUI
+    '''
+    int_features = [int(x) for x in request.form.values()]
+    final_features = [np.array(int_features)]
+    prediction = model.predict(final_features)
 
-        # Importing predictions 
-        Future_grad_df["Four Year Graduation Rate 2017-2018 Grade 9 Cohort"] = predictions
+    output = round(prediction[0], 2)
 
-        # Dimentioning the predicted 
-        Future_grad_df["Four Year Graduation Rate 2017-2018 Grade 9 Cohort"] = Future_grad_df["Four Year Graduation Rate 2017-2018 Grade 9 Cohort"].astype(float)
+    return render_template('index.html', prediction_text='Employee Salary should be $ {}'.format(output))
 
-    # Extracting the first year for each row and transforming to int
-    Graduation_df["Year"] = Graduation_df["Year"].astype(str).str.split("-").str[0]    
+@app.route('/predict_api',methods=['POST'])
+def predict_api():
+    '''
+    For direct API calls trought request
+    '''
+    data = request.get_json(force=True)
+    prediction = model.predict([np.array(list(data.values()))])
 
-    # Merge selected columns to Future_Enrollment_df based on Board_number
-    Future_grad_df = Future_grad_df.merge(Graduation_df[["Board Number", "Region", "Board Type"]], on="Board Number", how="left")
-
-    Complete_df = pd.concat([Graduation_df])#Future_grad_df])
-
-    # Selecting the data for a specific year
-    #Final_df = Complete_df[Complete_df["Year"] == x]
-
-    #Final_df = Final_df.drop_duplicates(subset=["Boad Number", "Year"])
-
-    # Convert DataFrame back to list of dictionaries
-    Complete__grads = Complete_df.to_dict(orient='records')
-
-    # Return Jsonify Board_data
-    return jsonify(Complete__grads)
+    output = prediction[0]
+    return jsonify(output)
 
 if __name__ == "__main__":
     app.run(debug=True)

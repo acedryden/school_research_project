@@ -10,7 +10,7 @@
 
 
 ### **Components:** 
-1. Landing page including links to school maps, board maps, enrollment and graduation charts, and links to the four data APIs used: ![index](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/dashboard.png)
+1. Landing page including links to school maps, board maps, enrollment and graduation charts, and links to the four data APIs and prediction models used: ![index](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/4.22.1.png)
 2. Interactive map that utilizes markets to show the geolocation of individual schools, colour coded by the number of total enrolled students per school: ![school_map](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/school%20map.png)
 3. Interactive choropleth map that shows graduation rates on a board level, with a dropdown menu to explore three different sets of graduation data: ![board_map](https://github.com/acedryden/school_research_project/blob/main/Output%20Images/board%20map%20.png)
 4. Chart showing the graduation rates by school board for all three graduation periods, and a summary bar chart showing graduation rates by region for all three graduation periods and the Grade 10 OSSLT results: ![grad_dashboard](Output%20Images/Grad%20Dashboard.png)

@@ -7,7 +7,7 @@ import json
 from pymongo import MongoClient
 from pprint import pprint
 import pandas as pd
-
+import pickle
 from flask_cors import CORS
 
 
@@ -319,6 +319,112 @@ def enroll_chart():
     ]
     
     return jsonify({"enr_data": enr_data_list})
+
+@app.route('/api/v1.0/graduation/predicted/<x>.json')
+def predicted_enrollment_data(x):
+    # Assign the graduation and future graduation to a variable
+    Graduation_Data = Base.classes.Board_Grad_2
+
+    # Iniciate Session
+    Session = sessionmaker(bind=engine)
+    session = Session()
+
+    Graduation_results = session.query(Graduation_Data).all()
+
+    # Extracting the data in the Board_Grad_2 table
+    Graduation__Data = [{column.name: str(getattr(result, column.name)) for column in Graduation_Data.__table__.columns} for result in Graduation_results]
+
+    # Closing session
+    session.close()
+
+    # Transform the data into Dataframes
+    Graduation_df = pd.DataFrame(Graduation__Data)
+
+    # Extracting the first year for each row and transforming to int
+    Graduation_df["Year"] = Graduation_df["Year"].astype(str).str.split("-").str[0] 
+
+    # Define the range of future years
+    future_years = range(2023, 2027)
+
+    # Create an empty list to store future data
+    future_data = []
+
+    # Iterate over each Board
+    for Board in Graduation_df['Board_Number'].unique():
+        # Filter data for the current Board
+        Board_data = Graduation_df[Graduation_df['Board_Number'] == Board]
+
+        # Iterate over each year
+        for year in future_years:
+            # Create a copy of the last known year's data
+            last_year_data = Board_data[Board_data['Year'] == Board_data['Year'].max()].copy()
+
+            # Update the year to the future year
+            last_year_data['Year'] = year
+
+            # Append the last year's data with updated year to the future data
+            future_data.append(last_year_data)
+
+    # Concatenate the future data into a single DataFrame
+    Future_grad_df = pd.concat(future_data, ignore_index=True)
+
+    # Model path
+    model_path = "graduation_prediction_model.pkl"
+
+    # Importing the ML model
+    with open(model_path, "rb") as f:
+        model = pickle.load(f)
+
+        # Selecting only the columns used for prediction
+        prediction_features = [col for col in Future_grad_df.columns if col not in ['Region', 'Board_Type', 'Board_Number', 'Four_Year_Graduation_Rate_2018_2019_Grade_9_Cohort']]
+
+        # Making predictions on the Future_grad_df
+        predictions = model.predict(Future_grad_df[prediction_features])
+
+    # Importing predictions into Future_grad_df
+    Future_grad_df["Four Year Graduation Rate 2017-2018 Grade 9 Cohort"] = predictions
+
+    # Extracting the first year for each row and transforming to int
+    Future_grad_df["Year"] = Future_grad_df["Year"].astype(str).str.split("-").str[0]
+
+    # Concatenate Future_grad_df and Graduation_df
+    Complete_df = pd.concat([Future_grad_df, Graduation_df], ignore_index=True)
+
+    # Fill NaN values with 0
+    Complete_df = Complete_df.fillna(0)
+
+    columns_to_float = ["Credit_Accumulation_by_the_end_of_Grade_10", "Credit_Accumulation_by_the_end_of_Grade_11", 
+                        "Four Year Graduation Rate 2017-2018 Grade 9 Cohort", "Four_Year_Graduation_Rate_2018_2019_Grade_9_Cohort",
+                        "Grade_10_OSSLT_Results", "Progress_in_Credit_Accumulation_by_the_end_of_Grade_10",
+                        "Progress_in_Credit_Accumulation_by_the_end_of_Grade_11", 
+                        "Progress_in_Four_Year_Graduation_Rate_2017_2018_Grade_9_Cohort",
+                        "Progress_in_Grade_10_OSSLT_Results"]
+
+    Complete_df[columns_to_float] = Complete_df[columns_to_float].astype(float).round(2)
+
+    # Selecting the data for a specific year
+    Final_df = Complete_df[Complete_df["Year"] == x]
+
+    # Convert DataFrame back to list of dictionaries
+    Complete_Graduations = Final_df.to_dict(orient='records')
+    
+    data = {}
+
+    board_nums = []
+    grad_num = []
+
+    for i in range(len(Complete_Graduations)):
+        data[Complete_Graduations[i]["Board_Number"]] = {} 
+        board_nums.append(Complete_Graduations[i]["Board_Number"])
+        grad_num.append(Complete_Graduations[i]["Four Year Graduation Rate 2017-2018 Grade 9 Cohort"])
+
+    print(board_nums)
+    for i in range(len(board_nums)):
+        data[board_nums[i]][x] = grad_num[i]
+
+    #print(data)
+    # Return the result as JSON
+    return jsonify(data)
 
 # School Map Route
 

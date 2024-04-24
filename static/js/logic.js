@@ -31,17 +31,34 @@ let myMap = L.map("map", {
 
 function optionChanged(go){
   myMap.removeLayer(layerGroup);
-  boundaries(go)
+  console.log(go)
+  if (go == "2021"){
+    boundaries("Four_2017_2018")
   }
+  else if (go == "2022"){
+    boundaries("Four_2018_2019")
+  }
+  else{
+    predicted_boundaries(go)  
+  }
+}
+
 
 function boundaries(newData){
+
   url_mongo = "/api/v0/boundaries.json"
+
     d3.json(url_mongo).then(function (response){
+
       url_mongo = "/api/v0/grad_rate"
+
       d3.json(url_mongo).then(function (call){
+
+
         function getRate(board_name,year){
          return call[board_name][year]   
         }
+
         layerGroup = new L.LayerGroup();
 
         let geolayer = L.geoJSON(response.requests[0], {
@@ -63,6 +80,43 @@ function boundaries(newData){
 
 }
 
+
+function predicted_boundaries(newData){
+
+    url_mongo = "/api/v0/boundaries.json"
+  
+      d3.json(url_mongo).then(function (response){
+  
+        url_mongo =`/api/v1.0/graduation/predicted/${newData}.json`
+  
+        d3.json(url_mongo).then(function (call){
+  
+  
+          function getRate(board_name,year){
+           return call[board_name][year]   
+          }
+  
+          layerGroup = new L.LayerGroup();
+  
+          let geolayer = L.geoJSON(response.requests[0], {
+            onEachFeature: function (feature, layer){ 
+              layer.setStyle({color: getColor(getRate(feature.properties.BOARD_NUM,newData))}); 
+              
+              
+              layer.bindPopup(`<h3>${feature.properties.BOARD_NAME
+              }</h3><hr>
+              <h4>Graduation Rate: ${(getRate(feature.properties.BOARD_NUM,newData)*100).toFixed(2)}%</h4>
+              `)
+  
+               }}).addTo(myMap)
+           layerGroup.addTo(myMap);
+           layerGroup.addLayer(geolayer);
+        })
+  
+      })
+  }
+
+
 boundaries("Four_2017_2018")
 
 var legend = L.control({position: "bottomright"});
@@ -83,5 +137,3 @@ legend.onAdd = function (map) {
 };
 
 legend.addTo(myMap);
-
-    
